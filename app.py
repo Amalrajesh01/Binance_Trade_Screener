@@ -2,6 +2,8 @@ import requests
 import time
 import os
 from dotenv import load_dotenv
+from flask import Flask
+
 # Load environment variables
 load_dotenv()
 
@@ -77,8 +79,9 @@ def detect_fvg_strict(candles):
     return signals
 
 
-def main():
-    send_telegram_message(" 🚀 Starting Binance FVG Screener...")
+def run_screener():
+    """Run the main Binance FVG Screener"""
+    send_telegram_message("🚀 Starting Binance FVG Screener...")
     print("Fetching all USDT Futures symbols...")
     symbols = get_futures_symbols()
     print(f"Total symbols: {len(symbols)}\n")
@@ -104,5 +107,20 @@ def main():
     send_telegram_message(message)  # send to telegram
 
 
+# === Flask app for pinging ===
+app = Flask(__name__)
+
+@app.route("/")
+def home():
+    send_telegram_message("👋 Ping received, screener is alive!")
+    return "✅ Binance Screener is running!"
+
+@app.route("/ping")
+def ping():
+    return "pong"
+
+
 if __name__ == "__main__":
-    main()
+    # Only run screener if triggered manually (not when just pinging)
+    run_screener()
+    app.run(host="0.0.0.0", port=int(os.getenv("PORT", 5000)))

@@ -2,9 +2,8 @@ name: Binance Screener Scheduler
 
 on:
   schedule:
-    - cron: "*/20 * * * *"   # Ping every 20 mins
-    - cron: "35 */4 * * *"   # Run every 4 hrs at :35
-
+    - cron: "*/20 * * * *"    # Every 20 mins (ping)
+    - cron: "2 */4 * * *"     # Every 4 hrs at xx:02 UTC = xx:32 IST
   workflow_dispatch:
 
 jobs:
@@ -14,10 +13,10 @@ jobs:
     steps:
       - name: Ping Render service
         run: |
-          curl -s https://binance-trade-screener.onrender.com/ > /dev/null
+          curl -s https://binance-trade-screener.onrender.com/ping > /dev/null
 
   run-script:
-    if: github.event.schedule == '35 */4 * * *'
+    if: github.event.schedule == '2 */4 * * *'
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repo
