@@ -107,20 +107,23 @@ def run_screener():
     send_telegram_message(message)  # send to telegram
 
 
-# === Flask app for pinging ===
+# === Flask app for pinging and triggering ===
 app = Flask(__name__)
 
 @app.route("/")
 def home():
-    send_telegram_message("👋 Ping received, screener is alive!")
     return "✅ Binance Screener is running!"
 
 @app.route("/ping")
 def ping():
     return "pong"
 
+@app.route("/run")
+def run_endpoint():
+    run_screener()
+    return "✅ Screener executed!"
+
 
 if __name__ == "__main__":
-    # Only run screener if triggered manually (not when just pinging)
-    run_screener()
+    # Start Flask app (do NOT auto-run screener on startup)
     app.run(host="0.0.0.0", port=int(os.getenv("PORT", 5000)))

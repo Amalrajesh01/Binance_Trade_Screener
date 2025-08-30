@@ -2,36 +2,21 @@ name: Binance Screener Scheduler
 
 on:
   schedule:
-    - cron: "*/20 * * * *"    # Every 20 mins (ping)
-    - cron: "2 */4 * * *"     # Every 4 hrs at xx:02 UTC = xx:32 IST
-  workflow_dispatch:
+    # Every 20 minutes -> keep alive
+    - cron: "*/20 * * * *"
+    # Every 4 hours at :35 (1:35, 5:35, 9:35...)
+    - cron: "35 */4 * * *"
+  workflow_dispatch: # manual trigger
 
 jobs:
-  keep-alive:
-    if: github.event.schedule == '*/20 * * * *'
+  run:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Ping Render service
-        run: |
-          curl -s https://binance-trade-screener.onrender.com/ping > /dev/null
+      - name: Keep alive (ping every 20 mins)
+        if: github.event.schedule == '*/20 * * * *'
+        run: curl -s https://binance-trade-screener.onrender.com/ping
 
-  run-script:
-    if: github.event.schedule == '2 */4 * * *'
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout repo
-        uses: actions/checkout@v3
-
-      - name: Set up Python
-        uses: actions/setup-python@v4
-        with:
-          python-version: "3.10"
-
-      - name: Install dependencies
-        run: |
-          python -m pip install --upgrade pip
-          pip install -r requirements.txt
-
-      - name: Run Binance Screener
-        run: |
-          python app.py
+      - name: Run screener (every 4 hrs)
+        if: github.event.schedule == '35 */4 * * *'
+        run: curl -s https://binance-trade-screener.onrender.com/run
