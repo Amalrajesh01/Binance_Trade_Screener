@@ -4,7 +4,9 @@ import os
 from dotenv import load_dotenv
 from flask import Flask
 from apscheduler.schedulers.background import BackgroundScheduler
+import pytz
 
+scheduler = BackgroundScheduler(timezone=pytz.timezone("Asia/Kolkata"))
 # Load environment variables
 load_dotenv()
 
@@ -125,20 +127,39 @@ def run_endpoint():
     return "✅ Screener executed!"
 
 
+# ---------------- Scheduler Jobs ---------------- #
+def ping_self():
+    """Ping /ping endpoint every 15 minutes to keep Render alive"""
+    try:
+        url = "https://binance-trade-screener.onrender.com/ping"
+        res = requests.get(url, timeout=10)
+        print("📡 Ping status:", res.status_code)
+    except Exception as e:
+        print("Ping failed:", e)
 
 def scheduled_job():
+    """Trigger the screener via /run endpoint"""
     try:
-        # Call your own endpoint
         url = "https://binance-trade-screener.onrender.com/run"
-        response = requests.get(url)
-        print("Scheduled job executed:", response.status_code)
+        res = requests.get(url, timeout=30)
+        print("✅ Scheduled job executed:", res.status_code)
     except Exception as e:
-        print("Error running scheduled job:", e)
+        print("Job failed:", e)
 
 if __name__ == "__main__":
-    # Set up scheduler
-    scheduler = BackgroundScheduler(timezone="Asia/Kolkata")  # adjust timezone if needed
-    scheduler.add_job(scheduled_job, "cron", hour=0, minute=45)  # runs at 12:45 AM
+    scheduler = BackgroundScheduler(timezone=pytz.timezone("Asia/Kolkata"))
+
+    # Ping every 15 minutes
+    scheduler.add_job(ping_self, "interval", minutes=15)
+
+    # Screener at 1:35, 5:35, 9:35, 13:35, 17:35, 21:35 IST
+    for hr in [1, 5, 9, 13, 17, 21]:
+        scheduler.add_job(scheduled_job, "cron", hour=hr, minute=35)
+
+    # Screener at 1:00 AM IST daily
+    scheduler.add_job(scheduled_job, "cron", hour=1, minute=0)
+
     scheduler.start()
+    print("🚀 Scheduler started...")
 
     app.run(host="0.0.0.0", port=int(os.getenv("PORT", 5000)))
