@@ -3,6 +3,7 @@ import time
 import os
 from dotenv import load_dotenv
 from flask import Flask
+from apscheduler.schedulers.background import BackgroundScheduler
 
 # Load environment variables
 load_dotenv()
@@ -124,6 +125,20 @@ def run_endpoint():
     return "✅ Screener executed!"
 
 
+
+def scheduled_job():
+    try:
+        # Call your own endpoint
+        url = "https://binance-trade-screener.onrender.com/run"
+        response = requests.get(url)
+        print("Scheduled job executed:", response.status_code)
+    except Exception as e:
+        print("Error running scheduled job:", e)
+
 if __name__ == "__main__":
-    # Start Flask app (do NOT auto-run screener on startup)
+    # Set up scheduler
+    scheduler = BackgroundScheduler(timezone="Asia/Kolkata")  # adjust timezone if needed
+    scheduler.add_job(scheduled_job, "cron", hour=0, minute=45)  # runs at 12:45 AM
+    scheduler.start()
+
     app.run(host="0.0.0.0", port=int(os.getenv("PORT", 5000)))
