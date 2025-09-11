@@ -6,7 +6,9 @@ from flask import Flask
 from apscheduler.schedulers.background import BackgroundScheduler
 import pytz
 
+# === Scheduler ===
 scheduler = BackgroundScheduler(timezone=pytz.timezone("Asia/Kolkata"))
+
 # Load environment variables
 load_dotenv()
 
@@ -16,10 +18,13 @@ CHAT_ID = os.getenv("CHAT_ID")
 
 def send_telegram_message(text: str):
     """Send a message to your Telegram bot"""
+    if not TELEGRAM_TOKEN or not CHAT_ID:
+        print("⚠️ Telegram credentials missing")
+        return
     url = f"https://api.telegram.org/bot{TELEGRAM_TOKEN}/sendMessage"
     payload = {"chat_id": CHAT_ID, "text": text}
     try:
-        r = requests.post(url, data=payload)
+        r = requests.post(url, data=payload, timeout=10)
         return r.json()
     except Exception as e:
         print("❌ Error sending message:", e)
@@ -106,7 +111,7 @@ def run_screener():
     message += f"✅ Bullish: {', '.join(signals['bullish']) if signals['bullish'] else 'None'}\n"
     message += f"❌ Bearish: {', '.join(signals['bearish']) if signals['bearish'] else 'None'}"
 
-    print(message)  # still show in console
+    print(message)  # log in console
     send_telegram_message(message)  # send to telegram
 
 
@@ -146,18 +151,18 @@ def scheduled_job():
     except Exception as e:
         print("Job failed:", e)
 
-if __name__ == "__main__":
-    scheduler = BackgroundScheduler(timezone=pytz.timezone("Asia/Kolkata"))
 
-    # Ping every 15 minutes
+if __name__ == "__main__":
+    # Keep-alive ping every 15 minutes
     scheduler.add_job(ping_self, "interval", minutes=15)
 
-    # Screener at 1:35, 5:35, 9:35, 13:35, 17:35, 21:35 IST
-    for hr in [1, 5, 9, 13, 17, 21]:
-        scheduler.add_job(scheduled_job, "cron", hour=hr, minute=35)
-
-    # Screener at 1:00 AM IST daily
-    scheduler.add_job(scheduled_job, "cron", hour=1, minute=0)
+    # 🔹 TESTING: every 10 minutes from 1:00 AM to 3:59 AM IST
+    scheduler.add_job(
+        scheduled_job,
+        "cron",
+        hour="1-3",
+        minute="*/10"
+    )
 
     scheduler.start()
     print("🚀 Scheduler started...")

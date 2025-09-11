@@ -1,7 +1,6 @@
 flask
 requests
 python-dotenv
-schedule
-gunicorn
 APScheduler
 pytz
+gunicorn
