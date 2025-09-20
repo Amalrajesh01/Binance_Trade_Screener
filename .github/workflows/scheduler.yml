@@ -2,21 +2,29 @@ name: Binance Screener Scheduler
 
 on:
   schedule:
-    # Every 20 minutes -> keep alive
+    # Keep alive every 20 minutes
     - cron: "*/20 * * * *"
-    # Every 4 hours at :35 (1:35, 5:35, 9:35...)
-    - cron: "35 */4 * * *"
-  workflow_dispatch: # manual trigger
+    # Run screener every 10 minutes
+    - cron: "*/10 * * * *"
+  workflow_dispatch:
 
 jobs:
-  run:
+  keep-alive:
+    if: github.event.schedule == '*/20 * * * *'
     runs-on: ubuntu-latest
-
     steps:
-      - name: Keep alive (ping every 20 mins)
-        if: github.event.schedule == '*/20 * * * *'
-        run: curl -s https://binance-trade-screener.onrender.com/ping
+      - name: Keep service alive
+        run: |
+          echo "Pinging service..."
+          curl -v https://binance-trade-screener.onrender.com/ping
 
-      - name: Run screener (every 4 hrs)
-        if: github.event.schedule == '35 */4 * * *'
-        run: curl -s https://binance-trade-screener.onrender.com/run
+  run-screener:
+    if: github.event.schedule == '*/10 * * * *'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Run screener and log response
+        run: |
+          echo "Executing screener..."
+          RESPONSE=$(curl -s -w "\nHTTP_CODE:%{http_code}\n" https://binance-trade-screener.onrender.com/run)
+          echo "Response from /run endpoint:"
+          echo "$RESPONSE"
