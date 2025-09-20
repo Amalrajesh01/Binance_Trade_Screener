@@ -25,6 +25,7 @@ def send_telegram_message(text: str):
     payload = {"chat_id": CHAT_ID, "text": text}
     try:
         r = requests.post(url, data=payload, timeout=10)
+        print("📨 Telegram response:", r.json())
         return r.json()
     except Exception as e:
         print("❌ Error sending message:", e)
@@ -124,6 +125,9 @@ def home():
 
 @app.route("/ping")
 def ping():
+    msg = "📡 Ping received from /ping endpoint"
+    print(msg)
+    send_telegram_message(msg)  # send ping message to telegram
     return "pong"
 
 @app.route("/run")
@@ -138,31 +142,29 @@ def ping_self():
     try:
         url = "https://binance-trade-screener.onrender.com/ping"
         res = requests.get(url, timeout=10)
-        print("📡 Ping status:", res.status_code)
+        msg = f"📡 Self-ping status: {res.status_code}"
+        print(msg)
+        send_telegram_message(msg)
     except Exception as e:
+        send_telegram_message(f"❌ Ping failed: {e}")
         print("Ping failed:", e)
 
 def scheduled_job():
-    """Trigger the screener via /run endpoint"""
+    """Trigger the screener"""
     try:
-        url = "https://binance-trade-screener.onrender.com/run"
-        res = requests.get(url, timeout=30)
-        print("✅ Scheduled job executed:", res.status_code)
+        run_screener()
+        send_telegram_message("✅ Scheduled job executed successfully")
     except Exception as e:
+        send_telegram_message(f"❌ Job failed: {e}")
         print("Job failed:", e)
 
 
 if __name__ == "__main__":
-    # Keep-alive ping every 15 minutes
+    # Keep-alive ping every 15 minutes (and send Telegram)
     scheduler.add_job(ping_self, "interval", minutes=15)
 
-    # 🔹 TESTING: every 10 minutes from 1:00 AM to 3:59 AM IST
-    scheduler.add_job(
-        scheduled_job,
-        "cron",
-        hour="1-3",
-        minute="*/10"
-    )
+    # Screener every 10 minutes (for testing)
+    scheduler.add_job(scheduled_job, "interval", minutes=10)
 
     scheduler.start()
     print("🚀 Scheduler started...")
