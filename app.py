@@ -3,6 +3,11 @@ import time
 import os
 from dotenv import load_dotenv
 from flask import Flask
+from apscheduler.schedulers.background import BackgroundScheduler
+import pytz
+
+# === Scheduler ===
+scheduler = BackgroundScheduler(timezone=pytz.timezone("Asia/Kolkata"))
 
 # Load environment variables
 load_dotenv()
@@ -13,10 +18,13 @@ CHAT_ID = os.getenv("CHAT_ID")
 
 def send_telegram_message(text: str):
     """Send a message to your Telegram bot"""
+    if not TELEGRAM_TOKEN or not CHAT_ID:
+        print("⚠️ Telegram credentials missing")
+        return
     url = f"https://api.telegram.org/bot{TELEGRAM_TOKEN}/sendMessage"
     payload = {"chat_id": CHAT_ID, "text": text}
     try:
-        r = requests.post(url, data=payload)
+        r = requests.post(url, data=payload, timeout=10)
         return r.json()
     except Exception as e:
         print("❌ Error sending message:", e)
@@ -103,7 +111,7 @@ def run_screener():
     message += f"✅ Bullish: {', '.join(signals['bullish']) if signals['bullish'] else 'None'}\n"
     message += f"❌ Bearish: {', '.join(signals['bearish']) if signals['bearish'] else 'None'}"
 
-    print(message)  # still show in console
+    print(message)  # log in console
     send_telegram_message(message)  # send to telegram
 
 
@@ -124,6 +132,39 @@ def run_endpoint():
     return "✅ Screener executed!"
 
 
+# ---------------- Scheduler Jobs ---------------- #
+def ping_self():
+    """Ping /ping endpoint every 15 minutes to keep Render alive"""
+    try:
+        url = "https://binance-trade-screener.onrender.com/ping"
+        res = requests.get(url, timeout=10)
+        print("📡 Ping status:", res.status_code)
+    except Exception as e:
+        print("Ping failed:", e)
+
+def scheduled_job():
+    """Trigger the screener via /run endpoint"""
+    try:
+        url = "https://binance-trade-screener.onrender.com/run"
+        res = requests.get(url, timeout=30)
+        print("✅ Scheduled job executed:", res.status_code)
+    except Exception as e:
+        print("Job failed:", e)
+
+
 if __name__ == "__main__":
-    # Start Flask app (do NOT auto-run screener on startup)
+    # Keep-alive ping every 15 minutes
+    scheduler.add_job(ping_self, "interval", minutes=15)
+
+    # 🔹 TESTING: every 10 minutes from 1:00 AM to 3:59 AM IST
+    scheduler.add_job(
+        scheduled_job,
+        "cron",
+        hour="1-3",
+        minute="*/10"
+    )
+
+    scheduler.start()
+    print("🚀 Scheduler started...")
+
     app.run(host="0.0.0.0", port=int(os.getenv("PORT", 5000)))
