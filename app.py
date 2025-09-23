@@ -2,17 +2,19 @@ import requests
 import time
 import os
 from dotenv import load_dotenv
-from flask import Flask
+from flask import Flask, send_file
 from apscheduler.schedulers.background import BackgroundScheduler
+from apscheduler.triggers.cron import CronTrigger
 import pytz
 import logging
+import io
 
 # === Logging Setup ===
 logging.basicConfig(
     level=logging.INFO,
     format='%(asctime)s - %(levelname)s - %(message)s',
     handlers=[
-        logging.FileHandler('screener.log'),
+        logging.FileHandler('screener.log', encoding='utf-8'),  # UTF-8 for emoji support
         logging.StreamHandler()
     ]
 )
@@ -34,18 +36,23 @@ def send_telegram_message(text: str):
         logger.error("Telegram credentials missing: TOKEN=%s, CHAT_ID=%s", TELEGRAM_TOKEN, CHAT_ID)
         return None
     url = f"https://api.telegram.org/bot{TELEGRAM_TOKEN}/sendMessage"
+    # Strip emojis for logging to avoid encoding issues
+    log_text = text.encode('ascii', 'ignore').decode('ascii')
     payload = {"chat_id": CHAT_ID, "text": text}
-    try:
-        r = requests.post(url, data=payload, timeout=10)
-        response = r.json()
-        if r.status_code == 200 and response.get("ok"):
-            logger.info("Telegram message sent: %s", text)
-        else:
-            logger.error("Failed to send Telegram message: %s", response)
-        return response
-    except Exception as e:
-        logger.error("Error sending Telegram message: %s", str(e))
-        return None
+    for attempt in range(3):  # Retry up to 3 times
+        try:
+            r = requests.post(url, data=payload, timeout=10)
+            response = r.json()
+            if r.status_code == 200 and response.get("ok"):
+                logger.info("Telegram message sent: %s", log_text)
+                return response
+            else:
+                logger.error("Failed to send Telegram message (attempt %d): %s", attempt + 1, response)
+        except Exception as e:
+            logger.error("Error sending Telegram message (attempt %d): %s", attempt + 1, str(e))
+        time.sleep(2)  # Wait before retry
+    logger.error("Failed to send Telegram message after 3 attempts")
+    return None
 
 # === BINANCE CONFIG ===
 BASE_URL = "https://fapi.binance.com"  # Binance Futures API
@@ -53,36 +60,45 @@ BASE_URL = "https://fapi.binance.com"  # Binance Futures API
 def get_futures_symbols():
     """Fetch all USDT perpetual futures pairs"""
     url = f"{BASE_URL}/fapi/v1/exchangeInfo"
-    try:
-        data = requests.get(url, timeout=10).json()
-        symbols = [
-            s["symbol"] for s in data["symbols"]
-            if s["quoteAsset"] == "USDT" and s["contractType"] == "PERPETUAL"
-        ]
-        logger.info("Fetched %d USDT perpetual futures symbols", len(symbols))
-        return symbols
-    except Exception as e:
-        logger.error("Error fetching symbols: %s", str(e))
-        return []
+    for attempt in range(3):  # Retry up to 3 times
+        try:
+            data = requests.get(url, timeout=10).json()
+            symbols = [
+                s["symbol"] for s in data["symbols"]
+                if s["quoteAsset"] == "USDT" and s["contractType"] == "PERPETUAL" and s["status"] == "TRADING"
+            ]
+            logger.info("Fetched %d USDT perpetual futures symbols", len(symbols))
+            return symbols
+        except Exception as e:
+            logger.error("Error fetching symbols (attempt %d): %s", attempt + 1, str(e))
+            time.sleep(2)
+    logger.error("Failed to fetch symbols after 3 attempts")
+    return []
 
 def get_klines(symbol, interval="4h", limit=3):
     """Fetch last 3 candles (prev2, prev1, last closed)"""
     url = f"{BASE_URL}/fapi/v1/klines?symbol={symbol}&interval={interval}&limit={limit}"
-    try:
-        data = requests.get(url, timeout=10).json()
-        candles = [
-            {
-                "open": float(k[1]),
-                "high": float(k[2]),
-                "low": float(k[3]),
-                "close": float(k[4])
-            } for k in data
-        ]
-        logger.debug("Fetched klines for %s", symbol)
-        return candles
-    except Exception as e:
-        logger.error("Error fetching klines for %s: %s", symbol, str(e))
-        return []
+    for attempt in range(3):  # Retry up to 3 times
+        try:
+            data = requests.get(url, timeout=10).json()
+            if isinstance(data, list):
+                candles = [
+                    {
+                        "open": float(k[1]),
+                        "high": float(k[2]),
+                        "low": float(k[3]),
+                        "close": float(k[4])
+                    } for k in data
+                ]
+                logger.debug("Fetched klines for %s", symbol)
+                return candles
+            else:
+                logger.error("Invalid klines response for %s: %s", symbol, data)
+        except Exception as e:
+            logger.error("Error fetching klines for %s (attempt %d): %s", symbol, attempt + 1, str(e))
+        time.sleep(2)
+    logger.error("Failed to fetch klines for %s after 3 attempts", symbol)
+    return []
 
 def detect_fvg_strict(candles):
     """Strict Lux-style FVG detection"""
@@ -133,17 +149,14 @@ def run_screener():
     # Fetch candles for all symbols
     candles = {}
     for sym in symbols:
-        try:
-            candles[sym] = get_klines(sym)
-            time.sleep(0.2)  # Increased delay to avoid Binance rate limits
-        except Exception as e:
-            logger.error("Error fetching %s: %s", sym, str(e))
+        candles[sym] = get_klines(sym)
+        time.sleep(0.2)  # Avoid rate limits
 
     # Detect FVG
     signals = detect_fvg_strict(candles)
 
     # Format result message
-    message = "📊 Binance FVG Screener (4H)\n\n"
+    message = f"📊 Binance FVG Screener (4H) - {time.strftime('%Y-%m-%d %H:%M:%S %Z')}\n\n"
     message += f"✅ Bullish: {', '.join(signals['bullish']) if signals['bullish'] else 'None'}\n"
     message += f"❌ Bearish: {', '.join(signals['bearish']) if signals['bearish'] else 'None'}"
 
@@ -159,7 +172,7 @@ def home():
 
 @app.route("/ping")
 def ping():
-    msg = "📡 Ping received from /ping endpoint"
+    msg = f"📡 Ping received from /ping endpoint - {time.strftime('%Y-%m-%d %H:%M:%S %Z')}"
     logger.info(msg)
     send_telegram_message(msg)
     return "pong"
@@ -169,13 +182,21 @@ def run_endpoint():
     run_screener()
     return "✅ Screener executed!"
 
+@app.route("/logs")
+def download_logs():
+    """Endpoint to download screener.log"""
+    try:
+        return send_file('screener.log', as_attachment=True)
+    except FileNotFoundError:
+        return "Log file not found", 404
+
 # === Scheduler Jobs ===
 def ping_self():
     """Ping /ping endpoint every 15 minutes to keep Render alive"""
     try:
         url = os.getenv("APP_URL", "https://binance-trade-screener.onrender.com") + "/ping"
         res = requests.get(url, timeout=10)
-        msg = f"📡 Self-ping status: {res.status_code}"
+        msg = f"📡 Self-ping status: {res.status_code} - {time.strftime('%Y-%m-%d %H:%M:%S %Z')}"
         logger.info(msg)
         send_telegram_message(msg)
     except Exception as e:
@@ -187,7 +208,7 @@ def scheduled_job():
     try:
         run_screener()
         logger.info("Scheduled job executed successfully")
-        send_telegram_message("✅ Scheduled job executed successfully")
+        send_telegram_message(f"✅ Scheduled job executed successfully - {time.strftime('%Y-%m-%d %H:%M:%S %Z')}")
     except Exception as e:
         logger.error("Scheduled job failed: %s", str(e))
         send_telegram_message(f"❌ Scheduled job failed: {str(e)}")
@@ -202,8 +223,22 @@ if __name__ == "__main__":
         send_telegram_message(f"❌ Initial screener run failed: {str(e)}")
 
     # Schedule jobs
+    # Cron schedule for 1:32, 5:32, 9:32 AM/PM IST
+    cron_times = [
+        {"hour": 1, "minute": 32},  # 1:32 AM
+        {"hour": 5, "minute": 32},  # 5:32 AM
+        {"hour": 9, "minute": 32},  # 9:32 AM
+        {"hour": 13, "minute": 32}, # 1:32 PM
+        {"hour": 17, "minute": 32}, # 5:32 PM
+        {"hour": 21, "minute": 32}  # 9:32 PM
+    ]
+    for t in cron_times:
+        scheduler.add_job(
+            scheduled_job,
+            trigger=CronTrigger(hour=t["hour"], minute=t["minute"], timezone="Asia/Kolkata")
+        )
+    
     scheduler.add_job(ping_self, "interval", minutes=15)
-    scheduler.add_job(scheduled_job, "interval", minutes=15)
     
     try:
         scheduler.start()
