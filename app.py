@@ -11,7 +11,6 @@ from pathlib import Path
 from dotenv import load_dotenv
 from flask import Flask, request
 from apscheduler.schedulers.background import BackgroundScheduler
-from apscheduler.triggers.cron import CronTrigger
 import pytz
 
 # ======================================
@@ -82,10 +81,9 @@ def post_json(url: str, data: dict, retries: int = MAX_RETRIES):
 # ======================================
 def send_telegram_message(text: str):
     if not TELEGRAM_TOKEN or not CHAT_ID:
-        logger.error("Telegram credentials missing: TOKEN=%s, CHAT_ID=%s", TELEGRAM_TOKEN, CHAT_ID)
-        return None
+        print("⚠️ Telegram credentials missing")
+        return
     url = f"https://api.telegram.org/bot{TELEGRAM_TOKEN}/sendMessage"
-    log_text = text.encode('ascii', 'ignore').decode('ascii')
     payload = {"chat_id": CHAT_ID, "text": text}
     try:
         return post_json(url, payload)
@@ -454,14 +452,10 @@ def home():
 
 @app.route("/ping")
 def ping():
-    msg = f"📡 Ping received from /ping endpoint - {time.strftime('%Y-%m-%d %H:%M:%S %Z')}"
-    logger.info(msg)
-    send_telegram_message(msg)
     return "pong"
 
 @app.route("/run")
 def run_endpoint():
-    logger.info("Manual screener run triggered via /run")
     run_screener()
     return "✅ Screener executed!"
 
@@ -492,12 +486,10 @@ def ping_self():
         res = SESSION.get(url, timeout=10)
         print("📡 Ping status:", res.status_code)
     except Exception as e:
-        msg = f"❌ Ping failed and fallback failed: {str(e)} - {time.strftime('%Y-%m-%d %H:%M:%S %Z')}"
-        logger.error(msg)
-        send_telegram_message(msg)
+        print("Ping failed:", e)
 
 def scheduled_job():
-    """Trigger the screener"""
+    """Trigger the screener via /run endpoint"""
     try:
         url = "https://binance-trade-screener.onrender.com/run"
         res = SESSION.get(url, timeout=45)
@@ -505,9 +497,7 @@ def scheduled_job():
     except Exception as e:
         print("Job failed:", e)
 
-# ======================================
-# Main
-# ======================================
+
 from apscheduler.schedulers.background import BackgroundScheduler
 from apscheduler.triggers.cron import CronTrigger
 import pytz
