@@ -1,0 +1,2451 @@
+2025-09-23 13:01:17,458 - INFO - Running initial screener on startup...
+2025-09-23 13:01:17,458 - INFO - Starting Binance FVG Screener...
+2025-09-23 13:01:19,871 - INFO - Fetched 544 USDT perpetual futures symbols
+2025-09-23 13:01:19,872 - INFO - Total symbols: 544
+2025-09-23 13:02:06,302 - ERROR - Error fetching klines for BTCSTUSDT: could not convert string to float: 'o'
+2025-09-23 13:06:41,351 - ERROR - Error fetching klines for BLESSUSDT: could not convert string to float: 'o'
+2025-09-23 13:06:41,552 - WARNING - Insufficient candles for BTCSTUSDT: 0
+2025-09-23 13:06:41,552 - INFO - Bearish FVG detected for USDCUSDT
+2025-09-23 13:06:41,553 - INFO - Bullish FVG detected for 1000RATSUSDT
+2025-09-23 13:06:41,553 - INFO - Bearish FVG detected for 1000000MOGUSDT
+2025-09-23 13:06:41,564 - INFO - Bearish FVG detected for HIPPOUSDT
+2025-09-23 13:06:41,565 - INFO - Bullish FVG detected for DEGOUSDT
+2025-09-23 13:06:41,565 - INFO - Bearish FVG detected for REDUSDT
+2025-09-23 13:06:41,565 - INFO - Bearish FVG detected for JELLYJELLYUSDT
+2025-09-23 13:06:41,565 - INFO - Bearish FVG detected for HYPERUSDT
+2025-09-23 13:06:41,566 - INFO - Bullish FVG detected for PUNDIXUSDT
+2025-09-23 13:06:41,566 - INFO - Bullish FVG detected for HAEDALUSDT
+2025-09-23 13:06:41,566 - INFO - Bullish FVG detected for SOONUSDT
+2025-09-23 13:06:41,566 - INFO - Bullish FVG detected for HUMAUSDT
+2025-09-23 13:06:41,567 - INFO - Bearish FVG detected for SPKUSDT
+2025-09-23 13:06:41,567 - INFO - Bearish FVG detected for SAHARAUSDT
+2025-09-23 13:06:41,567 - INFO - Bearish FVG detected for ERAUSDT
+2025-09-23 13:06:41,567 - INFO - Bearish FVG detected for A2ZUSDT
+2025-09-23 13:06:41,568 - INFO - Bearish FVG detected for PROVEUSDT
+2025-09-23 13:06:41,568 - INFO - Bearish FVG detected for SAPIENUSDT
+2025-09-23 13:06:41,568 - INFO - Bearish FVG detected for QUSDT
+2025-09-23 13:06:41,569 - INFO - Bearish FVG detected for ARIAUSDT
+2025-09-23 13:06:41,569 - INFO - Bearish FVG detected for OPENUSDT
+2025-09-23 13:06:41,569 - INFO - Bearish FVG detected for FLOCKUSDT
+2025-09-23 13:06:41,570 - INFO - Bearish FVG detected for HOLOUSDT
+2025-09-23 13:06:41,570 - INFO - Bearish FVG detected for XPINUSDT
+2025-09-23 13:06:41,570 - INFO - Bearish FVG detected for ZKCUSDT
+2025-09-23 13:06:41,570 - INFO - Bullish FVG detected for BARDUSDT
+2025-09-23 13:06:41,571 - WARNING - Insufficient candles for BLESSUSDT: 0
+2025-09-23 13:06:42,323 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-09-23 13:06:42,325 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-09-23 13:06:42,330 - INFO - Added job "ping_self" to job store "default"
+2025-09-23 13:06:42,330 - INFO - Added job "scheduled_job" to job store "default"
+2025-09-23 13:06:42,330 - INFO - Scheduler started
+2025-09-23 13:06:42,334 - INFO - Scheduler started
+2025-09-23 13:06:43,265 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.7:5000
+2025-09-23 13:06:43,266 - INFO - [33mPress CTRL+C to quit[0m
+2025-09-23 13:21:42,347 - INFO - Running job "ping_self (trigger: interval[0:15:00], next run at: 2025-09-23 13:21:42 IST)" (scheduled at 2025-09-23 13:21:42.323127+05:30)
+2025-09-23 13:21:42,350 - INFO - Running job "scheduled_job (trigger: interval[0:15:00], next run at: 2025-09-23 13:21:42 IST)" (scheduled at 2025-09-23 13:21:42.325206+05:30)
+2025-09-23 13:21:42,361 - INFO - Starting Binance FVG Screener...
+2025-09-23 13:21:43,952 - INFO - Fetched 544 USDT perpetual futures symbols
+2025-09-23 13:21:43,953 - INFO - Total symbols: 544
+2025-09-23 13:21:44,130 - INFO - Job "ping_self (trigger: interval[0:15:00], next run at: 2025-09-23 13:36:42 IST)" executed successfully
+2025-09-23 13:22:36,565 - ERROR - Error fetching klines for BTCSTUSDT: could not convert string to float: 'o'
+2025-09-23 13:26:58,048 - ERROR - Error fetching klines for BLESSUSDT: could not convert string to float: 'o'
+2025-09-23 13:26:58,249 - WARNING - Insufficient candles for BTCSTUSDT: 0
+2025-09-23 13:26:58,249 - INFO - Bullish FVG detected for 1000RATSUSDT
+2025-09-23 13:26:58,249 - INFO - Bearish FVG detected for 1000000MOGUSDT
+2025-09-23 13:26:58,250 - INFO - Bearish FVG detected for HIPPOUSDT
+2025-09-23 13:26:58,250 - INFO - Bullish FVG detected for DEGOUSDT
+2025-09-23 13:26:58,250 - INFO - Bearish FVG detected for REDUSDT
+2025-09-23 13:26:58,251 - INFO - Bearish FVG detected for JELLYJELLYUSDT
+2025-09-23 13:26:58,251 - INFO - Bullish FVG detected for PUNDIXUSDT
+2025-09-23 13:26:58,251 - INFO - Bullish FVG detected for HAEDALUSDT
+2025-09-23 13:26:58,251 - INFO - Bullish FVG detected for SOONUSDT
+2025-09-23 13:26:58,251 - INFO - Bullish FVG detected for HUMAUSDT
+2025-09-23 13:26:58,252 - INFO - Bearish FVG detected for SPKUSDT
+2025-09-23 13:26:58,252 - INFO - Bearish FVG detected for SAHARAUSDT
+2025-09-23 13:26:58,252 - INFO - Bearish FVG detected for ERAUSDT
+2025-09-23 13:26:58,253 - INFO - Bearish FVG detected for A2ZUSDT
+2025-09-23 13:26:58,253 - INFO - Bearish FVG detected for PROVEUSDT
+2025-09-23 13:26:58,253 - INFO - Bearish FVG detected for SAPIENUSDT
+2025-09-23 13:26:58,254 - INFO - Bearish FVG detected for QUSDT
+2025-09-23 13:26:58,254 - INFO - Bearish FVG detected for ARIAUSDT
+2025-09-23 13:26:58,254 - INFO - Bearish FVG detected for OPENUSDT
+2025-09-23 13:26:58,254 - INFO - Bearish FVG detected for FLOCKUSDT
+2025-09-23 13:26:58,255 - INFO - Bearish FVG detected for HOLOUSDT
+2025-09-23 13:26:58,255 - INFO - Bearish FVG detected for XPINUSDT
+2025-09-23 13:26:58,257 - INFO - Bullish FVG detected for BARDUSDT
+2025-09-23 13:26:58,257 - WARNING - Insufficient candles for BLESSUSDT: 0
+2025-09-23 13:26:59,084 - INFO - Scheduled job executed successfully
+2025-09-23 13:27:02,581 - INFO - Job "scheduled_job (trigger: interval[0:15:00], next run at: 2025-09-23 13:36:42 IST)" executed successfully
+2025-09-23 13:36:42,326 - INFO - Running job "scheduled_job (trigger: interval[0:15:00], next run at: 2025-09-23 13:51:42 IST)" (scheduled at 2025-09-23 13:36:42.325206+05:30)
+2025-09-23 13:36:42,326 - INFO - Running job "ping_self (trigger: interval[0:15:00], next run at: 2025-09-23 13:51:42 IST)" (scheduled at 2025-09-23 13:36:42.323127+05:30)
+2025-09-23 13:36:42,327 - INFO - Starting Binance FVG Screener...
+2025-09-23 13:36:44,275 - INFO - Job "ping_self (trigger: interval[0:15:00], next run at: 2025-09-23 13:51:42 IST)" executed successfully
+2025-09-23 13:36:45,163 - INFO - Fetched 544 USDT perpetual futures symbols
+2025-09-23 13:36:45,166 - INFO - Total symbols: 544
+2025-09-23 13:37:24,589 - ERROR - Error fetching klines for BTCSTUSDT: could not convert string to float: 'o'
+2025-09-23 13:41:43,113 - ERROR - Error fetching klines for BLESSUSDT: could not convert string to float: 'o'
+2025-09-23 13:41:43,314 - INFO - Bullish FVG detected for BTCUSDT
+2025-09-23 13:41:43,314 - INFO - Bullish FVG detected for BNBUSDT
+2025-09-23 13:41:43,315 - INFO - Bullish FVG detected for ONTUSDT
+2025-09-23 13:41:43,315 - INFO - Bullish FVG detected for RLCUSDT
+2025-09-23 13:41:43,315 - INFO - Bullish FVG detected for SNXUSDT
+2025-09-23 13:41:43,316 - INFO - Bullish FVG detected for YFIUSDT
+2025-09-23 13:41:43,316 - INFO - Bullish FVG detected for TRBUSDT
+2025-09-23 13:41:43,316 - INFO - Bullish FVG detected for NEARUSDT
+2025-09-23 13:41:43,316 - INFO - Bearish FVG detected for RSRUSDT
+2025-09-23 13:41:43,317 - WARNING - Insufficient candles for BTCSTUSDT: 0
+2025-09-23 13:41:43,317 - INFO - Bullish FVG detected for HBARUSDT
+2025-09-23 13:41:43,317 - INFO - Bearish FVG detected for BAKEUSDT
+2025-09-23 13:41:43,317 - INFO - Bullish FVG detected for CTSIUSDT
+2025-09-23 13:41:43,317 - INFO - Bullish FVG detected for DUSKUSDT
+2025-09-23 13:41:43,318 - INFO - Bullish FVG detected for APEUSDT
+2025-09-23 13:41:43,318 - INFO - Bullish FVG detected for QNTUSDT
+2025-09-23 13:41:43,318 - INFO - Bullish FVG detected for FXSUSDT
+2025-09-23 13:41:43,318 - INFO - Bullish FVG detected for MAGICUSDT
+2025-09-23 13:41:43,319 - INFO - Bullish FVG detected for USDCUSDT
+2025-09-23 13:41:43,319 - INFO - Bullish FVG detected for XVSUSDT
+2025-09-23 13:41:43,319 - INFO - Bullish FVG detected for 1000FLOKIUSDT
+2025-09-23 13:41:43,319 - INFO - Bullish FVG detected for NMRUSDT
+2025-09-23 13:41:43,319 - INFO - Bearish FVG detected for WLDUSDT
+2025-09-23 13:41:43,319 - INFO - Bullish FVG detected for ARKUSDT
+2025-09-23 13:41:43,319 - INFO - Bullish FVG detected for RIFUSDT
+2025-09-23 13:41:43,320 - INFO - Bullish FVG detected for STEEMUSDT
+2025-09-23 13:41:43,320 - INFO - Bullish FVG detected for NTRNUSDT
+2025-09-23 13:41:43,320 - INFO - Bullish FVG detected for SUPERUSDT
+2025-09-23 13:41:43,320 - INFO - Bullish FVG detected for GLMUSDT
+2025-09-23 13:41:43,320 - INFO - Bullish FVG detected for ETHFIUSDT
+2025-09-23 13:41:43,320 - INFO - Bullish FVG detected for ENAUSDT
+2025-09-23 13:41:43,321 - INFO - Bullish FVG detected for WUSDT
+2025-09-23 13:41:43,321 - INFO - Bullish FVG detected for CHESSUSDT
+2025-09-23 13:41:43,321 - INFO - Bullish FVG detected for KDAUSDT
+2025-09-23 13:41:43,321 - INFO - Bullish FVG detected for CETUSUSDT
+2025-09-23 13:41:43,321 - INFO - Bullish FVG detected for GRASSUSDT
+2025-09-23 13:41:43,321 - INFO - Bullish FVG detected for RAYSOLUSDT
+2025-09-23 13:41:43,321 - INFO - Bearish FVG detected for ZEREBROUSDT
+2025-09-23 13:41:43,322 - INFO - Bullish FVG detected for MELANIAUSDT
+2025-09-23 13:41:43,322 - INFO - Bullish FVG detected for STOUSDT
+2025-09-23 13:41:43,322 - INFO - Bullish FVG detected for KERNELUSDT
+2025-09-23 13:41:43,322 - INFO - Bullish FVG detected for EPTUSDT
+2025-09-23 13:41:43,322 - INFO - Bullish FVG detected for AIOTUSDT
+2025-09-23 13:41:43,322 - INFO - Bullish FVG detected for DOODUSDT
+2025-09-23 13:41:43,322 - INFO - Bullish FVG detected for OGUSDT
+2025-09-23 13:41:43,322 - INFO - Bearish FVG detected for BUSDT
+2025-09-23 13:41:43,323 - INFO - Bullish FVG detected for HYPEUSDT
+2025-09-23 13:41:43,323 - INFO - Bearish FVG detected for BDXNUSDT
+2025-09-23 13:41:43,323 - INFO - Bearish FVG detected for PORT3USDT
+2025-09-23 13:41:43,323 - INFO - Bullish FVG detected for LAUSDT
+2025-09-23 13:41:43,323 - INFO - Bearish FVG detected for SKATEUSDT
+2025-09-23 13:41:43,323 - INFO - Bearish FVG detected for PUMPBTCUSDT
+2025-09-23 13:41:43,323 - INFO - Bearish FVG detected for IDOLUSDT
+2025-09-23 13:41:43,324 - INFO - Bearish FVG detected for MUSDT
+2025-09-23 13:41:43,324 - INFO - Bullish FVG detected for NAORISUSDT
+2025-09-23 13:41:43,324 - INFO - Bullish FVG detected for SOMIUSDT
+2025-09-23 13:41:43,324 - INFO - Bullish FVG detected for TAKEUSDT
+2025-09-23 13:41:43,324 - INFO - Bearish FVG detected for XPINUSDT
+2025-09-23 13:41:43,324 - INFO - Bullish FVG detected for BARDUSDT
+2025-09-23 13:41:43,324 - INFO - Bullish FVG detected for ASTERUSDT
+2025-09-23 13:41:43,324 - WARNING - Insufficient candles for BLESSUSDT: 0
+2025-09-23 13:41:44,129 - INFO - Scheduled job executed successfully
+2025-09-23 13:41:44,948 - INFO - Job "scheduled_job (trigger: interval[0:15:00], next run at: 2025-09-23 13:51:42 IST)" executed successfully
+2025-09-23 13:51:42,326 - INFO - Running job "ping_self (trigger: interval[0:15:00], next run at: 2025-09-23 14:06:42 IST)" (scheduled at 2025-09-23 13:51:42.323127+05:30)
+2025-09-23 13:51:42,327 - INFO - Running job "scheduled_job (trigger: interval[0:15:00], next run at: 2025-09-23 14:06:42 IST)" (scheduled at 2025-09-23 13:51:42.325206+05:30)
+2025-09-23 13:51:42,328 - INFO - Starting Binance FVG Screener...
+2025-09-23 13:51:43,602 - INFO - Fetched 544 USDT perpetual futures symbols
+2025-09-23 13:51:43,604 - INFO - Total symbols: 544
+2025-09-23 13:51:44,187 - INFO - Job "ping_self (trigger: interval[0:15:00], next run at: 2025-09-23 14:06:42 IST)" executed successfully
+2025-09-23 13:52:26,992 - ERROR - Error fetching klines for BTCSTUSDT: could not convert string to float: 'o'
+2025-09-23 13:55:43,843 - ERROR - Error fetching klines for BLESSUSDT: could not convert string to float: 'o'
+2025-09-23 13:55:44,043 - INFO - Bullish FVG detected for BTCUSDT
+2025-09-23 13:55:44,044 - INFO - Bullish FVG detected for BNBUSDT
+2025-09-23 13:55:44,044 - INFO - Bullish FVG detected for ONTUSDT
+2025-09-23 13:55:44,044 - INFO - Bullish FVG detected for RLCUSDT
+2025-09-23 13:55:44,044 - INFO - Bullish FVG detected for SNXUSDT
+2025-09-23 13:55:44,045 - INFO - Bullish FVG detected for YFIUSDT
+2025-09-23 13:55:44,045 - INFO - Bullish FVG detected for TRBUSDT
+2025-09-23 13:55:44,045 - INFO - Bullish FVG detected for NEARUSDT
+2025-09-23 13:55:44,045 - INFO - Bearish FVG detected for RSRUSDT
+2025-09-23 13:55:44,046 - WARNING - Insufficient candles for BTCSTUSDT: 0
+2025-09-23 13:55:44,046 - INFO - Bullish FVG detected for HBARUSDT
+2025-09-23 13:55:44,046 - INFO - Bearish FVG detected for BAKEUSDT
+2025-09-23 13:55:44,046 - INFO - Bullish FVG detected for CTSIUSDT
+2025-09-23 13:55:44,046 - INFO - Bullish FVG detected for DUSKUSDT
+2025-09-23 13:55:44,047 - INFO - Bullish FVG detected for APEUSDT
+2025-09-23 13:55:44,047 - INFO - Bullish FVG detected for QNTUSDT
+2025-09-23 13:55:44,047 - INFO - Bullish FVG detected for FXSUSDT
+2025-09-23 13:55:44,047 - INFO - Bullish FVG detected for MAGICUSDT
+2025-09-23 13:55:44,047 - INFO - Bullish FVG detected for USDCUSDT
+2025-09-23 13:55:44,048 - INFO - Bullish FVG detected for XVSUSDT
+2025-09-23 13:55:44,048 - INFO - Bullish FVG detected for 1000FLOKIUSDT
+2025-09-23 13:55:44,048 - INFO - Bullish FVG detected for NMRUSDT
+2025-09-23 13:55:44,048 - INFO - Bearish FVG detected for WLDUSDT
+2025-09-23 13:55:44,048 - INFO - Bullish FVG detected for ARKUSDT
+2025-09-23 13:55:44,048 - INFO - Bullish FVG detected for RIFUSDT
+2025-09-23 13:55:44,049 - INFO - Bullish FVG detected for STEEMUSDT
+2025-09-23 13:55:44,049 - INFO - Bullish FVG detected for NTRNUSDT
+2025-09-23 13:55:44,049 - INFO - Bullish FVG detected for SUPERUSDT
+2025-09-23 13:55:44,049 - INFO - Bullish FVG detected for GLMUSDT
+2025-09-23 13:55:44,049 - INFO - Bullish FVG detected for ETHFIUSDT
+2025-09-23 13:55:44,050 - INFO - Bullish FVG detected for ENAUSDT
+2025-09-23 13:55:44,051 - INFO - Bullish FVG detected for WUSDT
+2025-09-23 13:55:44,053 - INFO - Bullish FVG detected for CHESSUSDT
+2025-09-23 13:55:44,055 - INFO - Bullish FVG detected for KDAUSDT
+2025-09-23 13:55:44,056 - INFO - Bullish FVG detected for CETUSUSDT
+2025-09-23 13:55:44,057 - INFO - Bullish FVG detected for GRASSUSDT
+2025-09-23 13:55:44,057 - INFO - Bullish FVG detected for RAYSOLUSDT
+2025-09-23 13:55:44,058 - INFO - Bearish FVG detected for ZEREBROUSDT
+2025-09-23 13:55:44,061 - INFO - Bullish FVG detected for MELANIAUSDT
+2025-09-23 13:55:44,062 - INFO - Bullish FVG detected for STOUSDT
+2025-09-23 13:55:44,062 - INFO - Bullish FVG detected for KERNELUSDT
+2025-09-23 13:55:44,062 - INFO - Bullish FVG detected for EPTUSDT
+2025-09-23 13:55:44,063 - INFO - Bullish FVG detected for AIOTUSDT
+2025-09-23 13:55:44,063 - INFO - Bullish FVG detected for DOODUSDT
+2025-09-23 13:55:44,063 - INFO - Bullish FVG detected for OGUSDT
+2025-09-23 13:55:44,063 - INFO - Bearish FVG detected for BUSDT
+2025-09-23 13:55:44,064 - INFO - Bullish FVG detected for HYPEUSDT
+2025-09-23 13:55:44,064 - INFO - Bearish FVG detected for BDXNUSDT
+2025-09-23 13:55:44,064 - INFO - Bearish FVG detected for PORT3USDT
+2025-09-23 13:55:44,064 - INFO - Bullish FVG detected for LAUSDT
+2025-09-23 13:55:44,065 - INFO - Bearish FVG detected for SKATEUSDT
+2025-09-23 13:55:44,065 - INFO - Bearish FVG detected for PUMPBTCUSDT
+2025-09-23 13:55:44,065 - INFO - Bearish FVG detected for IDOLUSDT
+2025-09-23 13:55:44,065 - INFO - Bearish FVG detected for MUSDT
+2025-09-23 13:55:44,066 - INFO - Bullish FVG detected for NAORISUSDT
+2025-09-23 13:55:44,066 - INFO - Bullish FVG detected for SOMIUSDT
+2025-09-23 13:55:44,066 - INFO - Bullish FVG detected for TAKEUSDT
+2025-09-23 13:55:44,066 - INFO - Bearish FVG detected for XPINUSDT
+2025-09-23 13:55:44,067 - INFO - Bullish FVG detected for BARDUSDT
+2025-09-23 13:55:44,067 - INFO - Bullish FVG detected for ASTERUSDT
+2025-09-23 13:55:44,067 - WARNING - Insufficient candles for BLESSUSDT: 0
+2025-09-23 13:55:46,514 - INFO - Scheduled job executed successfully
+2025-09-23 13:55:47,712 - INFO - Job "scheduled_job (trigger: interval[0:15:00], next run at: 2025-09-23 14:06:42 IST)" executed successfully
+2025-09-23 14:06:42,344 - INFO - Running job "scheduled_job (trigger: interval[0:15:00], next run at: 2025-09-23 14:21:42 IST)" (scheduled at 2025-09-23 14:06:42.325206+05:30)
+2025-09-23 14:06:42,344 - INFO - Running job "ping_self (trigger: interval[0:15:00], next run at: 2025-09-23 14:21:42 IST)" (scheduled at 2025-09-23 14:06:42.323127+05:30)
+2025-09-23 14:06:42,345 - INFO - Starting Binance FVG Screener...
+2025-09-23 14:06:44,194 - INFO - Fetched 544 USDT perpetual futures symbols
+2025-09-23 14:06:44,197 - INFO - Total symbols: 544
+2025-09-23 14:06:44,197 - INFO - Job "ping_self (trigger: interval[0:15:00], next run at: 2025-09-23 14:21:42 IST)" executed successfully
+2025-09-23 14:07:18,301 - ERROR - Error fetching klines for BTCSTUSDT: could not convert string to float: 'o'
+2025-09-23 14:11:21,415 - ERROR - Error fetching klines for BLESSUSDT: could not convert string to float: 'o'
+2025-09-23 14:11:21,616 - INFO - Bullish FVG detected for BTCUSDT
+2025-09-23 14:11:21,617 - INFO - Bullish FVG detected for BNBUSDT
+2025-09-23 14:11:21,618 - INFO - Bullish FVG detected for ONTUSDT
+2025-09-23 14:11:21,618 - INFO - Bullish FVG detected for RLCUSDT
+2025-09-23 14:11:21,619 - INFO - Bullish FVG detected for SNXUSDT
+2025-09-23 14:11:21,619 - INFO - Bullish FVG detected for YFIUSDT
+2025-09-23 14:11:21,620 - INFO - Bullish FVG detected for TRBUSDT
+2025-09-23 14:11:21,621 - INFO - Bullish FVG detected for NEARUSDT
+2025-09-23 14:11:21,621 - INFO - Bearish FVG detected for RSRUSDT
+2025-09-23 14:11:21,622 - WARNING - Insufficient candles for BTCSTUSDT: 0
+2025-09-23 14:11:21,622 - INFO - Bullish FVG detected for HBARUSDT
+2025-09-23 14:11:21,623 - INFO - Bearish FVG detected for BAKEUSDT
+2025-09-23 14:11:21,623 - INFO - Bullish FVG detected for CTSIUSDT
+2025-09-23 14:11:21,624 - INFO - Bullish FVG detected for DUSKUSDT
+2025-09-23 14:11:21,625 - INFO - Bullish FVG detected for APEUSDT
+2025-09-23 14:11:21,625 - INFO - Bullish FVG detected for QNTUSDT
+2025-09-23 14:11:21,626 - INFO - Bullish FVG detected for FXSUSDT
+2025-09-23 14:11:21,626 - INFO - Bullish FVG detected for MAGICUSDT
+2025-09-23 14:11:21,627 - INFO - Bullish FVG detected for USDCUSDT
+2025-09-23 14:11:21,627 - INFO - Bullish FVG detected for XVSUSDT
+2025-09-23 14:11:21,628 - INFO - Bullish FVG detected for 1000FLOKIUSDT
+2025-09-23 14:11:21,628 - INFO - Bullish FVG detected for NMRUSDT
+2025-09-23 14:11:21,629 - INFO - Bearish FVG detected for WLDUSDT
+2025-09-23 14:11:21,629 - INFO - Bullish FVG detected for ARKUSDT
+2025-09-23 14:11:21,630 - INFO - Bullish FVG detected for RIFUSDT
+2025-09-23 14:11:21,631 - INFO - Bullish FVG detected for STEEMUSDT
+2025-09-23 14:11:21,631 - INFO - Bullish FVG detected for NTRNUSDT
+2025-09-23 14:11:21,632 - INFO - Bullish FVG detected for SUPERUSDT
+2025-09-23 14:11:21,632 - INFO - Bullish FVG detected for GLMUSDT
+2025-09-23 14:11:21,633 - INFO - Bullish FVG detected for ETHFIUSDT
+2025-09-23 14:11:21,633 - INFO - Bullish FVG detected for ENAUSDT
+2025-09-23 14:11:21,634 - INFO - Bullish FVG detected for WUSDT
+2025-09-23 14:11:21,634 - INFO - Bullish FVG detected for CHESSUSDT
+2025-09-23 14:11:21,635 - INFO - Bullish FVG detected for KDAUSDT
+2025-09-23 14:11:21,636 - INFO - Bullish FVG detected for CETUSUSDT
+2025-09-23 14:11:21,636 - INFO - Bullish FVG detected for GRASSUSDT
+2025-09-23 14:11:21,637 - INFO - Bullish FVG detected for RAYSOLUSDT
+2025-09-23 14:11:21,637 - INFO - Bearish FVG detected for ZEREBROUSDT
+2025-09-23 14:11:21,638 - INFO - Bullish FVG detected for MELANIAUSDT
+2025-09-23 14:11:21,639 - INFO - Bullish FVG detected for STOUSDT
+2025-09-23 14:11:21,639 - INFO - Bullish FVG detected for KERNELUSDT
+2025-09-23 14:11:21,640 - INFO - Bullish FVG detected for EPTUSDT
+2025-09-23 14:11:21,640 - INFO - Bullish FVG detected for AIOTUSDT
+2025-09-23 14:11:21,641 - INFO - Bullish FVG detected for DOODUSDT
+2025-09-23 14:11:21,641 - INFO - Bullish FVG detected for OGUSDT
+2025-09-23 14:11:21,642 - INFO - Bullish FVG detected for HYPEUSDT
+2025-09-23 14:11:21,643 - INFO - Bearish FVG detected for BDXNUSDT
+2025-09-23 14:11:21,643 - INFO - Bearish FVG detected for PORT3USDT
+2025-09-23 14:11:21,644 - INFO - Bullish FVG detected for LAUSDT
+2025-09-23 14:11:21,645 - INFO - Bearish FVG detected for SKATEUSDT
+2025-09-23 14:11:21,645 - INFO - Bearish FVG detected for PUMPBTCUSDT
+2025-09-23 14:11:21,646 - INFO - Bearish FVG detected for IDOLUSDT
+2025-09-23 14:11:21,647 - INFO - Bearish FVG detected for MUSDT
+2025-09-23 14:11:21,647 - INFO - Bullish FVG detected for NAORISUSDT
+2025-09-23 14:11:21,648 - INFO - Bullish FVG detected for SOMIUSDT
+2025-09-23 14:11:21,648 - INFO - Bullish FVG detected for TAKEUSDT
+2025-09-23 14:11:21,649 - INFO - Bearish FVG detected for XPINUSDT
+2025-09-23 14:11:21,649 - INFO - Bullish FVG detected for BARDUSDT
+2025-09-23 14:11:21,650 - INFO - Bullish FVG detected for ASTERUSDT
+2025-09-23 14:11:21,651 - WARNING - Insufficient candles for BLESSUSDT: 0
+2025-09-23 14:11:22,729 - INFO - Scheduled job executed successfully
+2025-09-23 14:11:23,762 - INFO - Job "scheduled_job (trigger: interval[0:15:00], next run at: 2025-09-23 14:21:42 IST)" executed successfully
+2025-09-23 14:21:42,335 - INFO - Running job "scheduled_job (trigger: interval[0:15:00], next run at: 2025-09-23 14:36:42 IST)" (scheduled at 2025-09-23 14:21:42.325206+05:30)
+2025-09-23 14:21:42,336 - INFO - Running job "ping_self (trigger: interval[0:15:00], next run at: 2025-09-23 14:36:42 IST)" (scheduled at 2025-09-23 14:21:42.323127+05:30)
+2025-09-23 14:21:42,338 - INFO - Starting Binance FVG Screener...
+2025-09-23 14:21:44,070 - INFO - Fetched 544 USDT perpetual futures symbols
+2025-09-23 14:21:44,073 - INFO - Total symbols: 544
+2025-09-23 14:21:44,745 - INFO - Job "ping_self (trigger: interval[0:15:00], next run at: 2025-09-23 14:36:42 IST)" executed successfully
+2025-09-23 14:22:37,658 - ERROR - Error fetching klines for BTCSTUSDT: could not convert string to float: 'o'
+2025-09-23 14:26:17,716 - ERROR - Error fetching klines for BLESSUSDT: could not convert string to float: 'o'
+2025-09-23 14:26:17,918 - INFO - Bullish FVG detected for BTCUSDT
+2025-09-23 14:26:17,919 - INFO - Bullish FVG detected for BNBUSDT
+2025-09-23 14:26:17,920 - INFO - Bullish FVG detected for ONTUSDT
+2025-09-23 14:26:17,921 - INFO - Bullish FVG detected for RLCUSDT
+2025-09-23 14:26:17,922 - INFO - Bullish FVG detected for SNXUSDT
+2025-09-23 14:26:17,923 - INFO - Bullish FVG detected for YFIUSDT
+2025-09-23 14:26:17,923 - INFO - Bullish FVG detected for TRBUSDT
+2025-09-23 14:26:17,924 - INFO - Bullish FVG detected for NEARUSDT
+2025-09-23 14:26:17,925 - WARNING - Insufficient candles for BTCSTUSDT: 0
+2025-09-23 14:26:17,926 - INFO - Bullish FVG detected for HBARUSDT
+2025-09-23 14:26:17,927 - INFO - Bearish FVG detected for BAKEUSDT
+2025-09-23 14:26:17,928 - INFO - Bullish FVG detected for CTSIUSDT
+2025-09-23 14:26:17,929 - INFO - Bullish FVG detected for DUSKUSDT
+2025-09-23 14:26:17,929 - INFO - Bullish FVG detected for APEUSDT
+2025-09-23 14:26:17,930 - INFO - Bullish FVG detected for QNTUSDT
+2025-09-23 14:26:17,930 - INFO - Bullish FVG detected for FXSUSDT
+2025-09-23 14:26:17,931 - INFO - Bullish FVG detected for MAGICUSDT
+2025-09-23 14:26:17,932 - INFO - Bullish FVG detected for USDCUSDT
+2025-09-23 14:26:17,932 - INFO - Bullish FVG detected for XVSUSDT
+2025-09-23 14:26:17,933 - INFO - Bullish FVG detected for 1000FLOKIUSDT
+2025-09-23 14:26:17,934 - INFO - Bullish FVG detected for NMRUSDT
+2025-09-23 14:26:17,934 - INFO - Bearish FVG detected for WLDUSDT
+2025-09-23 14:26:17,935 - INFO - Bullish FVG detected for ARKUSDT
+2025-09-23 14:26:17,935 - INFO - Bullish FVG detected for RIFUSDT
+2025-09-23 14:26:17,936 - INFO - Bullish FVG detected for STEEMUSDT
+2025-09-23 14:26:17,937 - INFO - Bullish FVG detected for NTRNUSDT
+2025-09-23 14:26:17,938 - INFO - Bullish FVG detected for SUPERUSDT
+2025-09-23 14:26:17,939 - INFO - Bullish FVG detected for GLMUSDT
+2025-09-23 14:26:17,939 - INFO - Bullish FVG detected for ETHFIUSDT
+2025-09-23 14:26:17,940 - INFO - Bullish FVG detected for ENAUSDT
+2025-09-23 14:26:17,941 - INFO - Bullish FVG detected for WUSDT
+2025-09-23 14:26:17,942 - INFO - Bullish FVG detected for CHESSUSDT
+2025-09-23 14:26:17,943 - INFO - Bullish FVG detected for KDAUSDT
+2025-09-23 14:26:17,944 - INFO - Bullish FVG detected for CETUSUSDT
+2025-09-23 14:26:17,945 - INFO - Bullish FVG detected for GRASSUSDT
+2025-09-23 14:26:17,946 - INFO - Bullish FVG detected for RAYSOLUSDT
+2025-09-23 14:26:17,946 - INFO - Bearish FVG detected for ZEREBROUSDT
+2025-09-23 14:26:17,947 - INFO - Bullish FVG detected for MELANIAUSDT
+2025-09-23 14:26:17,948 - INFO - Bullish FVG detected for STOUSDT
+2025-09-23 14:26:17,949 - INFO - Bullish FVG detected for KERNELUSDT
+2025-09-23 14:26:17,950 - INFO - Bullish FVG detected for EPTUSDT
+2025-09-23 14:26:17,951 - INFO - Bullish FVG detected for AIOTUSDT
+2025-09-23 14:26:17,951 - INFO - Bullish FVG detected for DOODUSDT
+2025-09-23 14:26:17,952 - INFO - Bullish FVG detected for OGUSDT
+2025-09-23 14:26:17,953 - INFO - Bullish FVG detected for HYPEUSDT
+2025-09-23 14:26:17,953 - INFO - Bearish FVG detected for BDXNUSDT
+2025-09-23 14:26:17,954 - INFO - Bearish FVG detected for PORT3USDT
+2025-09-23 14:26:17,955 - INFO - Bullish FVG detected for LAUSDT
+2025-09-23 14:26:17,956 - INFO - Bearish FVG detected for SKATEUSDT
+2025-09-23 14:26:17,956 - INFO - Bearish FVG detected for PUMPBTCUSDT
+2025-09-23 14:26:17,957 - INFO - Bearish FVG detected for IDOLUSDT
+2025-09-23 14:26:17,958 - INFO - Bearish FVG detected for MUSDT
+2025-09-23 14:26:17,959 - INFO - Bullish FVG detected for NAORISUSDT
+2025-09-23 14:26:17,960 - INFO - Bullish FVG detected for SOMIUSDT
+2025-09-23 14:26:17,961 - INFO - Bullish FVG detected for TAKEUSDT
+2025-09-23 14:26:17,962 - INFO - Bearish FVG detected for XPINUSDT
+2025-09-23 14:26:17,962 - INFO - Bullish FVG detected for BARDUSDT
+2025-09-23 14:26:17,963 - INFO - Bullish FVG detected for ASTERUSDT
+2025-09-23 14:26:17,964 - WARNING - Insufficient candles for BLESSUSDT: 0
+2025-09-23 14:26:19,136 - INFO - Scheduled job executed successfully
+2025-09-23 14:26:20,515 - INFO - Job "scheduled_job (trigger: interval[0:15:00], next run at: 2025-09-23 14:36:42 IST)" executed successfully
+2025-09-23 14:36:42,330 - INFO - Running job "ping_self (trigger: interval[0:15:00], next run at: 2025-09-23 14:51:42 IST)" (scheduled at 2025-09-23 14:36:42.323127+05:30)
+2025-09-23 14:36:42,331 - INFO - Running job "scheduled_job (trigger: interval[0:15:00], next run at: 2025-09-23 14:51:42 IST)" (scheduled at 2025-09-23 14:36:42.325206+05:30)
+2025-09-23 14:36:42,334 - INFO - Starting Binance FVG Screener...
+2025-09-23 14:36:44,198 - INFO - Fetched 544 USDT perpetual futures symbols
+2025-09-23 14:36:44,201 - INFO - Total symbols: 544
+2025-09-23 14:36:45,923 - INFO - Job "ping_self (trigger: interval[0:15:00], next run at: 2025-09-23 14:51:42 IST)" executed successfully
+2025-09-23 14:37:31,407 - ERROR - Error fetching klines for BTCSTUSDT: could not convert string to float: 'o'
+2025-09-23 14:42:00,695 - ERROR - Error fetching klines for BLESSUSDT: could not convert string to float: 'o'
+2025-09-23 14:42:00,897 - INFO - Bullish FVG detected for BTCUSDT
+2025-09-23 14:42:00,898 - INFO - Bullish FVG detected for BNBUSDT
+2025-09-23 14:42:00,898 - INFO - Bullish FVG detected for ONTUSDT
+2025-09-23 14:42:00,899 - INFO - Bullish FVG detected for RLCUSDT
+2025-09-23 14:42:00,900 - INFO - Bullish FVG detected for SNXUSDT
+2025-09-23 14:42:00,901 - INFO - Bullish FVG detected for YFIUSDT
+2025-09-23 14:42:00,902 - INFO - Bullish FVG detected for TRBUSDT
+2025-09-23 14:42:00,902 - INFO - Bullish FVG detected for NEARUSDT
+2025-09-23 14:42:00,903 - WARNING - Insufficient candles for BTCSTUSDT: 0
+2025-09-23 14:42:00,904 - INFO - Bullish FVG detected for HBARUSDT
+2025-09-23 14:42:00,904 - INFO - Bearish FVG detected for BAKEUSDT
+2025-09-23 14:42:00,905 - INFO - Bullish FVG detected for CTSIUSDT
+2025-09-23 14:42:00,905 - INFO - Bullish FVG detected for DUSKUSDT
+2025-09-23 14:42:00,906 - INFO - Bullish FVG detected for APEUSDT
+2025-09-23 14:42:00,906 - INFO - Bullish FVG detected for QNTUSDT
+2025-09-23 14:42:00,907 - INFO - Bullish FVG detected for FXSUSDT
+2025-09-23 14:42:00,907 - INFO - Bullish FVG detected for MAGICUSDT
+2025-09-23 14:42:00,908 - INFO - Bullish FVG detected for USDCUSDT
+2025-09-23 14:42:00,909 - INFO - Bullish FVG detected for XVSUSDT
+2025-09-23 14:42:00,909 - INFO - Bullish FVG detected for 1000FLOKIUSDT
+2025-09-23 14:42:00,910 - INFO - Bullish FVG detected for NMRUSDT
+2025-09-23 14:42:00,910 - INFO - Bearish FVG detected for WLDUSDT
+2025-09-23 14:42:00,911 - INFO - Bullish FVG detected for ARKUSDT
+2025-09-23 14:42:00,911 - INFO - Bullish FVG detected for RIFUSDT
+2025-09-23 14:42:00,912 - INFO - Bullish FVG detected for STEEMUSDT
+2025-09-23 14:42:00,913 - INFO - Bullish FVG detected for NTRNUSDT
+2025-09-23 14:42:00,913 - INFO - Bullish FVG detected for SUPERUSDT
+2025-09-23 14:42:00,914 - INFO - Bullish FVG detected for GLMUSDT
+2025-09-23 14:42:00,915 - INFO - Bullish FVG detected for ETHFIUSDT
+2025-09-23 14:42:00,915 - INFO - Bullish FVG detected for ENAUSDT
+2025-09-23 14:42:00,916 - INFO - Bullish FVG detected for WUSDT
+2025-09-23 14:42:00,916 - INFO - Bullish FVG detected for CHESSUSDT
+2025-09-23 14:42:00,917 - INFO - Bullish FVG detected for KDAUSDT
+2025-09-23 14:42:00,917 - INFO - Bullish FVG detected for CETUSUSDT
+2025-09-23 14:42:00,918 - INFO - Bullish FVG detected for GRASSUSDT
+2025-09-23 14:42:00,918 - INFO - Bullish FVG detected for RAYSOLUSDT
+2025-09-23 14:42:00,919 - INFO - Bearish FVG detected for ZEREBROUSDT
+2025-09-23 14:42:00,919 - INFO - Bullish FVG detected for MELANIAUSDT
+2025-09-23 14:42:00,920 - INFO - Bullish FVG detected for STOUSDT
+2025-09-23 14:42:00,920 - INFO - Bullish FVG detected for KERNELUSDT
+2025-09-23 14:42:00,921 - INFO - Bullish FVG detected for EPTUSDT
+2025-09-23 14:42:00,922 - INFO - Bullish FVG detected for AIOTUSDT
+2025-09-23 14:42:00,922 - INFO - Bullish FVG detected for DOODUSDT
+2025-09-23 14:42:00,923 - INFO - Bullish FVG detected for OGUSDT
+2025-09-23 14:42:00,923 - INFO - Bullish FVG detected for HYPEUSDT
+2025-09-23 14:42:00,924 - INFO - Bearish FVG detected for BDXNUSDT
+2025-09-23 14:42:00,924 - INFO - Bearish FVG detected for SKATEUSDT
+2025-09-23 14:42:00,925 - INFO - Bearish FVG detected for PUMPBTCUSDT
+2025-09-23 14:42:00,925 - INFO - Bearish FVG detected for IDOLUSDT
+2025-09-23 14:42:00,926 - INFO - Bearish FVG detected for MUSDT
+2025-09-23 14:42:00,927 - INFO - Bullish FVG detected for NAORISUSDT
+2025-09-23 14:42:00,927 - INFO - Bullish FVG detected for SOMIUSDT
+2025-09-23 14:42:00,928 - INFO - Bullish FVG detected for TAKEUSDT
+2025-09-23 14:42:00,929 - INFO - Bullish FVG detected for BARDUSDT
+2025-09-23 14:42:00,930 - INFO - Bullish FVG detected for ASTERUSDT
+2025-09-23 14:42:00,930 - WARNING - Insufficient candles for BLESSUSDT: 0
+2025-09-23 14:42:03,887 - INFO - Scheduled job executed successfully
+2025-09-23 14:42:04,850 - INFO - Job "scheduled_job (trigger: interval[0:15:00], next run at: 2025-09-23 14:51:42 IST)" executed successfully
+2025-09-23 14:51:42,334 - INFO - Running job "ping_self (trigger: interval[0:15:00], next run at: 2025-09-23 15:06:42 IST)" (scheduled at 2025-09-23 14:51:42.323127+05:30)
+2025-09-23 14:51:42,334 - INFO - Running job "scheduled_job (trigger: interval[0:15:00], next run at: 2025-09-23 15:06:42 IST)" (scheduled at 2025-09-23 14:51:42.325206+05:30)
+2025-09-23 14:51:42,337 - INFO - Starting Binance FVG Screener...
+2025-09-23 14:51:44,014 - INFO - Fetched 544 USDT perpetual futures symbols
+2025-09-23 14:51:44,017 - INFO - Total symbols: 544
+2025-09-23 14:51:44,529 - INFO - Job "ping_self (trigger: interval[0:15:00], next run at: 2025-09-23 15:06:42 IST)" executed successfully
+2025-09-23 14:52:33,630 - ERROR - Error fetching klines for BTCSTUSDT: could not convert string to float: 'o'
+2025-09-23 14:56:39,955 - ERROR - Error fetching klines for BLESSUSDT: could not convert string to float: 'o'
+2025-09-23 14:56:40,157 - INFO - Bullish FVG detected for BTCUSDT
+2025-09-23 14:56:40,158 - INFO - Bullish FVG detected for BNBUSDT
+2025-09-23 14:56:40,159 - INFO - Bullish FVG detected for ONTUSDT
+2025-09-23 14:56:40,159 - INFO - Bullish FVG detected for RLCUSDT
+2025-09-23 14:56:40,160 - INFO - Bullish FVG detected for SNXUSDT
+2025-09-23 14:56:40,161 - INFO - Bullish FVG detected for YFIUSDT
+2025-09-23 14:56:40,162 - INFO - Bullish FVG detected for TRBUSDT
+2025-09-23 14:56:40,163 - INFO - Bullish FVG detected for NEARUSDT
+2025-09-23 14:56:40,164 - WARNING - Insufficient candles for BTCSTUSDT: 0
+2025-09-23 14:56:40,165 - INFO - Bullish FVG detected for HBARUSDT
+2025-09-23 14:56:40,165 - INFO - Bearish FVG detected for BAKEUSDT
+2025-09-23 14:56:40,166 - INFO - Bullish FVG detected for CTSIUSDT
+2025-09-23 14:56:40,167 - INFO - Bullish FVG detected for DUSKUSDT
+2025-09-23 14:56:40,168 - INFO - Bullish FVG detected for APEUSDT
+2025-09-23 14:56:40,168 - INFO - Bullish FVG detected for QNTUSDT
+2025-09-23 14:56:40,169 - INFO - Bullish FVG detected for FXSUSDT
+2025-09-23 14:56:40,170 - INFO - Bullish FVG detected for MAGICUSDT
+2025-09-23 14:56:40,171 - INFO - Bullish FVG detected for USDCUSDT
+2025-09-23 14:56:40,172 - INFO - Bullish FVG detected for XVSUSDT
+2025-09-23 14:56:40,172 - INFO - Bullish FVG detected for 1000FLOKIUSDT
+2025-09-23 14:56:40,173 - INFO - Bullish FVG detected for NMRUSDT
+2025-09-23 14:56:40,174 - INFO - Bearish FVG detected for WLDUSDT
+2025-09-23 14:56:40,175 - INFO - Bullish FVG detected for ARKUSDT
+2025-09-23 14:56:40,176 - INFO - Bullish FVG detected for RIFUSDT
+2025-09-23 14:56:40,176 - INFO - Bullish FVG detected for STEEMUSDT
+2025-09-23 14:56:40,177 - INFO - Bullish FVG detected for NTRNUSDT
+2025-09-23 14:56:40,178 - INFO - Bullish FVG detected for SUPERUSDT
+2025-09-23 14:56:40,179 - INFO - Bullish FVG detected for GLMUSDT
+2025-09-23 14:56:40,180 - INFO - Bullish FVG detected for ETHFIUSDT
+2025-09-23 14:56:40,181 - INFO - Bullish FVG detected for ENAUSDT
+2025-09-23 14:56:40,181 - INFO - Bullish FVG detected for WUSDT
+2025-09-23 14:56:40,182 - INFO - Bullish FVG detected for CHESSUSDT
+2025-09-23 14:56:40,183 - INFO - Bullish FVG detected for KDAUSDT
+2025-09-23 14:56:40,184 - INFO - Bullish FVG detected for CETUSUSDT
+2025-09-23 14:56:40,185 - INFO - Bullish FVG detected for GRASSUSDT
+2025-09-23 14:56:40,186 - INFO - Bullish FVG detected for RAYSOLUSDT
+2025-09-23 14:56:40,187 - INFO - Bearish FVG detected for ZEREBROUSDT
+2025-09-23 14:56:40,188 - INFO - Bullish FVG detected for MELANIAUSDT
+2025-09-23 14:56:40,188 - INFO - Bullish FVG detected for STOUSDT
+2025-09-23 14:56:40,189 - INFO - Bullish FVG detected for KERNELUSDT
+2025-09-23 14:56:40,190 - INFO - Bullish FVG detected for EPTUSDT
+2025-09-23 14:56:40,191 - INFO - Bullish FVG detected for AIOTUSDT
+2025-09-23 14:56:40,192 - INFO - Bullish FVG detected for DOODUSDT
+2025-09-23 14:56:40,192 - INFO - Bullish FVG detected for OGUSDT
+2025-09-23 14:56:40,193 - INFO - Bullish FVG detected for HYPEUSDT
+2025-09-23 14:56:40,194 - INFO - Bearish FVG detected for BDXNUSDT
+2025-09-23 14:56:40,194 - INFO - Bearish FVG detected for SKATEUSDT
+2025-09-23 14:56:40,195 - INFO - Bearish FVG detected for PUMPBTCUSDT
+2025-09-23 14:56:40,195 - INFO - Bearish FVG detected for IDOLUSDT
+2025-09-23 14:56:40,196 - INFO - Bearish FVG detected for MUSDT
+2025-09-23 14:56:40,197 - INFO - Bullish FVG detected for NAORISUSDT
+2025-09-23 14:56:40,197 - INFO - Bullish FVG detected for SOMIUSDT
+2025-09-23 14:56:40,198 - INFO - Bullish FVG detected for TAKEUSDT
+2025-09-23 14:56:40,198 - INFO - Bullish FVG detected for BARDUSDT
+2025-09-23 14:56:40,199 - INFO - Bullish FVG detected for ASTERUSDT
+2025-09-23 14:56:40,199 - WARNING - Insufficient candles for BLESSUSDT: 0
+2025-09-23 14:56:41,050 - INFO - Scheduled job executed successfully
+2025-09-23 14:56:42,986 - INFO - Job "scheduled_job (trigger: interval[0:15:00], next run at: 2025-09-23 15:06:42 IST)" executed successfully
+2025-09-23 15:06:42,325 - INFO - Running job "ping_self (trigger: interval[0:15:00], next run at: 2025-09-23 15:21:42 IST)" (scheduled at 2025-09-23 15:06:42.323127+05:30)
+2025-09-23 15:06:42,378 - INFO - Running job "scheduled_job (trigger: interval[0:15:00], next run at: 2025-09-23 15:21:42 IST)" (scheduled at 2025-09-23 15:06:42.325206+05:30)
+2025-09-23 15:06:42,380 - INFO - Starting Binance FVG Screener...
+2025-09-23 15:06:44,313 - INFO - Fetched 544 USDT perpetual futures symbols
+2025-09-23 15:06:44,317 - INFO - Total symbols: 544
+2025-09-23 15:06:44,399 - INFO - Job "ping_self (trigger: interval[0:15:00], next run at: 2025-09-23 15:21:42 IST)" executed successfully
+2025-09-23 15:07:46,645 - ERROR - Error fetching klines for BTCSTUSDT: could not convert string to float: 'o'
+2025-09-23 16:39:56,088 - INFO - Bullish FVG detected for BTCUSDT
+2025-09-23 16:39:56,089 - INFO - Bullish FVG detected for BNBUSDT
+2025-09-23 16:39:56,090 - INFO - Bullish FVG detected for ONTUSDT
+2025-09-23 16:39:56,090 - INFO - Bullish FVG detected for RLCUSDT
+2025-09-23 16:39:56,091 - INFO - Bullish FVG detected for SNXUSDT
+2025-09-23 16:39:56,092 - INFO - Bullish FVG detected for YFIUSDT
+2025-09-23 16:39:56,092 - INFO - Bullish FVG detected for NEARUSDT
+2025-09-23 16:39:56,093 - WARNING - Insufficient candles for BTCSTUSDT: 0
+2025-09-23 16:39:56,094 - INFO - Bullish FVG detected for HBARUSDT
+2025-09-23 16:39:56,094 - INFO - Bearish FVG detected for BAKEUSDT
+2025-09-23 16:39:56,095 - INFO - Bullish FVG detected for CTSIUSDT
+2025-09-23 16:39:56,098 - INFO - Bullish FVG detected for DUSKUSDT
+2025-09-23 16:39:56,100 - INFO - Bullish FVG detected for QNTUSDT
+2025-09-23 16:39:56,102 - INFO - Bullish FVG detected for MAGICUSDT
+2025-09-23 16:39:56,103 - INFO - Bullish FVG detected for USDCUSDT
+2025-09-23 16:39:56,104 - INFO - Bullish FVG detected for XVSUSDT
+2025-09-23 16:39:56,105 - INFO - Bullish FVG detected for 1000FLOKIUSDT
+2025-09-23 16:39:56,105 - INFO - Bullish FVG detected for NMRUSDT
+2025-09-23 16:39:56,106 - INFO - Bearish FVG detected for WLDUSDT
+2025-09-23 16:39:56,106 - INFO - Bullish FVG detected for ARKUSDT
+2025-09-23 16:39:56,107 - INFO - Bullish FVG detected for STEEMUSDT
+2025-09-23 16:39:56,108 - INFO - Bullish FVG detected for NTRNUSDT
+2025-09-23 16:39:56,108 - INFO - Bullish FVG detected for SUPERUSDT
+2025-09-23 16:39:56,109 - INFO - Bullish FVG detected for GLMUSDT
+2025-09-23 16:39:56,110 - INFO - Bullish FVG detected for ETHFIUSDT
+2025-09-23 16:39:56,110 - INFO - Bullish FVG detected for ENAUSDT
+2025-09-23 16:39:56,111 - INFO - Bullish FVG detected for CHESSUSDT
+2025-09-23 16:39:56,112 - INFO - Bullish FVG detected for KDAUSDT
+2025-09-23 16:39:56,112 - INFO - Bullish FVG detected for CETUSUSDT
+2025-09-23 16:39:56,113 - INFO - Bullish FVG detected for GRASSUSDT
+2025-09-23 16:39:56,120 - INFO - Bullish FVG detected for RAYSOLUSDT
+2025-09-23 16:39:56,123 - INFO - Bearish FVG detected for ZEREBROUSDT
+2025-09-23 16:39:56,124 - INFO - Bullish FVG detected for MELANIAUSDT
+2025-09-23 16:39:56,125 - INFO - Bullish FVG detected for EPTUSDT
+2025-09-23 16:39:56,126 - INFO - Bullish FVG detected for AIOTUSDT
+2025-09-23 16:39:56,126 - INFO - Bullish FVG detected for DOODUSDT
+2025-09-23 16:39:56,127 - INFO - Bullish FVG detected for OGUSDT
+2025-09-23 16:39:56,128 - INFO - Bullish FVG detected for HYPEUSDT
+2025-09-23 16:39:56,129 - INFO - Bearish FVG detected for BDXNUSDT
+2025-09-23 16:39:56,129 - INFO - Bearish FVG detected for SKATEUSDT
+2025-09-23 16:39:56,130 - INFO - Bearish FVG detected for IDOLUSDT
+2025-09-23 16:39:56,130 - INFO - Bearish FVG detected for MUSDT
+2025-09-23 16:39:56,131 - INFO - Bullish FVG detected for NAORISUSDT
+2025-09-23 16:39:56,133 - INFO - Bullish FVG detected for SOMIUSDT
+2025-09-23 16:39:56,134 - INFO - Bullish FVG detected for TAKEUSDT
+2025-09-23 16:39:56,135 - INFO - Bullish FVG detected for BARDUSDT
+2025-09-23 16:39:56,137 - WARNING - Insufficient candles for BLESSUSDT: 1
+2025-09-23 16:39:58,241 - INFO - Scheduled job executed successfully
+2025-09-23 16:40:08,451 - ERROR - Error sending Telegram message: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=10)
+2025-09-23 16:40:08,453 - INFO - Job "scheduled_job (trigger: interval[0:15:00], next run at: 2025-09-23 15:21:42 IST)" executed successfully
+2025-09-23 19:11:43,514 - WARNING - Run time of job "ping_self (trigger: interval[0:15:00], next run at: 2025-09-23 19:21:42 IST)" was missed by 0:05:01.188539
+2025-09-23 19:11:43,517 - WARNING - Run time of job "scheduled_job (trigger: interval[0:15:00], next run at: 2025-09-23 19:21:42 IST)" was missed by 0:05:01.192252
+2025-09-23 19:21:42,339 - INFO - Running job "ping_self (trigger: interval[0:15:00], next run at: 2025-09-23 19:36:42 IST)" (scheduled at 2025-09-23 19:21:42.323127+05:30)
+2025-09-23 19:21:42,342 - INFO - Running job "scheduled_job (trigger: interval[0:15:00], next run at: 2025-09-23 19:36:42 IST)" (scheduled at 2025-09-23 19:21:42.325206+05:30)
+2025-09-23 19:21:42,356 - INFO - Starting Binance FVG Screener...
+2025-09-23 19:21:43,937 - INFO - Fetched 544 USDT perpetual futures symbols
+2025-09-23 19:21:43,939 - INFO - Total symbols: 544
+2025-09-23 19:21:52,540 - ERROR - Ping failed: HTTPSConnectionPool(host='binance-trade-screener.onrender.com', port=443): Read timed out. (read timeout=10)
+2025-09-23 19:21:53,832 - INFO - Job "ping_self (trigger: interval[0:15:00], next run at: 2025-09-23 19:36:42 IST)" executed successfully
+2025-09-23 19:22:18,439 - ERROR - Error fetching klines for BTCSTUSDT: could not convert string to float: 'o'
+2025-09-23 19:25:30,114 - INFO - Bullish FVG detected for BNBUSDT
+2025-09-23 19:25:30,114 - INFO - Bearish FVG detected for RSRUSDT
+2025-09-23 19:25:30,114 - INFO - Bullish FVG detected for ZENUSDT
+2025-09-23 19:25:30,115 - INFO - Bullish FVG detected for CHZUSDT
+2025-09-23 19:25:30,115 - WARNING - Insufficient candles for BTCSTUSDT: 0
+2025-09-23 19:25:30,115 - INFO - Bullish FVG detected for LPTUSDT
+2025-09-23 19:25:30,115 - INFO - Bullish FVG detected for STGUSDT
+2025-09-23 19:25:30,116 - INFO - Bullish FVG detected for GMXUSDT
+2025-09-23 19:25:30,116 - INFO - Bearish FVG detected for JOEUSDT
+2025-09-23 19:25:30,116 - INFO - Bullish FVG detected for NMRUSDT
+2025-09-23 19:25:30,116 - INFO - Bullish FVG detected for ARKUSDT
+2025-09-23 19:25:30,116 - INFO - Bullish FVG detected for POLYXUSDT
+2025-09-23 19:25:30,117 - INFO - Bullish FVG detected for CAKEUSDT
+2025-09-23 19:25:30,117 - INFO - Bullish FVG detected for KASUSDT
+2025-09-23 19:25:30,117 - INFO - Bullish FVG detected for KAIAUSDT
+2025-09-23 19:25:30,117 - INFO - Bearish FVG detected for DEGOUSDT
+2025-09-23 19:25:30,118 - INFO - Bullish FVG detected for MOCAUSDT
+2025-09-23 19:25:30,118 - INFO - Bullish FVG detected for SWARMSUSDT
+2025-09-23 19:25:30,118 - INFO - Bullish FVG detected for SUSDT
+2025-09-23 19:25:30,118 - INFO - Bullish FVG detected for AVAAIUSDT
+2025-09-23 19:25:30,118 - INFO - Bearish FVG detected for HEIUSDT
+2025-09-23 19:25:30,119 - INFO - Bearish FVG detected for B3USDT
+2025-09-23 19:25:30,119 - INFO - Bearish FVG detected for PARTIUSDT
+2025-09-23 19:25:30,119 - INFO - Bullish FVG detected for PAXGUSDT
+2025-09-23 19:25:30,119 - INFO - Bullish FVG detected for CTKUSDT
+2025-09-23 19:25:30,119 - INFO - Bullish FVG detected for AIOTUSDT
+2025-09-23 19:25:30,120 - INFO - Bearish FVG detected for HAEDALUSDT
+2025-09-23 19:25:30,120 - INFO - Bullish FVG detected for DOODUSDT
+2025-09-23 19:25:30,120 - INFO - Bullish FVG detected for AWEUSDT
+2025-09-23 19:25:30,120 - INFO - Bearish FVG detected for BUSDT
+2025-09-23 19:25:30,120 - INFO - Bearish FVG detected for SOONUSDT
+2025-09-23 19:25:30,120 - INFO - Bearish FVG detected for SPKUSDT
+2025-09-23 19:25:30,121 - INFO - Bearish FVG detected for HUSDT
+2025-09-23 19:25:30,121 - INFO - Bullish FVG detected for CROSSUSDT
+2025-09-23 19:25:30,121 - INFO - Bullish FVG detected for VELVETUSDT
+2025-09-23 19:25:30,121 - INFO - Bearish FVG detected for TACUSDT
+2025-09-23 19:25:30,121 - INFO - Bearish FVG detected for TAUSDT
+2025-09-23 19:25:30,121 - INFO - Bearish FVG detected for TAGUSDT
+2025-09-23 19:25:30,122 - INFO - Bearish FVG detected for YALAUSDT
+2025-09-23 19:25:30,122 - INFO - Bullish FVG detected for AIOUSDT
+2025-09-23 19:25:30,122 - INFO - Bullish FVG detected for BTRUSDT
+2025-09-23 19:25:30,122 - INFO - Bullish FVG detected for HEMIUSDT
+2025-09-23 19:25:30,122 - WARNING - Insufficient candles for BLESSUSDT: 2
+2025-09-23 19:25:31,027 - INFO - Scheduled job executed successfully
+2025-09-23 19:25:31,903 - INFO - Job "scheduled_job (trigger: interval[0:15:00], next run at: 2025-09-23 19:36:42 IST)" executed successfully
+2025-09-23 19:36:42,338 - INFO - Running job "scheduled_job (trigger: interval[0:15:00], next run at: 2025-09-23 19:51:42 IST)" (scheduled at 2025-09-23 19:36:42.325206+05:30)
+2025-09-23 19:36:42,339 - INFO - Running job "ping_self (trigger: interval[0:15:00], next run at: 2025-09-23 19:51:42 IST)" (scheduled at 2025-09-23 19:36:42.323127+05:30)
+2025-09-23 19:36:42,339 - INFO - Starting Binance FVG Screener...
+2025-09-23 19:36:43,870 - INFO - Fetched 544 USDT perpetual futures symbols
+2025-09-23 19:36:43,872 - INFO - Total symbols: 544
+2025-09-23 19:36:46,401 - INFO - Job "ping_self (trigger: interval[0:15:00], next run at: 2025-09-23 19:51:42 IST)" executed successfully
+2025-09-23 19:37:30,735 - ERROR - Error fetching klines for BTCSTUSDT: could not convert string to float: 'o'
+2025-09-23 19:40:55,227 - INFO - Bullish FVG detected for BNBUSDT
+2025-09-23 19:40:55,228 - INFO - Bearish FVG detected for RSRUSDT
+2025-09-23 19:40:55,228 - INFO - Bullish FVG detected for ZENUSDT
+2025-09-23 19:40:55,228 - INFO - Bullish FVG detected for CHZUSDT
+2025-09-23 19:40:55,228 - WARNING - Insufficient candles for BTCSTUSDT: 0
+2025-09-23 19:40:55,229 - INFO - Bullish FVG detected for LPTUSDT
+2025-09-23 19:40:55,229 - INFO - Bullish FVG detected for STGUSDT
+2025-09-23 19:40:55,229 - INFO - Bullish FVG detected for GMXUSDT
+2025-09-23 19:40:55,230 - INFO - Bearish FVG detected for JOEUSDT
+2025-09-23 19:40:55,230 - INFO - Bullish FVG detected for NMRUSDT
+2025-09-23 19:40:55,230 - INFO - Bullish FVG detected for ARKUSDT
+2025-09-23 19:40:55,230 - INFO - Bullish FVG detected for POLYXUSDT
+2025-09-23 19:40:55,231 - INFO - Bullish FVG detected for CAKEUSDT
+2025-09-23 19:40:55,231 - INFO - Bullish FVG detected for KASUSDT
+2025-09-23 19:40:55,231 - INFO - Bullish FVG detected for KAIAUSDT
+2025-09-23 19:40:55,232 - INFO - Bearish FVG detected for DEGOUSDT
+2025-09-23 19:40:55,232 - INFO - Bullish FVG detected for MOCAUSDT
+2025-09-23 19:40:55,232 - INFO - Bullish FVG detected for SWARMSUSDT
+2025-09-23 19:40:55,232 - INFO - Bullish FVG detected for SUSDT
+2025-09-23 19:40:55,233 - INFO - Bullish FVG detected for AVAAIUSDT
+2025-09-23 19:40:55,233 - INFO - Bearish FVG detected for HEIUSDT
+2025-09-23 19:40:55,233 - INFO - Bearish FVG detected for B3USDT
+2025-09-23 19:40:55,233 - INFO - Bearish FVG detected for PARTIUSDT
+2025-09-23 19:40:55,234 - INFO - Bullish FVG detected for PAXGUSDT
+2025-09-23 19:40:55,234 - INFO - Bullish FVG detected for CTKUSDT
+2025-09-23 19:40:55,234 - INFO - Bullish FVG detected for AIOTUSDT
+2025-09-23 19:40:55,234 - INFO - Bearish FVG detected for HAEDALUSDT
+2025-09-23 19:40:55,235 - INFO - Bullish FVG detected for DOODUSDT
+2025-09-23 19:40:55,235 - INFO - Bullish FVG detected for AWEUSDT
+2025-09-23 19:40:55,235 - INFO - Bearish FVG detected for BUSDT
+2025-09-23 19:40:55,235 - INFO - Bearish FVG detected for SOONUSDT
+2025-09-23 19:40:55,235 - INFO - Bearish FVG detected for SPKUSDT
+2025-09-23 19:40:55,236 - INFO - Bearish FVG detected for HUSDT
+2025-09-23 19:40:55,236 - INFO - Bullish FVG detected for CROSSUSDT
+2025-09-23 19:40:55,236 - INFO - Bullish FVG detected for VELVETUSDT
+2025-09-23 19:40:55,236 - INFO - Bearish FVG detected for TAUSDT
+2025-09-23 19:40:55,237 - INFO - Bearish FVG detected for TAGUSDT
+2025-09-23 19:40:55,237 - INFO - Bearish FVG detected for YALAUSDT
+2025-09-23 19:40:55,237 - INFO - Bullish FVG detected for AIOUSDT
+2025-09-23 19:40:55,237 - INFO - Bullish FVG detected for BTRUSDT
+2025-09-23 19:40:55,237 - INFO - Bullish FVG detected for HEMIUSDT
+2025-09-23 19:40:55,238 - WARNING - Insufficient candles for BLESSUSDT: 2
+2025-09-23 19:40:57,181 - INFO - Scheduled job executed successfully
+2025-09-23 19:40:59,105 - INFO - Job "scheduled_job (trigger: interval[0:15:00], next run at: 2025-09-23 19:51:42 IST)" executed successfully
+2025-09-23 19:51:42,336 - INFO - Running job "scheduled_job (trigger: interval[0:15:00], next run at: 2025-09-23 20:06:42 IST)" (scheduled at 2025-09-23 19:51:42.325206+05:30)
+2025-09-23 19:51:42,336 - INFO - Running job "ping_self (trigger: interval[0:15:00], next run at: 2025-09-23 20:06:42 IST)" (scheduled at 2025-09-23 19:51:42.323127+05:30)
+2025-09-23 19:51:42,337 - INFO - Starting Binance FVG Screener...
+2025-09-23 19:51:43,652 - INFO - Fetched 544 USDT perpetual futures symbols
+2025-09-23 19:51:43,653 - INFO - Total symbols: 544
+2025-09-23 19:51:44,246 - INFO - Job "ping_self (trigger: interval[0:15:00], next run at: 2025-09-23 20:06:42 IST)" executed successfully
+2025-09-23 19:52:17,373 - ERROR - Error fetching klines for BTCSTUSDT: could not convert string to float: 'o'
+2025-09-23 19:55:41,505 - INFO - Bullish FVG detected for BNBUSDT
+2025-09-23 19:55:41,505 - INFO - Bearish FVG detected for RSRUSDT
+2025-09-23 19:55:41,505 - INFO - Bullish FVG detected for ZENUSDT
+2025-09-23 19:55:41,506 - INFO - Bullish FVG detected for CHZUSDT
+2025-09-23 19:55:41,506 - WARNING - Insufficient candles for BTCSTUSDT: 0
+2025-09-23 19:55:41,506 - INFO - Bullish FVG detected for LPTUSDT
+2025-09-23 19:55:41,506 - INFO - Bullish FVG detected for STGUSDT
+2025-09-23 19:55:41,506 - INFO - Bullish FVG detected for GMXUSDT
+2025-09-23 19:55:41,507 - INFO - Bearish FVG detected for JOEUSDT
+2025-09-23 19:55:41,507 - INFO - Bullish FVG detected for NMRUSDT
+2025-09-23 19:55:41,507 - INFO - Bullish FVG detected for ARKUSDT
+2025-09-23 19:55:41,507 - INFO - Bullish FVG detected for POLYXUSDT
+2025-09-23 19:55:41,508 - INFO - Bullish FVG detected for CAKEUSDT
+2025-09-23 19:55:41,508 - INFO - Bullish FVG detected for KASUSDT
+2025-09-23 19:55:41,508 - INFO - Bullish FVG detected for KAIAUSDT
+2025-09-23 19:55:41,509 - INFO - Bearish FVG detected for DEGOUSDT
+2025-09-23 19:55:41,509 - INFO - Bullish FVG detected for MOCAUSDT
+2025-09-23 19:55:41,509 - INFO - Bullish FVG detected for SWARMSUSDT
+2025-09-23 19:55:41,509 - INFO - Bullish FVG detected for SUSDT
+2025-09-23 19:55:41,510 - INFO - Bullish FVG detected for AVAAIUSDT
+2025-09-23 19:55:41,510 - INFO - Bearish FVG detected for HEIUSDT
+2025-09-23 19:55:41,510 - INFO - Bearish FVG detected for B3USDT
+2025-09-23 19:55:41,510 - INFO - Bearish FVG detected for PARTIUSDT
+2025-09-23 19:55:41,510 - INFO - Bullish FVG detected for PAXGUSDT
+2025-09-23 19:55:41,510 - INFO - Bullish FVG detected for CTKUSDT
+2025-09-23 19:55:41,511 - INFO - Bullish FVG detected for AIOTUSDT
+2025-09-23 19:55:41,511 - INFO - Bearish FVG detected for HAEDALUSDT
+2025-09-23 19:55:41,511 - INFO - Bullish FVG detected for DOODUSDT
+2025-09-23 19:55:41,511 - INFO - Bullish FVG detected for AWEUSDT
+2025-09-23 19:55:41,512 - INFO - Bearish FVG detected for BUSDT
+2025-09-23 19:55:41,512 - INFO - Bearish FVG detected for SOONUSDT
+2025-09-23 19:55:41,512 - INFO - Bearish FVG detected for SPKUSDT
+2025-09-23 19:55:41,512 - INFO - Bearish FVG detected for HUSDT
+2025-09-23 19:55:41,513 - INFO - Bullish FVG detected for CROSSUSDT
+2025-09-23 19:55:41,513 - INFO - Bullish FVG detected for VELVETUSDT
+2025-09-23 19:55:41,513 - INFO - Bearish FVG detected for TAUSDT
+2025-09-23 19:55:41,513 - INFO - Bearish FVG detected for TAGUSDT
+2025-09-23 19:55:41,513 - INFO - Bearish FVG detected for YALAUSDT
+2025-09-23 19:55:41,514 - INFO - Bullish FVG detected for AIOUSDT
+2025-09-23 19:55:41,514 - INFO - Bullish FVG detected for BTRUSDT
+2025-09-23 19:55:41,514 - INFO - Bullish FVG detected for HEMIUSDT
+2025-09-23 19:55:41,514 - WARNING - Insufficient candles for BLESSUSDT: 2
+2025-09-23 19:55:42,318 - INFO - Scheduled job executed successfully
+2025-09-23 19:55:43,100 - INFO - Job "scheduled_job (trigger: interval[0:15:00], next run at: 2025-09-23 20:06:42 IST)" executed successfully
+2025-09-23 20:06:42,355 - INFO - Running job "ping_self (trigger: interval[0:15:00], next run at: 2025-09-23 20:21:42 IST)" (scheduled at 2025-09-23 20:06:42.323127+05:30)
+2025-09-23 20:06:42,358 - INFO - Running job "scheduled_job (trigger: interval[0:15:00], next run at: 2025-09-23 20:21:42 IST)" (scheduled at 2025-09-23 20:06:42.325206+05:30)
+2025-09-23 20:06:42,370 - INFO - Starting Binance FVG Screener...
+2025-09-23 20:06:43,767 - INFO - Fetched 544 USDT perpetual futures symbols
+2025-09-23 20:06:43,768 - INFO - Total symbols: 544
+2025-09-23 20:06:44,416 - INFO - Job "ping_self (trigger: interval[0:15:00], next run at: 2025-09-23 20:21:42 IST)" executed successfully
+2025-09-23 20:07:14,107 - ERROR - Error fetching klines for BTCSTUSDT: could not convert string to float: 'o'
+2025-09-23 20:10:16,809 - INFO - Bullish FVG detected for BNBUSDT
+2025-09-23 20:10:16,810 - INFO - Bearish FVG detected for RSRUSDT
+2025-09-23 20:10:16,810 - INFO - Bullish FVG detected for CHZUSDT
+2025-09-23 20:10:16,811 - WARNING - Insufficient candles for BTCSTUSDT: 0
+2025-09-23 20:10:16,811 - INFO - Bullish FVG detected for LPTUSDT
+2025-09-23 20:10:16,811 - INFO - Bullish FVG detected for STGUSDT
+2025-09-23 20:10:16,811 - INFO - Bullish FVG detected for GMXUSDT
+2025-09-23 20:10:16,812 - INFO - Bearish FVG detected for JOEUSDT
+2025-09-23 20:10:16,812 - INFO - Bullish FVG detected for NMRUSDT
+2025-09-23 20:10:16,812 - INFO - Bullish FVG detected for ARKUSDT
+2025-09-23 20:10:16,813 - INFO - Bullish FVG detected for CAKEUSDT
+2025-09-23 20:10:16,813 - INFO - Bullish FVG detected for KASUSDT
+2025-09-23 20:10:16,814 - INFO - Bullish FVG detected for KAIAUSDT
+2025-09-23 20:10:16,814 - INFO - Bearish FVG detected for DEGOUSDT
+2025-09-23 20:10:16,814 - INFO - Bullish FVG detected for MOCAUSDT
+2025-09-23 20:10:16,814 - INFO - Bullish FVG detected for SWARMSUSDT
+2025-09-23 20:10:16,815 - INFO - Bullish FVG detected for SUSDT
+2025-09-23 20:10:16,815 - INFO - Bullish FVG detected for AVAAIUSDT
+2025-09-23 20:10:16,815 - INFO - Bearish FVG detected for HEIUSDT
+2025-09-23 20:10:16,815 - INFO - Bearish FVG detected for B3USDT
+2025-09-23 20:10:16,816 - INFO - Bearish FVG detected for PARTIUSDT
+2025-09-23 20:10:16,816 - INFO - Bullish FVG detected for PAXGUSDT
+2025-09-23 20:10:16,816 - INFO - Bullish FVG detected for CTKUSDT
+2025-09-23 20:10:16,816 - INFO - Bullish FVG detected for AIOTUSDT
+2025-09-23 20:10:16,816 - INFO - Bearish FVG detected for HAEDALUSDT
+2025-09-23 20:10:16,817 - INFO - Bullish FVG detected for DOODUSDT
+2025-09-23 20:10:16,817 - INFO - Bullish FVG detected for AWEUSDT
+2025-09-23 20:10:16,817 - INFO - Bearish FVG detected for BUSDT
+2025-09-23 20:10:16,817 - INFO - Bearish FVG detected for SOONUSDT
+2025-09-23 20:10:16,818 - INFO - Bearish FVG detected for SPKUSDT
+2025-09-23 20:10:16,818 - INFO - Bearish FVG detected for HUSDT
+2025-09-23 20:10:16,818 - INFO - Bullish FVG detected for CROSSUSDT
+2025-09-23 20:10:16,818 - INFO - Bullish FVG detected for VELVETUSDT
+2025-09-23 20:10:16,818 - INFO - Bearish FVG detected for TAUSDT
+2025-09-23 20:10:16,819 - INFO - Bearish FVG detected for TAGUSDT
+2025-09-23 20:10:16,819 - INFO - Bearish FVG detected for YALAUSDT
+2025-09-23 20:10:16,819 - INFO - Bullish FVG detected for AIOUSDT
+2025-09-23 20:10:16,819 - INFO - Bullish FVG detected for BTRUSDT
+2025-09-23 20:10:16,819 - INFO - Bullish FVG detected for HEMIUSDT
+2025-09-23 20:10:16,820 - WARNING - Insufficient candles for BLESSUSDT: 2
+2025-09-23 20:10:17,828 - INFO - Scheduled job executed successfully
+2025-09-23 20:10:20,391 - INFO - Job "scheduled_job (trigger: interval[0:15:00], next run at: 2025-09-23 20:21:42 IST)" executed successfully
+2025-09-23 20:21:42,331 - INFO - Running job "scheduled_job (trigger: interval[0:15:00], next run at: 2025-09-23 20:36:42 IST)" (scheduled at 2025-09-23 20:21:42.325206+05:30)
+2025-09-23 20:21:42,343 - INFO - Running job "ping_self (trigger: interval[0:15:00], next run at: 2025-09-23 20:36:42 IST)" (scheduled at 2025-09-23 20:21:42.323127+05:30)
+2025-09-23 20:21:42,343 - INFO - Starting Binance FVG Screener...
+2025-09-23 20:21:43,715 - INFO - Fetched 544 USDT perpetual futures symbols
+2025-09-23 20:21:43,717 - INFO - Total symbols: 544
+2025-09-23 20:21:44,521 - INFO - Job "ping_self (trigger: interval[0:15:00], next run at: 2025-09-23 20:36:42 IST)" executed successfully
+2025-09-23 20:22:22,728 - ERROR - Error fetching klines for BTCSTUSDT: could not convert string to float: 'o'
+2025-09-23 20:26:04,907 - INFO - Bullish FVG detected for BNBUSDT
+2025-09-23 20:26:04,907 - INFO - Bearish FVG detected for RSRUSDT
+2025-09-23 20:26:04,908 - INFO - Bullish FVG detected for CHZUSDT
+2025-09-23 20:26:04,908 - WARNING - Insufficient candles for BTCSTUSDT: 0
+2025-09-23 20:26:04,909 - INFO - Bullish FVG detected for LPTUSDT
+2025-09-23 20:26:04,909 - INFO - Bullish FVG detected for STGUSDT
+2025-09-23 20:26:04,909 - INFO - Bullish FVG detected for GMXUSDT
+2025-09-23 20:26:04,909 - INFO - Bearish FVG detected for JOEUSDT
+2025-09-23 20:26:04,910 - INFO - Bullish FVG detected for NMRUSDT
+2025-09-23 20:26:04,910 - INFO - Bullish FVG detected for ARKUSDT
+2025-09-23 20:26:04,910 - INFO - Bullish FVG detected for CAKEUSDT
+2025-09-23 20:26:04,911 - INFO - Bullish FVG detected for KASUSDT
+2025-09-23 20:26:04,911 - INFO - Bullish FVG detected for KAIAUSDT
+2025-09-23 20:26:04,911 - INFO - Bearish FVG detected for DEGOUSDT
+2025-09-23 20:26:04,911 - INFO - Bullish FVG detected for MOCAUSDT
+2025-09-23 20:26:04,912 - INFO - Bullish FVG detected for SWARMSUSDT
+2025-09-23 20:26:04,912 - INFO - Bullish FVG detected for SUSDT
+2025-09-23 20:26:04,912 - INFO - Bullish FVG detected for AVAAIUSDT
+2025-09-23 20:26:04,912 - INFO - Bearish FVG detected for HEIUSDT
+2025-09-23 20:26:04,912 - INFO - Bearish FVG detected for B3USDT
+2025-09-23 20:26:04,913 - INFO - Bearish FVG detected for PARTIUSDT
+2025-09-23 20:26:04,913 - INFO - Bullish FVG detected for PAXGUSDT
+2025-09-23 20:26:04,913 - INFO - Bullish FVG detected for CTKUSDT
+2025-09-23 20:26:04,913 - INFO - Bullish FVG detected for AIOTUSDT
+2025-09-23 20:26:04,913 - INFO - Bearish FVG detected for HAEDALUSDT
+2025-09-23 20:26:04,914 - INFO - Bullish FVG detected for DOODUSDT
+2025-09-23 20:26:04,914 - INFO - Bullish FVG detected for AWEUSDT
+2025-09-23 20:26:04,914 - INFO - Bearish FVG detected for BUSDT
+2025-09-23 20:26:04,914 - INFO - Bearish FVG detected for SOONUSDT
+2025-09-23 20:26:04,914 - INFO - Bearish FVG detected for HUSDT
+2025-09-23 20:26:04,915 - INFO - Bullish FVG detected for CROSSUSDT
+2025-09-23 20:26:04,915 - INFO - Bullish FVG detected for VELVETUSDT
+2025-09-23 20:26:04,915 - INFO - Bearish FVG detected for TAUSDT
+2025-09-23 20:26:04,915 - INFO - Bearish FVG detected for TAGUSDT
+2025-09-23 20:26:04,915 - INFO - Bearish FVG detected for YALAUSDT
+2025-09-23 20:26:04,915 - INFO - Bullish FVG detected for AIOUSDT
+2025-09-23 20:26:04,915 - INFO - Bullish FVG detected for BTRUSDT
+2025-09-23 20:26:04,916 - INFO - Bullish FVG detected for HEMIUSDT
+2025-09-23 20:26:04,916 - WARNING - Insufficient candles for BLESSUSDT: 2
+2025-09-23 20:26:05,848 - INFO - Scheduled job executed successfully
+2025-09-23 20:26:06,962 - INFO - Job "scheduled_job (trigger: interval[0:15:00], next run at: 2025-09-23 20:36:42 IST)" executed successfully
+2025-09-24 00:43:52,203 - WARNING - Run time of job "ping_self (trigger: interval[0:15:00], next run at: 2025-09-24 00:51:42 IST)" was missed by 0:07:09.879017
+2025-09-24 00:43:52,204 - WARNING - Run time of job "scheduled_job (trigger: interval[0:15:00], next run at: 2025-09-24 00:51:42 IST)" was missed by 0:07:09.879575
+2025-09-24 00:51:42,340 - INFO - Running job "ping_self (trigger: interval[0:15:00], next run at: 2025-09-24 01:06:42 IST)" (scheduled at 2025-09-24 00:51:42.323127+05:30)
+2025-09-24 00:51:42,340 - INFO - Running job "scheduled_job (trigger: interval[0:15:00], next run at: 2025-09-24 01:06:42 IST)" (scheduled at 2025-09-24 00:51:42.325206+05:30)
+2025-09-24 00:51:42,354 - INFO - Starting Binance FVG Screener...
+2025-09-24 00:51:43,888 - INFO - Fetched 544 USDT perpetual futures symbols
+2025-09-24 00:51:43,890 - INFO - Total symbols: 544
+2025-09-24 00:51:52,529 - ERROR - Ping failed: HTTPSConnectionPool(host='binance-trade-screener.onrender.com', port=443): Read timed out. (read timeout=10)
+2025-09-24 00:51:53,617 - INFO - Job "ping_self (trigger: interval[0:15:00], next run at: 2025-09-24 01:06:42 IST)" executed successfully
+2025-09-24 00:52:43,454 - ERROR - Error fetching klines for BTCSTUSDT: could not convert string to float: 'o'
+2025-09-24 00:56:14,684 - INFO - Bullish FVG detected for ZECUSDT
+2025-09-24 00:56:14,685 - INFO - Bullish FVG detected for AAVEUSDT
+2025-09-24 00:56:14,685 - WARNING - Insufficient candles for BTCSTUSDT: 0
+2025-09-24 00:56:14,686 - INFO - Bullish FVG detected for STGUSDT
+2025-09-24 00:56:14,686 - INFO - Bullish FVG detected for GMXUSDT
+2025-09-24 00:56:14,686 - INFO - Bullish FVG detected for PERPUSDT
+2025-09-24 00:56:14,686 - INFO - Bearish FVG detected for DEGENUSDT
+2025-09-24 00:56:14,687 - INFO - Bullish FVG detected for ORCAUSDT
+2025-09-24 00:56:14,687 - INFO - Bearish FVG detected for KOMAUSDT
+2025-09-24 00:56:14,687 - INFO - Bullish FVG detected for MOCAUSDT
+2025-09-24 00:56:14,687 - INFO - Bullish FVG detected for VANAUSDT
+2025-09-24 00:56:14,688 - INFO - Bearish FVG detected for BIOUSDT
+2025-09-24 00:56:14,688 - INFO - Bullish FVG detected for SOLVUSDT
+2025-09-24 00:56:14,688 - INFO - Bullish FVG detected for VINEUSDT
+2025-09-24 00:56:14,688 - INFO - Bearish FVG detected for VVVUSDT
+2025-09-24 00:56:14,689 - INFO - Bearish FVG detected for B3USDT
+2025-09-24 00:56:14,689 - INFO - Bearish FVG detected for IPUSDT
+2025-09-24 00:56:14,689 - INFO - Bearish FVG detected for FORMUSDT
+2025-09-24 00:56:14,690 - INFO - Bullish FVG detected for SIRENUSDT
+2025-09-24 00:56:14,690 - INFO - Bullish FVG detected for GUNUSDT
+2025-09-24 00:56:14,690 - INFO - Bullish FVG detected for SIGNUSDT
+2025-09-24 00:56:14,690 - INFO - Bullish FVG detected for AIOTUSDT
+2025-09-24 00:56:14,691 - INFO - Bearish FVG detected for DOLOUSDT
+2025-09-24 00:56:14,691 - INFO - Bullish FVG detected for MERLUSDT
+2025-09-24 00:56:14,691 - INFO - Bearish FVG detected for BDXNUSDT
+2025-09-24 00:56:14,692 - INFO - Bearish FVG detected for RESOLVUSDT
+2025-09-24 00:56:14,692 - INFO - Bearish FVG detected for HUSDT
+2025-09-24 00:56:14,692 - INFO - Bullish FVG detected for CROSSUSDT
+2025-09-24 00:56:14,692 - INFO - Bullish FVG detected for VELVETUSDT
+2025-09-24 00:56:14,693 - INFO - Bearish FVG detected for TAGUSDT
+2025-09-24 00:56:14,693 - INFO - Bullish FVG detected for A2ZUSDT
+2025-09-24 00:56:14,694 - INFO - Bullish FVG detected for DAMUSDT
+2025-09-24 00:56:14,694 - INFO - Bearish FVG detected for SOMIUSDT
+2025-09-24 00:56:14,695 - INFO - Bullish FVG detected for QUSDT
+2025-09-24 00:56:14,695 - INFO - Bullish FVG detected for ARIAUSDT
+2025-09-24 00:56:14,696 - INFO - Bullish FVG detected for FLOCKUSDT
+2025-09-24 00:56:14,696 - INFO - Bullish FVG detected for SKYUSDT
+2025-09-24 00:56:14,696 - INFO - Bullish FVG detected for TOSHIUSDT
+2025-09-24 00:56:14,697 - INFO - Bullish FVG detected for AIAUSDT
+2025-09-24 00:56:14,697 - INFO - Bullish FVG detected for BARDUSDT
+2025-09-24 00:56:14,697 - INFO - Bullish FVG detected for ASTERUSDT
+2025-09-24 00:56:14,698 - INFO - Bullish FVG detected for BLESSUSDT
+2025-09-24 00:56:15,549 - INFO - Scheduled job executed successfully
+2025-09-24 00:56:16,268 - INFO - Job "scheduled_job (trigger: interval[0:15:00], next run at: 2025-09-24 01:06:42 IST)" executed successfully
+2025-09-24 01:06:42,384 - INFO - Running job "ping_self (trigger: interval[0:15:00], next run at: 2025-09-24 01:21:42 IST)" (scheduled at 2025-09-24 01:06:42.323127+05:30)
+2025-09-24 01:06:42,388 - INFO - Running job "scheduled_job (trigger: interval[0:15:00], next run at: 2025-09-24 01:21:42 IST)" (scheduled at 2025-09-24 01:06:42.325206+05:30)
+2025-09-24 01:06:42,400 - INFO - Starting Binance FVG Screener...
+2025-09-24 01:06:43,968 - INFO - Fetched 544 USDT perpetual futures symbols
+2025-09-24 01:06:43,970 - INFO - Total symbols: 544
+2025-09-24 01:06:44,876 - INFO - Job "ping_self (trigger: interval[0:15:00], next run at: 2025-09-24 01:21:42 IST)" executed successfully
+2025-09-24 01:07:43,043 - ERROR - Error fetching klines for BTCSTUSDT: could not convert string to float: 'o'
+2025-09-24 01:12:06,749 - INFO - Bullish FVG detected for ZECUSDT
+2025-09-24 01:12:06,750 - INFO - Bullish FVG detected for AAVEUSDT
+2025-09-24 01:12:06,750 - WARNING - Insufficient candles for BTCSTUSDT: 0
+2025-09-24 01:12:06,751 - INFO - Bullish FVG detected for STGUSDT
+2025-09-24 01:12:06,751 - INFO - Bullish FVG detected for GMXUSDT
+2025-09-24 01:12:06,752 - INFO - Bullish FVG detected for PERPUSDT
+2025-09-24 01:12:06,752 - INFO - Bearish FVG detected for DEGENUSDT
+2025-09-24 01:12:06,752 - INFO - Bullish FVG detected for ORCAUSDT
+2025-09-24 01:12:06,753 - INFO - Bearish FVG detected for KOMAUSDT
+2025-09-24 01:12:06,753 - INFO - Bullish FVG detected for MOCAUSDT
+2025-09-24 01:12:06,753 - INFO - Bullish FVG detected for VANAUSDT
+2025-09-24 01:12:06,754 - INFO - Bearish FVG detected for BIOUSDT
+2025-09-24 01:12:06,754 - INFO - Bullish FVG detected for SOLVUSDT
+2025-09-24 01:12:06,754 - INFO - Bearish FVG detected for VVVUSDT
+2025-09-24 01:12:06,754 - INFO - Bearish FVG detected for B3USDT
+2025-09-24 01:12:06,755 - INFO - Bearish FVG detected for IPUSDT
+2025-09-24 01:12:06,755 - INFO - Bearish FVG detected for FORMUSDT
+2025-09-24 01:12:06,755 - INFO - Bullish FVG detected for SIRENUSDT
+2025-09-24 01:12:06,755 - INFO - Bullish FVG detected for GUNUSDT
+2025-09-24 01:12:06,756 - INFO - Bullish FVG detected for SIGNUSDT
+2025-09-24 01:12:06,756 - INFO - Bullish FVG detected for AIOTUSDT
+2025-09-24 01:12:06,756 - INFO - Bearish FVG detected for DOLOUSDT
+2025-09-24 01:12:06,757 - INFO - Bullish FVG detected for MERLUSDT
+2025-09-24 01:12:06,757 - INFO - Bearish FVG detected for BDXNUSDT
+2025-09-24 01:12:06,757 - INFO - Bearish FVG detected for RESOLVUSDT
+2025-09-24 01:12:06,757 - INFO - Bearish FVG detected for HUSDT
+2025-09-24 01:12:06,758 - INFO - Bullish FVG detected for CROSSUSDT
+2025-09-24 01:12:06,758 - INFO - Bullish FVG detected for VELVETUSDT
+2025-09-24 01:12:06,758 - INFO - Bearish FVG detected for TAGUSDT
+2025-09-24 01:12:06,758 - INFO - Bullish FVG detected for A2ZUSDT
+2025-09-24 01:12:06,759 - INFO - Bullish FVG detected for DAMUSDT
+2025-09-24 01:12:06,759 - INFO - Bearish FVG detected for SOMIUSDT
+2025-09-24 01:12:06,759 - INFO - Bullish FVG detected for QUSDT
+2025-09-24 01:12:06,760 - INFO - Bullish FVG detected for ARIAUSDT
+2025-09-24 01:12:06,760 - INFO - Bullish FVG detected for FLOCKUSDT
+2025-09-24 01:12:06,761 - INFO - Bullish FVG detected for SKYUSDT
+2025-09-24 01:12:06,762 - INFO - Bullish FVG detected for TOSHIUSDT
+2025-09-24 01:12:06,762 - INFO - Bullish FVG detected for AIAUSDT
+2025-09-24 01:12:06,762 - INFO - Bullish FVG detected for BARDUSDT
+2025-09-24 01:12:06,763 - INFO - Bullish FVG detected for ASTERUSDT
+2025-09-24 01:12:06,763 - INFO - Bullish FVG detected for BLESSUSDT
+2025-09-24 01:12:07,636 - INFO - Scheduled job executed successfully
+2025-09-24 01:12:08,389 - INFO - Job "scheduled_job (trigger: interval[0:15:00], next run at: 2025-09-24 01:21:42 IST)" executed successfully
+2025-09-24 01:21:42,359 - INFO - Running job "ping_self (trigger: interval[0:15:00], next run at: 2025-09-24 01:36:42 IST)" (scheduled at 2025-09-24 01:21:42.323127+05:30)
+2025-09-24 01:21:42,362 - INFO - Running job "scheduled_job (trigger: interval[0:15:00], next run at: 2025-09-24 01:36:42 IST)" (scheduled at 2025-09-24 01:21:42.325206+05:30)
+2025-09-24 01:21:42,366 - INFO - Starting Binance FVG Screener...
+2025-09-24 01:21:43,784 - INFO - Fetched 544 USDT perpetual futures symbols
+2025-09-24 01:21:43,785 - INFO - Total symbols: 544
+2025-09-24 01:21:44,172 - INFO - Job "ping_self (trigger: interval[0:15:00], next run at: 2025-09-24 01:36:42 IST)" executed successfully
+2025-09-24 01:22:34,723 - ERROR - Error fetching klines for BTCSTUSDT: could not convert string to float: 'o'
+2025-09-24 01:27:00,432 - INFO - Bullish FVG detected for ZECUSDT
+2025-09-24 01:27:00,432 - INFO - Bullish FVG detected for AAVEUSDT
+2025-09-24 01:27:00,432 - WARNING - Insufficient candles for BTCSTUSDT: 0
+2025-09-24 01:27:00,433 - INFO - Bullish FVG detected for STGUSDT
+2025-09-24 01:27:00,433 - INFO - Bullish FVG detected for GMXUSDT
+2025-09-24 01:27:00,433 - INFO - Bullish FVG detected for PERPUSDT
+2025-09-24 01:27:00,434 - INFO - Bearish FVG detected for DEGENUSDT
+2025-09-24 01:27:00,434 - INFO - Bullish FVG detected for ORCAUSDT
+2025-09-24 01:27:00,434 - INFO - Bearish FVG detected for KOMAUSDT
+2025-09-24 01:27:00,434 - INFO - Bullish FVG detected for MOCAUSDT
+2025-09-24 01:27:00,434 - INFO - Bullish FVG detected for VANAUSDT
+2025-09-24 01:27:00,435 - INFO - Bearish FVG detected for BIOUSDT
+2025-09-24 01:27:00,435 - INFO - Bullish FVG detected for SOLVUSDT
+2025-09-24 01:27:00,435 - INFO - Bearish FVG detected for VVVUSDT
+2025-09-24 01:27:00,435 - INFO - Bearish FVG detected for B3USDT
+2025-09-24 01:27:00,436 - INFO - Bearish FVG detected for IPUSDT
+2025-09-24 01:27:00,436 - INFO - Bearish FVG detected for FORMUSDT
+2025-09-24 01:27:00,436 - INFO - Bullish FVG detected for SIRENUSDT
+2025-09-24 01:27:00,436 - INFO - Bullish FVG detected for GUNUSDT
+2025-09-24 01:27:00,437 - INFO - Bullish FVG detected for SIGNUSDT
+2025-09-24 01:27:00,437 - INFO - Bullish FVG detected for AIOTUSDT
+2025-09-24 01:27:00,437 - INFO - Bearish FVG detected for DOLOUSDT
+2025-09-24 01:27:00,437 - INFO - Bullish FVG detected for MERLUSDT
+2025-09-24 01:27:00,437 - INFO - Bearish FVG detected for BDXNUSDT
+2025-09-24 01:27:00,438 - INFO - Bearish FVG detected for RESOLVUSDT
+2025-09-24 01:27:00,438 - INFO - Bearish FVG detected for HUSDT
+2025-09-24 01:27:00,438 - INFO - Bullish FVG detected for CROSSUSDT
+2025-09-24 01:27:00,438 - INFO - Bullish FVG detected for VELVETUSDT
+2025-09-24 01:27:00,438 - INFO - Bearish FVG detected for TAGUSDT
+2025-09-24 01:27:00,439 - INFO - Bullish FVG detected for A2ZUSDT
+2025-09-24 01:27:00,439 - INFO - Bullish FVG detected for DAMUSDT
+2025-09-24 01:27:00,439 - INFO - Bearish FVG detected for SOMIUSDT
+2025-09-24 01:27:00,439 - INFO - Bullish FVG detected for QUSDT
+2025-09-24 01:27:00,439 - INFO - Bullish FVG detected for ARIAUSDT
+2025-09-24 01:27:00,439 - INFO - Bullish FVG detected for FLOCKUSDT
+2025-09-24 01:27:00,440 - INFO - Bullish FVG detected for SKYUSDT
+2025-09-24 01:27:00,440 - INFO - Bullish FVG detected for TOSHIUSDT
+2025-09-24 01:27:00,440 - INFO - Bullish FVG detected for AIAUSDT
+2025-09-24 01:27:00,440 - INFO - Bullish FVG detected for BARDUSDT
+2025-09-24 01:27:00,440 - INFO - Bullish FVG detected for ASTERUSDT
+2025-09-24 01:27:00,440 - INFO - Bullish FVG detected for BLESSUSDT
+2025-09-24 01:27:01,210 - INFO - Scheduled job executed successfully
+2025-09-24 01:27:01,990 - INFO - Job "scheduled_job (trigger: interval[0:15:00], next run at: 2025-09-24 01:36:42 IST)" executed successfully
+2025-09-24 01:36:42,379 - INFO - Running job "scheduled_job (trigger: interval[0:15:00], next run at: 2025-09-24 01:51:42 IST)" (scheduled at 2025-09-24 01:36:42.325206+05:30)
+2025-09-24 01:36:42,382 - INFO - Running job "ping_self (trigger: interval[0:15:00], next run at: 2025-09-24 01:51:42 IST)" (scheduled at 2025-09-24 01:36:42.323127+05:30)
+2025-09-24 01:36:42,386 - INFO - Starting Binance FVG Screener...
+2025-09-24 01:36:43,747 - INFO - Fetched 544 USDT perpetual futures symbols
+2025-09-24 01:36:43,748 - INFO - Total symbols: 544
+2025-09-24 01:36:44,332 - INFO - Job "ping_self (trigger: interval[0:15:00], next run at: 2025-09-24 01:51:42 IST)" executed successfully
+2025-09-24 01:37:19,004 - ERROR - Error fetching klines for BTCSTUSDT: could not convert string to float: 'o'
+2025-09-24 01:40:22,247 - INFO - Bearish FVG detected for BTCUSDT
+2025-09-24 01:40:22,248 - INFO - Bearish FVG detected for BCHUSDT
+2025-09-24 01:40:22,248 - INFO - Bearish FVG detected for LINKUSDT
+2025-09-24 01:40:22,248 - INFO - Bearish FVG detected for XLMUSDT
+2025-09-24 01:40:22,248 - INFO - Bearish FVG detected for ADAUSDT
+2025-09-24 01:40:22,248 - INFO - Bearish FVG detected for IOTAUSDT
+2025-09-24 01:40:22,249 - INFO - Bearish FVG detected for BATUSDT
+2025-09-24 01:40:22,249 - INFO - Bearish FVG detected for NEOUSDT
+2025-09-24 01:40:22,249 - INFO - Bearish FVG detected for ALGOUSDT
+2025-09-24 01:40:22,249 - INFO - Bearish FVG detected for ZILUSDT
+2025-09-24 01:40:22,250 - INFO - Bearish FVG detected for COMPUSDT
+2025-09-24 01:40:22,250 - INFO - Bearish FVG detected for DOTUSDT
+2025-09-24 01:40:22,250 - INFO - Bearish FVG detected for TRBUSDT
+2025-09-24 01:40:22,250 - INFO - Bearish FVG detected for RUNEUSDT
+2025-09-24 01:40:22,250 - INFO - Bearish FVG detected for EGLDUSDT
+2025-09-24 01:40:22,251 - INFO - Bearish FVG detected for SOLUSDT
+2025-09-24 01:40:22,251 - INFO - Bearish FVG detected for UNIUSDT
+2025-09-24 01:40:22,251 - INFO - Bearish FVG detected for AVAXUSDT
+2025-09-24 01:40:22,251 - INFO - Bearish FVG detected for ENJUSDT
+2025-09-24 01:40:22,251 - INFO - Bearish FVG detected for KSMUSDT
+2025-09-24 01:40:22,251 - INFO - Bearish FVG detected for NEARUSDT
+2025-09-24 01:40:22,252 - INFO - Bearish FVG detected for FILUSDT
+2025-09-24 01:40:22,252 - INFO - Bearish FVG detected for LRCUSDT
+2025-09-24 01:40:22,252 - INFO - Bearish FVG detected for SKLUSDT
+2025-09-24 01:40:22,252 - INFO - Bearish FVG detected for CHZUSDT
+2025-09-24 01:40:22,252 - INFO - Bearish FVG detected for ANKRUSDT
+2025-09-24 01:40:22,253 - WARNING - Insufficient candles for BTCSTUSDT: 0
+2025-09-24 01:40:22,253 - INFO - Bearish FVG detected for HBARUSDT
+2025-09-24 01:40:22,253 - INFO - Bearish FVG detected for DENTUSDT
+2025-09-24 01:40:22,253 - INFO - Bearish FVG detected for 1000SHIBUSDT
+2025-09-24 01:40:22,253 - INFO - Bearish FVG detected for BAKEUSDT
+2025-09-24 01:40:22,253 - INFO - Bearish FVG detected for MASKUSDT
+2025-09-24 01:40:22,254 - INFO - Bearish FVG detected for GALAUSDT
+2025-09-24 01:40:22,254 - INFO - Bearish FVG detected for CTSIUSDT
+2025-09-24 01:40:22,254 - INFO - Bearish FVG detected for LPTUSDT
+2025-09-24 01:40:22,254 - INFO - Bearish FVG detected for GMTUSDT
+2025-09-24 01:40:22,254 - INFO - Bearish FVG detected for APEUSDT
+2025-09-24 01:40:22,254 - INFO - Bearish FVG detected for OPUSDT
+2025-09-24 01:40:22,254 - INFO - Bearish FVG detected for INJUSDT
+2025-09-24 01:40:22,255 - INFO - Bullish FVG detected for STGUSDT
+2025-09-24 01:40:22,255 - INFO - Bearish FVG detected for 1000LUNCUSDT
+2025-09-24 01:40:22,255 - INFO - Bearish FVG detected for APTUSDT
+2025-09-24 01:40:22,255 - INFO - Bearish FVG detected for HOOKUSDT
+2025-09-24 01:40:22,255 - INFO - Bearish FVG detected for MAGICUSDT
+2025-09-24 01:40:22,255 - INFO - Bearish FVG detected for MINAUSDT
+2025-09-24 01:40:22,255 - INFO - Bearish FVG detected for STXUSDT
+2025-09-24 01:40:22,256 - INFO - Bullish FVG detected for PERPUSDT
+2025-09-24 01:40:22,256 - INFO - Bearish FVG detected for TRUUSDT
+2025-09-24 01:40:22,256 - INFO - Bullish FVG detected for USDCUSDT
+2025-09-24 01:40:22,256 - INFO - Bearish FVG detected for RDNTUSDT
+2025-09-24 01:40:22,256 - INFO - Bearish FVG detected for HFTUSDT
+2025-09-24 01:40:22,256 - INFO - Bearish FVG detected for SUIUSDT
+2025-09-24 01:40:22,256 - INFO - Bearish FVG detected for MAVUSDT
+2025-09-24 01:40:22,257 - INFO - Bearish FVG detected for WLDUSDT
+2025-09-24 01:40:22,257 - INFO - Bearish FVG detected for PENDLEUSDT
+2025-09-24 01:40:22,257 - INFO - Bearish FVG detected for ARKMUSDT
+2025-09-24 01:40:22,257 - INFO - Bearish FVG detected for BNTUSDT
+2025-09-24 01:40:22,257 - INFO - Bearish FVG detected for SEIUSDT
+2025-09-24 01:40:22,257 - INFO - Bearish FVG detected for CYBERUSDT
+2025-09-24 01:40:22,257 - INFO - Bearish FVG detected for BICOUSDT
+2025-09-24 01:40:22,257 - INFO - Bearish FVG detected for WAXPUSDT
+2025-09-24 01:40:22,258 - INFO - Bearish FVG detected for TOKENUSDT
+2025-09-24 01:40:22,258 - INFO - Bearish FVG detected for ORDIUSDT
+2025-09-24 01:40:22,258 - INFO - Bearish FVG detected for STEEMUSDT
+2025-09-24 01:40:22,258 - INFO - Bearish FVG detected for KASUSDT
+2025-09-24 01:40:22,258 - INFO - Bearish FVG detected for USTCUSDT
+2025-09-24 01:40:22,258 - INFO - Bearish FVG detected for 1000SATSUSDT
+2025-09-24 01:40:22,258 - INFO - Bearish FVG detected for ACEUSDT
+2025-09-24 01:40:22,258 - INFO - Bearish FVG detected for MOVRUSDT
+2025-09-24 01:40:22,259 - INFO - Bearish FVG detected for WIFUSDT
+2025-09-24 01:40:22,259 - INFO - Bearish FVG detected for ONDOUSDT
+2025-09-24 01:40:22,259 - INFO - Bearish FVG detected for JUPUSDT
+2025-09-24 01:40:22,259 - INFO - Bearish FVG detected for RONINUSDT
+2025-09-24 01:40:22,259 - INFO - Bearish FVG detected for STRKUSDT
+2025-09-24 01:40:22,259 - INFO - Bearish FVG detected for MYROUSDT
+2025-09-24 01:40:22,259 - INFO - Bearish FVG detected for METISUSDT
+2025-09-24 01:40:22,259 - INFO - Bearish FVG detected for AEVOUSDT
+2025-09-24 01:40:22,260 - INFO - Bearish FVG detected for VANRYUSDT
+2025-09-24 01:40:22,260 - INFO - Bearish FVG detected for ENAUSDT
+2025-09-24 01:40:22,260 - INFO - Bearish FVG detected for WUSDT
+2025-09-24 01:40:22,262 - INFO - Bearish FVG detected for TNSRUSDT
+2025-09-24 01:40:22,262 - INFO - Bearish FVG detected for TAOUSDT
+2025-09-24 01:40:22,262 - INFO - Bearish FVG detected for IOUSDT
+2025-09-24 01:40:22,263 - INFO - Bullish FVG detected for ZROUSDT
+2025-09-24 01:40:22,263 - INFO - Bearish FVG detected for RENDERUSDT
+2025-09-24 01:40:22,263 - INFO - Bearish FVG detected for POPCATUSDT
+2025-09-24 01:40:22,263 - INFO - Bearish FVG detected for NEIROETHUSDT
+2025-09-24 01:40:22,264 - INFO - Bearish FVG detected for POLUSDT
+2025-09-24 01:40:22,264 - INFO - Bearish FVG detected for DRIFTUSDT
+2025-09-24 01:40:22,264 - INFO - Bearish FVG detected for AKTUSDT
+2025-09-24 01:40:22,264 - INFO - Bearish FVG detected for SLERFUSDT
+2025-09-24 01:40:22,265 - INFO - Bearish FVG detected for SCRTUSDT
+2025-09-24 01:40:22,265 - INFO - Bearish FVG detected for MORPHOUSDT
+2025-09-24 01:40:22,265 - INFO - Bearish FVG detected for KAIAUSDT
+2025-09-24 01:40:22,265 - INFO - Bearish FVG detected for RAYSOLUSDT
+2025-09-24 01:40:22,266 - INFO - Bearish FVG detected for KOMAUSDT
+2025-09-24 01:40:22,266 - INFO - Bearish FVG detected for VIRTUALUSDT
+2025-09-24 01:40:22,266 - INFO - Bearish FVG detected for SPXUSDT
+2025-09-24 01:40:22,267 - INFO - Bearish FVG detected for PENGUUSDT
+2025-09-24 01:40:22,267 - INFO - Bearish FVG detected for FARTCOINUSDT
+2025-09-24 01:40:22,267 - INFO - Bearish FVG detected for ZEREBROUSDT
+2025-09-24 01:40:22,267 - INFO - Bearish FVG detected for ARCUSDT
+2025-09-24 01:40:22,267 - INFO - Bearish FVG detected for TRUMPUSDT
+2025-09-24 01:40:22,268 - INFO - Bearish FVG detected for VVVUSDT
+2025-09-24 01:40:22,268 - INFO - Bullish FVG detected for BERAUSDT
+2025-09-24 01:40:22,268 - INFO - Bearish FVG detected for IPUSDT
+2025-09-24 01:40:22,268 - INFO - Bearish FVG detected for SHELLUSDT
+2025-09-24 01:40:22,268 - INFO - Bearish FVG detected for MUBARAKUSDT
+2025-09-24 01:40:22,269 - INFO - Bearish FVG detected for BROCCOLI714USDT
+2025-09-24 01:40:22,269 - INFO - Bearish FVG detected for WALUSDT
+2025-09-24 01:40:22,269 - INFO - Bearish FVG detected for MLNUSDT
+2025-09-24 01:40:22,269 - INFO - Bearish FVG detected for ATHUSDT
+2025-09-24 01:40:22,269 - INFO - Bearish FVG detected for PROMPTUSDT
+2025-09-24 01:40:22,269 - INFO - Bearish FVG detected for INITUSDT
+2025-09-24 01:40:22,270 - INFO - Bearish FVG detected for BANKUSDT
+2025-09-24 01:40:22,270 - INFO - Bearish FVG detected for EPTUSDT
+2025-09-24 01:40:22,270 - INFO - Bearish FVG detected for DEEPUSDT
+2025-09-24 01:40:22,270 - INFO - Bearish FVG detected for DOLOUSDT
+2025-09-24 01:40:22,270 - INFO - Bearish FVG detected for B2USDT
+2025-09-24 01:40:22,270 - INFO - Bearish FVG detected for SKYAIUSDT
+2025-09-24 01:40:22,270 - INFO - Bearish FVG detected for AUSDT
+2025-09-24 01:40:22,271 - INFO - Bearish FVG detected for HYPEUSDT
+2025-09-24 01:40:22,271 - INFO - Bearish FVG detected for HOMEUSDT
+2025-09-24 01:40:22,271 - INFO - Bearish FVG detected for RESOLVUSDT
+2025-09-24 01:40:22,271 - INFO - Bearish FVG detected for SQDUSDT
+2025-09-24 01:40:22,271 - INFO - Bearish FVG detected for MYXUSDT
+2025-09-24 01:40:22,271 - INFO - Bearish FVG detected for FUSDT
+2025-09-24 01:40:22,271 - INFO - Bearish FVG detected for HUSDT
+2025-09-24 01:40:22,272 - INFO - Bearish FVG detected for ICNTUSDT
+2025-09-24 01:40:22,272 - INFO - Bearish FVG detected for MUSDT
+2025-09-24 01:40:22,272 - INFO - Bearish FVG detected for TANSSIUSDT
+2025-09-24 01:40:22,272 - INFO - Bearish FVG detected for AINUSDT
+2025-09-24 01:40:22,272 - INFO - Bearish FVG detected for TAUSDT
+2025-09-24 01:40:22,272 - INFO - Bearish FVG detected for CVXUSDT
+2025-09-24 01:40:22,272 - INFO - Bearish FVG detected for ZORAUSDT
+2025-09-24 01:40:22,272 - INFO - Bullish FVG detected for ESPORTSUSDT
+2025-09-24 01:40:22,273 - INFO - Bearish FVG detected for CARVUSDT
+2025-09-24 01:40:22,273 - INFO - Bearish FVG detected for USELESSUSDT
+2025-09-24 01:40:22,273 - INFO - Bearish FVG detected for BTRUSDT
+2025-09-24 01:40:22,273 - INFO - Bullish FVG detected for QUSDT
+2025-09-24 01:40:22,273 - INFO - Bearish FVG detected for PTBUSDT
+2025-09-24 01:40:22,273 - INFO - Bullish FVG detected for FLOCKUSDT
+2025-09-24 01:40:22,274 - INFO - Bullish FVG detected for ZKCUSDT
+2025-09-24 01:40:22,274 - INFO - Bullish FVG detected for BARDUSDT
+2025-09-24 01:40:23,170 - INFO - Scheduled job executed successfully
+2025-09-24 01:40:23,996 - INFO - Job "scheduled_job (trigger: interval[0:15:00], next run at: 2025-09-24 01:51:42 IST)" executed successfully
+2025-09-24 01:51:42,347 - INFO - Running job "ping_self (trigger: interval[0:15:00], next run at: 2025-09-24 02:06:42 IST)" (scheduled at 2025-09-24 01:51:42.323127+05:30)
+2025-09-24 01:51:42,348 - INFO - Running job "scheduled_job (trigger: interval[0:15:00], next run at: 2025-09-24 02:06:42 IST)" (scheduled at 2025-09-24 01:51:42.325206+05:30)
+2025-09-24 01:51:42,349 - INFO - Starting Binance FVG Screener...
+2025-09-24 01:51:44,055 - INFO - Fetched 544 USDT perpetual futures symbols
+2025-09-24 01:51:44,057 - INFO - Total symbols: 544
+2025-09-24 01:51:44,363 - INFO - Job "ping_self (trigger: interval[0:15:00], next run at: 2025-09-24 02:06:42 IST)" executed successfully
+2025-09-24 01:52:27,739 - ERROR - Error fetching klines for BTCSTUSDT: could not convert string to float: 'o'
+2025-09-24 01:55:16,593 - INFO - Bearish FVG detected for BTCUSDT
+2025-09-24 01:55:16,593 - INFO - Bearish FVG detected for BCHUSDT
+2025-09-24 01:55:16,594 - INFO - Bearish FVG detected for LINKUSDT
+2025-09-24 01:55:16,594 - INFO - Bearish FVG detected for XLMUSDT
+2025-09-24 01:55:16,594 - INFO - Bearish FVG detected for ADAUSDT
+2025-09-24 01:55:16,594 - INFO - Bearish FVG detected for IOTAUSDT
+2025-09-24 01:55:16,595 - INFO - Bearish FVG detected for NEOUSDT
+2025-09-24 01:55:16,595 - INFO - Bearish FVG detected for ALGOUSDT
+2025-09-24 01:55:16,595 - INFO - Bearish FVG detected for ZILUSDT
+2025-09-24 01:55:16,595 - INFO - Bearish FVG detected for COMPUSDT
+2025-09-24 01:55:16,596 - INFO - Bearish FVG detected for DOTUSDT
+2025-09-24 01:55:16,596 - INFO - Bearish FVG detected for TRBUSDT
+2025-09-24 01:55:16,596 - INFO - Bearish FVG detected for RUNEUSDT
+2025-09-24 01:55:16,596 - INFO - Bearish FVG detected for EGLDUSDT
+2025-09-24 01:55:16,596 - INFO - Bearish FVG detected for SOLUSDT
+2025-09-24 01:55:16,597 - INFO - Bearish FVG detected for UNIUSDT
+2025-09-24 01:55:16,597 - INFO - Bearish FVG detected for AVAXUSDT
+2025-09-24 01:55:16,597 - INFO - Bearish FVG detected for ENJUSDT
+2025-09-24 01:55:16,597 - INFO - Bearish FVG detected for NEARUSDT
+2025-09-24 01:55:16,597 - INFO - Bearish FVG detected for FILUSDT
+2025-09-24 01:55:16,598 - INFO - Bearish FVG detected for LRCUSDT
+2025-09-24 01:55:16,598 - INFO - Bearish FVG detected for SKLUSDT
+2025-09-24 01:55:16,598 - INFO - Bearish FVG detected for CHZUSDT
+2025-09-24 01:55:16,598 - INFO - Bearish FVG detected for ANKRUSDT
+2025-09-24 01:55:16,598 - WARNING - Insufficient candles for BTCSTUSDT: 0
+2025-09-24 01:55:16,599 - INFO - Bearish FVG detected for HBARUSDT
+2025-09-24 01:55:16,599 - INFO - Bearish FVG detected for 1000SHIBUSDT
+2025-09-24 01:55:16,599 - INFO - Bearish FVG detected for BAKEUSDT
+2025-09-24 01:55:16,599 - INFO - Bearish FVG detected for MASKUSDT
+2025-09-24 01:55:16,599 - INFO - Bearish FVG detected for GALAUSDT
+2025-09-24 01:55:16,599 - INFO - Bearish FVG detected for CTSIUSDT
+2025-09-24 01:55:16,600 - INFO - Bearish FVG detected for LPTUSDT
+2025-09-24 01:55:16,600 - INFO - Bearish FVG detected for APEUSDT
+2025-09-24 01:55:16,600 - INFO - Bearish FVG detected for OPUSDT
+2025-09-24 01:55:16,600 - INFO - Bearish FVG detected for INJUSDT
+2025-09-24 01:55:16,600 - INFO - Bullish FVG detected for STGUSDT
+2025-09-24 01:55:16,600 - INFO - Bearish FVG detected for 1000LUNCUSDT
+2025-09-24 01:55:16,601 - INFO - Bearish FVG detected for HOOKUSDT
+2025-09-24 01:55:16,601 - INFO - Bearish FVG detected for MAGICUSDT
+2025-09-24 01:55:16,601 - INFO - Bearish FVG detected for MINAUSDT
+2025-09-24 01:55:16,601 - INFO - Bearish FVG detected for STXUSDT
+2025-09-24 01:55:16,601 - INFO - Bullish FVG detected for PERPUSDT
+2025-09-24 01:55:16,601 - INFO - Bearish FVG detected for TRUUSDT
+2025-09-24 01:55:16,601 - INFO - Bullish FVG detected for USDCUSDT
+2025-09-24 01:55:16,601 - INFO - Bearish FVG detected for RDNTUSDT
+2025-09-24 01:55:16,602 - INFO - Bearish FVG detected for MAVUSDT
+2025-09-24 01:55:16,602 - INFO - Bearish FVG detected for WLDUSDT
+2025-09-24 01:55:16,602 - INFO - Bearish FVG detected for PENDLEUSDT
+2025-09-24 01:55:16,602 - INFO - Bearish FVG detected for ARKMUSDT
+2025-09-24 01:55:16,602 - INFO - Bearish FVG detected for BNTUSDT
+2025-09-24 01:55:16,602 - INFO - Bearish FVG detected for SEIUSDT
+2025-09-24 01:55:16,602 - INFO - Bearish FVG detected for CYBERUSDT
+2025-09-24 01:55:16,602 - INFO - Bearish FVG detected for WAXPUSDT
+2025-09-24 01:55:16,603 - INFO - Bearish FVG detected for TOKENUSDT
+2025-09-24 01:55:16,603 - INFO - Bearish FVG detected for ORDIUSDT
+2025-09-24 01:55:16,603 - INFO - Bearish FVG detected for STEEMUSDT
+2025-09-24 01:55:16,603 - INFO - Bearish FVG detected for KASUSDT
+2025-09-24 01:55:16,603 - INFO - Bearish FVG detected for USTCUSDT
+2025-09-24 01:55:16,603 - INFO - Bearish FVG detected for 1000SATSUSDT
+2025-09-24 01:55:16,603 - INFO - Bearish FVG detected for ACEUSDT
+2025-09-24 01:55:16,603 - INFO - Bearish FVG detected for MOVRUSDT
+2025-09-24 01:55:16,604 - INFO - Bearish FVG detected for WIFUSDT
+2025-09-24 01:55:16,604 - INFO - Bearish FVG detected for ONDOUSDT
+2025-09-24 01:55:16,604 - INFO - Bearish FVG detected for JUPUSDT
+2025-09-24 01:55:16,604 - INFO - Bearish FVG detected for RONINUSDT
+2025-09-24 01:55:16,604 - INFO - Bearish FVG detected for STRKUSDT
+2025-09-24 01:55:16,604 - INFO - Bearish FVG detected for METISUSDT
+2025-09-24 01:55:16,604 - INFO - Bearish FVG detected for AEVOUSDT
+2025-09-24 01:55:16,604 - INFO - Bearish FVG detected for VANRYUSDT
+2025-09-24 01:55:16,605 - INFO - Bearish FVG detected for ENAUSDT
+2025-09-24 01:55:16,605 - INFO - Bearish FVG detected for WUSDT
+2025-09-24 01:55:16,605 - INFO - Bearish FVG detected for TNSRUSDT
+2025-09-24 01:55:16,605 - INFO - Bearish FVG detected for TAOUSDT
+2025-09-24 01:55:16,605 - INFO - Bearish FVG detected for IOUSDT
+2025-09-24 01:55:16,605 - INFO - Bullish FVG detected for ZROUSDT
+2025-09-24 01:55:16,605 - INFO - Bearish FVG detected for RENDERUSDT
+2025-09-24 01:55:16,606 - INFO - Bearish FVG detected for POPCATUSDT
+2025-09-24 01:55:16,606 - INFO - Bearish FVG detected for NEIROETHUSDT
+2025-09-24 01:55:16,606 - INFO - Bearish FVG detected for POLUSDT
+2025-09-24 01:55:16,606 - INFO - Bearish FVG detected for DRIFTUSDT
+2025-09-24 01:55:16,606 - INFO - Bearish FVG detected for AKTUSDT
+2025-09-24 01:55:16,606 - INFO - Bearish FVG detected for SLERFUSDT
+2025-09-24 01:55:16,606 - INFO - Bearish FVG detected for SCRTUSDT
+2025-09-24 01:55:16,607 - INFO - Bearish FVG detected for MORPHOUSDT
+2025-09-24 01:55:16,607 - INFO - Bearish FVG detected for KAIAUSDT
+2025-09-24 01:55:16,607 - INFO - Bearish FVG detected for RAYSOLUSDT
+2025-09-24 01:55:16,607 - INFO - Bearish FVG detected for KOMAUSDT
+2025-09-24 01:55:16,607 - INFO - Bearish FVG detected for VIRTUALUSDT
+2025-09-24 01:55:16,607 - INFO - Bearish FVG detected for SPXUSDT
+2025-09-24 01:55:16,608 - INFO - Bearish FVG detected for FARTCOINUSDT
+2025-09-24 01:55:16,608 - INFO - Bearish FVG detected for ZEREBROUSDT
+2025-09-24 01:55:16,608 - INFO - Bearish FVG detected for ARCUSDT
+2025-09-24 01:55:16,608 - INFO - Bearish FVG detected for TRUMPUSDT
+2025-09-24 01:55:16,608 - INFO - Bearish FVG detected for VVVUSDT
+2025-09-24 01:55:16,608 - INFO - Bullish FVG detected for BERAUSDT
+2025-09-24 01:55:16,608 - INFO - Bearish FVG detected for IPUSDT
+2025-09-24 01:55:16,609 - INFO - Bearish FVG detected for SHELLUSDT
+2025-09-24 01:55:16,609 - INFO - Bearish FVG detected for MUBARAKUSDT
+2025-09-24 01:55:16,609 - INFO - Bearish FVG detected for BROCCOLI714USDT
+2025-09-24 01:55:16,609 - INFO - Bearish FVG detected for WALUSDT
+2025-09-24 01:55:16,609 - INFO - Bearish FVG detected for MLNUSDT
+2025-09-24 01:55:16,609 - INFO - Bearish FVG detected for ATHUSDT
+2025-09-24 01:55:16,609 - INFO - Bearish FVG detected for PROMPTUSDT
+2025-09-24 01:55:16,610 - INFO - Bearish FVG detected for BANKUSDT
+2025-09-24 01:55:16,610 - INFO - Bearish FVG detected for EPTUSDT
+2025-09-24 01:55:16,610 - INFO - Bearish FVG detected for DEEPUSDT
+2025-09-24 01:55:16,610 - INFO - Bearish FVG detected for DOLOUSDT
+2025-09-24 01:55:16,610 - INFO - Bearish FVG detected for B2USDT
+2025-09-24 01:55:16,610 - INFO - Bearish FVG detected for SKYAIUSDT
+2025-09-24 01:55:16,610 - INFO - Bearish FVG detected for AUSDT
+2025-09-24 01:55:16,611 - INFO - Bearish FVG detected for HYPEUSDT
+2025-09-24 01:55:16,611 - INFO - Bearish FVG detected for HOMEUSDT
+2025-09-24 01:55:16,611 - INFO - Bearish FVG detected for RESOLVUSDT
+2025-09-24 01:55:16,611 - INFO - Bearish FVG detected for SQDUSDT
+2025-09-24 01:55:16,611 - INFO - Bearish FVG detected for MYXUSDT
+2025-09-24 01:55:16,611 - INFO - Bearish FVG detected for FUSDT
+2025-09-24 01:55:16,611 - INFO - Bearish FVG detected for HUSDT
+2025-09-24 01:55:16,611 - INFO - Bearish FVG detected for ICNTUSDT
+2025-09-24 01:55:16,612 - INFO - Bearish FVG detected for MUSDT
+2025-09-24 01:55:16,612 - INFO - Bearish FVG detected for TANSSIUSDT
+2025-09-24 01:55:16,612 - INFO - Bearish FVG detected for AINUSDT
+2025-09-24 01:55:16,612 - INFO - Bearish FVG detected for TAUSDT
+2025-09-24 01:55:16,612 - INFO - Bearish FVG detected for CVXUSDT
+2025-09-24 01:55:16,612 - INFO - Bearish FVG detected for ZORAUSDT
+2025-09-24 01:55:16,612 - INFO - Bullish FVG detected for ESPORTSUSDT
+2025-09-24 01:55:16,613 - INFO - Bearish FVG detected for CARVUSDT
+2025-09-24 01:55:16,613 - INFO - Bearish FVG detected for USELESSUSDT
+2025-09-24 01:55:16,613 - INFO - Bearish FVG detected for BTRUSDT
+2025-09-24 01:55:16,613 - INFO - Bullish FVG detected for QUSDT
+2025-09-24 01:55:16,613 - INFO - Bearish FVG detected for PTBUSDT
+2025-09-24 01:55:16,613 - INFO - Bullish FVG detected for FLOCKUSDT
+2025-09-24 01:55:16,613 - INFO - Bullish FVG detected for ZKCUSDT
+2025-09-24 01:55:16,614 - INFO - Bullish FVG detected for BARDUSDT
+2025-09-24 01:55:17,433 - INFO - Scheduled job executed successfully
+2025-09-24 01:55:18,174 - INFO - Job "scheduled_job (trigger: interval[0:15:00], next run at: 2025-09-24 02:06:42 IST)" executed successfully
+2025-09-24 02:06:42,345 - INFO - Running job "scheduled_job (trigger: interval[0:15:00], next run at: 2025-09-24 02:21:42 IST)" (scheduled at 2025-09-24 02:06:42.325206+05:30)
+2025-09-24 02:06:42,345 - INFO - Running job "ping_self (trigger: interval[0:15:00], next run at: 2025-09-24 02:21:42 IST)" (scheduled at 2025-09-24 02:06:42.323127+05:30)
+2025-09-24 02:06:42,346 - INFO - Starting Binance FVG Screener...
+2025-09-24 02:06:43,963 - INFO - Fetched 544 USDT perpetual futures symbols
+2025-09-24 02:06:43,964 - INFO - Total symbols: 544
+2025-09-24 02:06:44,168 - INFO - Job "ping_self (trigger: interval[0:15:00], next run at: 2025-09-24 02:21:42 IST)" executed successfully
+2025-09-24 02:07:13,453 - ERROR - Error fetching klines for BTCSTUSDT: could not convert string to float: 'o'
+2025-09-24 02:11:09,885 - INFO - Bearish FVG detected for BTCUSDT
+2025-09-24 02:11:09,885 - INFO - Bearish FVG detected for BCHUSDT
+2025-09-24 02:11:09,885 - INFO - Bearish FVG detected for LINKUSDT
+2025-09-24 02:11:09,886 - INFO - Bearish FVG detected for XLMUSDT
+2025-09-24 02:11:09,886 - INFO - Bearish FVG detected for ADAUSDT
+2025-09-24 02:11:09,886 - INFO - Bearish FVG detected for IOTAUSDT
+2025-09-24 02:11:09,886 - INFO - Bearish FVG detected for NEOUSDT
+2025-09-24 02:11:09,887 - INFO - Bearish FVG detected for ALGOUSDT
+2025-09-24 02:11:09,887 - INFO - Bearish FVG detected for ZILUSDT
+2025-09-24 02:11:09,887 - INFO - Bearish FVG detected for COMPUSDT
+2025-09-24 02:11:09,887 - INFO - Bearish FVG detected for DOTUSDT
+2025-09-24 02:11:09,887 - INFO - Bearish FVG detected for TRBUSDT
+2025-09-24 02:11:09,888 - INFO - Bearish FVG detected for RUNEUSDT
+2025-09-24 02:11:09,888 - INFO - Bearish FVG detected for EGLDUSDT
+2025-09-24 02:11:09,888 - INFO - Bearish FVG detected for SOLUSDT
+2025-09-24 02:11:09,888 - INFO - Bearish FVG detected for UNIUSDT
+2025-09-24 02:11:09,889 - INFO - Bearish FVG detected for AVAXUSDT
+2025-09-24 02:11:09,889 - INFO - Bearish FVG detected for ENJUSDT
+2025-09-24 02:11:09,889 - INFO - Bearish FVG detected for NEARUSDT
+2025-09-24 02:11:09,889 - INFO - Bearish FVG detected for FILUSDT
+2025-09-24 02:11:09,889 - INFO - Bearish FVG detected for LRCUSDT
+2025-09-24 02:11:09,889 - INFO - Bearish FVG detected for SKLUSDT
+2025-09-24 02:11:09,890 - INFO - Bearish FVG detected for CHZUSDT
+2025-09-24 02:11:09,890 - INFO - Bearish FVG detected for ANKRUSDT
+2025-09-24 02:11:09,890 - WARNING - Insufficient candles for BTCSTUSDT: 0
+2025-09-24 02:11:09,890 - INFO - Bearish FVG detected for HBARUSDT
+2025-09-24 02:11:09,890 - INFO - Bearish FVG detected for 1000SHIBUSDT
+2025-09-24 02:11:09,891 - INFO - Bearish FVG detected for BAKEUSDT
+2025-09-24 02:11:09,891 - INFO - Bearish FVG detected for MASKUSDT
+2025-09-24 02:11:09,891 - INFO - Bearish FVG detected for GALAUSDT
+2025-09-24 02:11:09,891 - INFO - Bearish FVG detected for CTSIUSDT
+2025-09-24 02:11:09,891 - INFO - Bearish FVG detected for LPTUSDT
+2025-09-24 02:11:09,891 - INFO - Bearish FVG detected for APEUSDT
+2025-09-24 02:11:09,892 - INFO - Bearish FVG detected for OPUSDT
+2025-09-24 02:11:09,892 - INFO - Bearish FVG detected for INJUSDT
+2025-09-24 02:11:09,892 - INFO - Bullish FVG detected for STGUSDT
+2025-09-24 02:11:09,892 - INFO - Bearish FVG detected for 1000LUNCUSDT
+2025-09-24 02:11:09,892 - INFO - Bearish FVG detected for HOOKUSDT
+2025-09-24 02:11:09,892 - INFO - Bearish FVG detected for MAGICUSDT
+2025-09-24 02:11:09,892 - INFO - Bearish FVG detected for MINAUSDT
+2025-09-24 02:11:09,893 - INFO - Bearish FVG detected for STXUSDT
+2025-09-24 02:11:09,893 - INFO - Bullish FVG detected for PERPUSDT
+2025-09-24 02:11:09,893 - INFO - Bearish FVG detected for TRUUSDT
+2025-09-24 02:11:09,893 - INFO - Bullish FVG detected for USDCUSDT
+2025-09-24 02:11:09,893 - INFO - Bearish FVG detected for RDNTUSDT
+2025-09-24 02:11:09,893 - INFO - Bearish FVG detected for MAVUSDT
+2025-09-24 02:11:09,893 - INFO - Bearish FVG detected for WLDUSDT
+2025-09-24 02:11:09,893 - INFO - Bearish FVG detected for PENDLEUSDT
+2025-09-24 02:11:09,894 - INFO - Bearish FVG detected for ARKMUSDT
+2025-09-24 02:11:09,894 - INFO - Bearish FVG detected for BNTUSDT
+2025-09-24 02:11:09,894 - INFO - Bearish FVG detected for SEIUSDT
+2025-09-24 02:11:09,894 - INFO - Bearish FVG detected for CYBERUSDT
+2025-09-24 02:11:09,894 - INFO - Bearish FVG detected for WAXPUSDT
+2025-09-24 02:11:09,894 - INFO - Bearish FVG detected for TOKENUSDT
+2025-09-24 02:11:09,894 - INFO - Bearish FVG detected for ORDIUSDT
+2025-09-24 02:11:09,894 - INFO - Bearish FVG detected for STEEMUSDT
+2025-09-24 02:11:09,895 - INFO - Bearish FVG detected for KASUSDT
+2025-09-24 02:11:09,895 - INFO - Bearish FVG detected for USTCUSDT
+2025-09-24 02:11:09,895 - INFO - Bearish FVG detected for 1000SATSUSDT
+2025-09-24 02:11:09,895 - INFO - Bearish FVG detected for ACEUSDT
+2025-09-24 02:11:09,895 - INFO - Bearish FVG detected for MOVRUSDT
+2025-09-24 02:11:09,895 - INFO - Bearish FVG detected for WIFUSDT
+2025-09-24 02:11:09,895 - INFO - Bearish FVG detected for ONDOUSDT
+2025-09-24 02:11:09,895 - INFO - Bearish FVG detected for JUPUSDT
+2025-09-24 02:11:09,896 - INFO - Bearish FVG detected for RONINUSDT
+2025-09-24 02:11:09,896 - INFO - Bearish FVG detected for STRKUSDT
+2025-09-24 02:11:09,896 - INFO - Bearish FVG detected for METISUSDT
+2025-09-24 02:11:09,896 - INFO - Bearish FVG detected for AEVOUSDT
+2025-09-24 02:11:09,896 - INFO - Bearish FVG detected for VANRYUSDT
+2025-09-24 02:11:09,896 - INFO - Bearish FVG detected for ENAUSDT
+2025-09-24 02:11:09,896 - INFO - Bearish FVG detected for WUSDT
+2025-09-24 02:11:09,897 - INFO - Bearish FVG detected for TNSRUSDT
+2025-09-24 02:11:09,897 - INFO - Bearish FVG detected for TAOUSDT
+2025-09-24 02:11:09,897 - INFO - Bearish FVG detected for IOUSDT
+2025-09-24 02:11:09,897 - INFO - Bullish FVG detected for ZROUSDT
+2025-09-24 02:11:09,897 - INFO - Bearish FVG detected for RENDERUSDT
+2025-09-24 02:11:09,897 - INFO - Bearish FVG detected for POPCATUSDT
+2025-09-24 02:11:09,898 - INFO - Bearish FVG detected for NEIROETHUSDT
+2025-09-24 02:11:09,898 - INFO - Bearish FVG detected for POLUSDT
+2025-09-24 02:11:09,898 - INFO - Bearish FVG detected for DRIFTUSDT
+2025-09-24 02:11:09,898 - INFO - Bearish FVG detected for AKTUSDT
+2025-09-24 02:11:09,898 - INFO - Bearish FVG detected for SLERFUSDT
+2025-09-24 02:11:09,899 - INFO - Bearish FVG detected for SCRTUSDT
+2025-09-24 02:11:09,899 - INFO - Bearish FVG detected for MORPHOUSDT
+2025-09-24 02:11:09,899 - INFO - Bearish FVG detected for KAIAUSDT
+2025-09-24 02:11:09,899 - INFO - Bearish FVG detected for RAYSOLUSDT
+2025-09-24 02:11:09,899 - INFO - Bearish FVG detected for KOMAUSDT
+2025-09-24 02:11:09,899 - INFO - Bearish FVG detected for VIRTUALUSDT
+2025-09-24 02:11:09,899 - INFO - Bearish FVG detected for SPXUSDT
+2025-09-24 02:11:09,900 - INFO - Bearish FVG detected for FARTCOINUSDT
+2025-09-24 02:11:09,900 - INFO - Bearish FVG detected for ZEREBROUSDT
+2025-09-24 02:11:09,900 - INFO - Bearish FVG detected for ARCUSDT
+2025-09-24 02:11:09,900 - INFO - Bearish FVG detected for TRUMPUSDT
+2025-09-24 02:11:09,900 - INFO - Bearish FVG detected for VVVUSDT
+2025-09-24 02:11:09,900 - INFO - Bullish FVG detected for BERAUSDT
+2025-09-24 02:11:09,900 - INFO - Bearish FVG detected for IPUSDT
+2025-09-24 02:11:09,901 - INFO - Bearish FVG detected for SHELLUSDT
+2025-09-24 02:11:09,901 - INFO - Bearish FVG detected for MUBARAKUSDT
+2025-09-24 02:11:09,901 - INFO - Bearish FVG detected for BROCCOLI714USDT
+2025-09-24 02:11:09,901 - INFO - Bearish FVG detected for WALUSDT
+2025-09-24 02:11:09,901 - INFO - Bearish FVG detected for MLNUSDT
+2025-09-24 02:11:09,901 - INFO - Bearish FVG detected for ATHUSDT
+2025-09-24 02:11:09,901 - INFO - Bearish FVG detected for PROMPTUSDT
+2025-09-24 02:11:09,902 - INFO - Bearish FVG detected for BANKUSDT
+2025-09-24 02:11:09,902 - INFO - Bearish FVG detected for EPTUSDT
+2025-09-24 02:11:09,902 - INFO - Bearish FVG detected for DEEPUSDT
+2025-09-24 02:11:09,902 - INFO - Bearish FVG detected for DOLOUSDT
+2025-09-24 02:11:09,902 - INFO - Bearish FVG detected for B2USDT
+2025-09-24 02:11:09,902 - INFO - Bearish FVG detected for SKYAIUSDT
+2025-09-24 02:11:09,902 - INFO - Bearish FVG detected for AUSDT
+2025-09-24 02:11:09,903 - INFO - Bearish FVG detected for HYPEUSDT
+2025-09-24 02:11:09,903 - INFO - Bearish FVG detected for HOMEUSDT
+2025-09-24 02:11:09,903 - INFO - Bearish FVG detected for RESOLVUSDT
+2025-09-24 02:11:09,903 - INFO - Bearish FVG detected for SQDUSDT
+2025-09-24 02:11:09,903 - INFO - Bearish FVG detected for MYXUSDT
+2025-09-24 02:11:09,903 - INFO - Bearish FVG detected for FUSDT
+2025-09-24 02:11:09,904 - INFO - Bearish FVG detected for HUSDT
+2025-09-24 02:11:09,904 - INFO - Bearish FVG detected for ICNTUSDT
+2025-09-24 02:11:09,904 - INFO - Bearish FVG detected for MUSDT
+2025-09-24 02:11:09,904 - INFO - Bearish FVG detected for TANSSIUSDT
+2025-09-24 02:11:09,904 - INFO - Bearish FVG detected for AINUSDT
+2025-09-24 02:11:09,904 - INFO - Bearish FVG detected for TAUSDT
+2025-09-24 02:11:09,904 - INFO - Bearish FVG detected for CVXUSDT
+2025-09-24 02:11:09,905 - INFO - Bearish FVG detected for ZORAUSDT
+2025-09-24 02:11:09,905 - INFO - Bullish FVG detected for ESPORTSUSDT
+2025-09-24 02:11:09,905 - INFO - Bearish FVG detected for CARVUSDT
+2025-09-24 02:11:09,905 - INFO - Bearish FVG detected for USELESSUSDT
+2025-09-24 02:11:09,905 - INFO - Bearish FVG detected for BTRUSDT
+2025-09-24 02:11:09,905 - INFO - Bullish FVG detected for QUSDT
+2025-09-24 02:11:09,906 - INFO - Bearish FVG detected for PTBUSDT
+2025-09-24 02:11:09,906 - INFO - Bullish FVG detected for FLOCKUSDT
+2025-09-24 02:11:09,906 - INFO - Bullish FVG detected for ZKCUSDT
+2025-09-24 02:11:09,906 - INFO - Bullish FVG detected for BARDUSDT
+2025-09-24 02:11:10,698 - INFO - Scheduled job executed successfully
+2025-09-24 02:11:11,493 - INFO - Job "scheduled_job (trigger: interval[0:15:00], next run at: 2025-09-24 02:21:42 IST)" executed successfully
+2025-09-24 02:21:42,339 - INFO - Running job "scheduled_job (trigger: interval[0:15:00], next run at: 2025-09-24 02:36:42 IST)" (scheduled at 2025-09-24 02:21:42.325206+05:30)
+2025-09-24 02:21:42,339 - INFO - Running job "ping_self (trigger: interval[0:15:00], next run at: 2025-09-24 02:36:42 IST)" (scheduled at 2025-09-24 02:21:42.323127+05:30)
+2025-09-24 02:21:42,340 - INFO - Starting Binance FVG Screener...
+2025-09-24 02:21:43,627 - INFO - Fetched 544 USDT perpetual futures symbols
+2025-09-24 02:21:43,628 - INFO - Total symbols: 544
+2025-09-24 02:21:52,447 - ERROR - Ping failed: HTTPSConnectionPool(host='binance-trade-screener.onrender.com', port=443): Read timed out. (read timeout=10)
+2025-09-24 02:21:53,266 - INFO - Job "ping_self (trigger: interval[0:15:00], next run at: 2025-09-24 02:36:42 IST)" executed successfully
+2025-09-24 02:22:13,094 - ERROR - Error fetching klines for BTCSTUSDT: could not convert string to float: 'o'
+2025-09-24 02:25:51,415 - INFO - Bearish FVG detected for BTCUSDT
+2025-09-24 02:25:51,416 - INFO - Bearish FVG detected for BCHUSDT
+2025-09-24 02:25:51,417 - INFO - Bearish FVG detected for LINKUSDT
+2025-09-24 02:25:51,418 - INFO - Bearish FVG detected for XLMUSDT
+2025-09-24 02:25:51,418 - INFO - Bearish FVG detected for ADAUSDT
+2025-09-24 02:25:51,419 - INFO - Bearish FVG detected for IOTAUSDT
+2025-09-24 02:25:51,420 - INFO - Bearish FVG detected for NEOUSDT
+2025-09-24 02:25:51,420 - INFO - Bearish FVG detected for ALGOUSDT
+2025-09-24 02:25:51,421 - INFO - Bearish FVG detected for ZILUSDT
+2025-09-24 02:25:51,421 - INFO - Bearish FVG detected for COMPUSDT
+2025-09-24 02:25:51,422 - INFO - Bearish FVG detected for DOTUSDT
+2025-09-24 02:25:51,423 - INFO - Bearish FVG detected for TRBUSDT
+2025-09-24 02:25:51,423 - INFO - Bearish FVG detected for RUNEUSDT
+2025-09-24 02:25:51,424 - INFO - Bearish FVG detected for EGLDUSDT
+2025-09-24 02:25:51,424 - INFO - Bearish FVG detected for SOLUSDT
+2025-09-24 02:25:51,425 - INFO - Bearish FVG detected for AVAXUSDT
+2025-09-24 02:25:51,426 - INFO - Bearish FVG detected for NEARUSDT
+2025-09-24 02:25:51,427 - INFO - Bearish FVG detected for FILUSDT
+2025-09-24 02:25:51,428 - INFO - Bearish FVG detected for LRCUSDT
+2025-09-24 02:25:51,429 - INFO - Bearish FVG detected for SKLUSDT
+2025-09-24 02:25:51,430 - INFO - Bearish FVG detected for ANKRUSDT
+2025-09-24 02:25:51,431 - WARNING - Insufficient candles for BTCSTUSDT: 0
+2025-09-24 02:25:51,431 - INFO - Bearish FVG detected for HBARUSDT
+2025-09-24 02:25:51,432 - INFO - Bearish FVG detected for 1000SHIBUSDT
+2025-09-24 02:25:51,433 - INFO - Bearish FVG detected for BAKEUSDT
+2025-09-24 02:25:51,434 - INFO - Bearish FVG detected for MASKUSDT
+2025-09-24 02:25:51,435 - INFO - Bearish FVG detected for GALAUSDT
+2025-09-24 02:25:51,436 - INFO - Bearish FVG detected for CTSIUSDT
+2025-09-24 02:25:51,437 - INFO - Bearish FVG detected for LPTUSDT
+2025-09-24 02:25:51,438 - INFO - Bearish FVG detected for APEUSDT
+2025-09-24 02:25:51,438 - INFO - Bearish FVG detected for OPUSDT
+2025-09-24 02:25:51,439 - INFO - Bearish FVG detected for INJUSDT
+2025-09-24 02:25:51,440 - INFO - Bullish FVG detected for STGUSDT
+2025-09-24 02:25:51,441 - INFO - Bearish FVG detected for HOOKUSDT
+2025-09-24 02:25:51,442 - INFO - Bearish FVG detected for MAGICUSDT
+2025-09-24 02:25:51,443 - INFO - Bearish FVG detected for MINAUSDT
+2025-09-24 02:25:51,444 - INFO - Bullish FVG detected for PERPUSDT
+2025-09-24 02:25:51,444 - INFO - Bearish FVG detected for TRUUSDT
+2025-09-24 02:25:51,445 - INFO - Bullish FVG detected for USDCUSDT
+2025-09-24 02:25:51,446 - INFO - Bearish FVG detected for RDNTUSDT
+2025-09-24 02:25:51,447 - INFO - Bearish FVG detected for MAVUSDT
+2025-09-24 02:25:51,448 - INFO - Bearish FVG detected for WLDUSDT
+2025-09-24 02:25:51,448 - INFO - Bearish FVG detected for PENDLEUSDT
+2025-09-24 02:25:51,449 - INFO - Bearish FVG detected for ARKMUSDT
+2025-09-24 02:25:51,450 - INFO - Bearish FVG detected for BNTUSDT
+2025-09-24 02:25:51,451 - INFO - Bearish FVG detected for SEIUSDT
+2025-09-24 02:25:51,451 - INFO - Bearish FVG detected for CYBERUSDT
+2025-09-24 02:25:51,452 - INFO - Bearish FVG detected for WAXPUSDT
+2025-09-24 02:25:51,453 - INFO - Bearish FVG detected for TOKENUSDT
+2025-09-24 02:25:51,454 - INFO - Bearish FVG detected for STEEMUSDT
+2025-09-24 02:25:51,454 - INFO - Bearish FVG detected for KASUSDT
+2025-09-24 02:25:51,455 - INFO - Bearish FVG detected for USTCUSDT
+2025-09-24 02:25:51,456 - INFO - Bearish FVG detected for 1000SATSUSDT
+2025-09-24 02:25:51,457 - INFO - Bearish FVG detected for ACEUSDT
+2025-09-24 02:25:51,458 - INFO - Bearish FVG detected for MOVRUSDT
+2025-09-24 02:25:51,459 - INFO - Bearish FVG detected for WIFUSDT
+2025-09-24 02:25:51,459 - INFO - Bearish FVG detected for ONDOUSDT
+2025-09-24 02:25:51,460 - INFO - Bearish FVG detected for JUPUSDT
+2025-09-24 02:25:51,460 - INFO - Bearish FVG detected for RONINUSDT
+2025-09-24 02:25:51,461 - INFO - Bearish FVG detected for STRKUSDT
+2025-09-24 02:25:51,462 - INFO - Bearish FVG detected for METISUSDT
+2025-09-24 02:25:51,462 - INFO - Bearish FVG detected for AEVOUSDT
+2025-09-24 02:25:51,463 - INFO - Bearish FVG detected for VANRYUSDT
+2025-09-24 02:25:51,463 - INFO - Bearish FVG detected for ENAUSDT
+2025-09-24 02:25:51,464 - INFO - Bearish FVG detected for WUSDT
+2025-09-24 02:25:51,464 - INFO - Bearish FVG detected for TNSRUSDT
+2025-09-24 02:25:51,465 - INFO - Bearish FVG detected for TAOUSDT
+2025-09-24 02:25:51,465 - INFO - Bearish FVG detected for IOUSDT
+2025-09-24 02:25:51,466 - INFO - Bullish FVG detected for ZROUSDT
+2025-09-24 02:25:51,466 - INFO - Bearish FVG detected for RENDERUSDT
+2025-09-24 02:25:51,467 - INFO - Bearish FVG detected for POPCATUSDT
+2025-09-24 02:25:51,467 - INFO - Bearish FVG detected for NEIROETHUSDT
+2025-09-24 02:25:51,468 - INFO - Bearish FVG detected for POLUSDT
+2025-09-24 02:25:51,469 - INFO - Bearish FVG detected for DRIFTUSDT
+2025-09-24 02:25:51,469 - INFO - Bearish FVG detected for AKTUSDT
+2025-09-24 02:25:51,470 - INFO - Bearish FVG detected for SLERFUSDT
+2025-09-24 02:25:51,470 - INFO - Bearish FVG detected for SCRTUSDT
+2025-09-24 02:25:51,471 - INFO - Bearish FVG detected for MORPHOUSDT
+2025-09-24 02:25:51,472 - INFO - Bearish FVG detected for KAIAUSDT
+2025-09-24 02:25:51,472 - INFO - Bearish FVG detected for RAYSOLUSDT
+2025-09-24 02:25:51,473 - INFO - Bearish FVG detected for KOMAUSDT
+2025-09-24 02:25:51,473 - INFO - Bearish FVG detected for VIRTUALUSDT
+2025-09-24 02:25:51,474 - INFO - Bearish FVG detected for SPXUSDT
+2025-09-24 02:25:51,475 - INFO - Bearish FVG detected for FARTCOINUSDT
+2025-09-24 02:25:51,475 - INFO - Bearish FVG detected for ZEREBROUSDT
+2025-09-24 02:25:51,476 - INFO - Bearish FVG detected for ARCUSDT
+2025-09-24 02:25:51,476 - INFO - Bearish FVG detected for TRUMPUSDT
+2025-09-24 02:25:51,477 - INFO - Bearish FVG detected for VVVUSDT
+2025-09-24 02:25:51,477 - INFO - Bullish FVG detected for BERAUSDT
+2025-09-24 02:25:51,478 - INFO - Bearish FVG detected for IPUSDT
+2025-09-24 02:25:51,478 - INFO - Bearish FVG detected for SHELLUSDT
+2025-09-24 02:25:51,479 - INFO - Bearish FVG detected for MUBARAKUSDT
+2025-09-24 02:25:51,479 - INFO - Bearish FVG detected for BROCCOLI714USDT
+2025-09-24 02:25:51,480 - INFO - Bearish FVG detected for WALUSDT
+2025-09-24 02:25:51,481 - INFO - Bearish FVG detected for MLNUSDT
+2025-09-24 02:25:51,481 - INFO - Bearish FVG detected for ATHUSDT
+2025-09-24 02:25:51,482 - INFO - Bearish FVG detected for PROMPTUSDT
+2025-09-24 02:25:51,482 - INFO - Bearish FVG detected for BANKUSDT
+2025-09-24 02:25:51,483 - INFO - Bearish FVG detected for EPTUSDT
+2025-09-24 02:25:51,483 - INFO - Bearish FVG detected for DEEPUSDT
+2025-09-24 02:25:51,484 - INFO - Bearish FVG detected for DOLOUSDT
+2025-09-24 02:25:51,484 - INFO - Bearish FVG detected for B2USDT
+2025-09-24 02:25:51,485 - INFO - Bearish FVG detected for SKYAIUSDT
+2025-09-24 02:25:51,485 - INFO - Bearish FVG detected for AUSDT
+2025-09-24 02:25:51,486 - INFO - Bearish FVG detected for HYPEUSDT
+2025-09-24 02:25:51,487 - INFO - Bearish FVG detected for HOMEUSDT
+2025-09-24 02:25:51,487 - INFO - Bearish FVG detected for RESOLVUSDT
+2025-09-24 02:25:51,488 - INFO - Bearish FVG detected for SQDUSDT
+2025-09-24 02:25:51,488 - INFO - Bearish FVG detected for MYXUSDT
+2025-09-24 02:25:51,489 - INFO - Bearish FVG detected for FUSDT
+2025-09-24 02:25:51,490 - INFO - Bearish FVG detected for HUSDT
+2025-09-24 02:25:51,490 - INFO - Bearish FVG detected for ICNTUSDT
+2025-09-24 02:25:51,491 - INFO - Bearish FVG detected for MUSDT
+2025-09-24 02:25:51,491 - INFO - Bearish FVG detected for TANSSIUSDT
+2025-09-24 02:25:51,492 - INFO - Bearish FVG detected for AINUSDT
+2025-09-24 02:25:51,492 - INFO - Bearish FVG detected for TAUSDT
+2025-09-24 02:25:51,493 - INFO - Bearish FVG detected for CVXUSDT
+2025-09-24 02:25:51,493 - INFO - Bearish FVG detected for ZORAUSDT
+2025-09-24 02:25:51,494 - INFO - Bullish FVG detected for ESPORTSUSDT
+2025-09-24 02:25:51,495 - INFO - Bearish FVG detected for CARVUSDT
+2025-09-24 02:25:51,495 - INFO - Bearish FVG detected for USELESSUSDT
+2025-09-24 02:25:51,496 - INFO - Bearish FVG detected for BTRUSDT
+2025-09-24 02:25:51,496 - INFO - Bearish FVG detected for PTBUSDT
+2025-09-24 02:25:51,497 - INFO - Bullish FVG detected for FLOCKUSDT
+2025-09-24 02:25:51,498 - INFO - Bullish FVG detected for ZKCUSDT
+2025-09-24 02:25:51,498 - INFO - Bullish FVG detected for BARDUSDT
+2025-09-24 02:25:52,460 - INFO - Scheduled job executed successfully
+2025-09-24 02:25:53,220 - INFO - Job "scheduled_job (trigger: interval[0:15:00], next run at: 2025-09-24 02:36:42 IST)" executed successfully
+2025-09-24 02:36:42,324 - INFO - Running job "ping_self (trigger: interval[0:15:00], next run at: 2025-09-24 02:51:42 IST)" (scheduled at 2025-09-24 02:36:42.323127+05:30)
+2025-09-24 02:36:42,340 - INFO - Running job "scheduled_job (trigger: interval[0:15:00], next run at: 2025-09-24 02:51:42 IST)" (scheduled at 2025-09-24 02:36:42.325206+05:30)
+2025-09-24 02:36:42,360 - INFO - Starting Binance FVG Screener...
+2025-09-24 02:36:43,593 - INFO - Fetched 544 USDT perpetual futures symbols
+2025-09-24 02:36:43,596 - INFO - Total symbols: 544
+2025-09-24 02:36:44,346 - INFO - Job "ping_self (trigger: interval[0:15:00], next run at: 2025-09-24 02:51:42 IST)" executed successfully
+2025-09-24 02:37:14,115 - ERROR - Error fetching klines for BTCSTUSDT: could not convert string to float: 'o'
+2025-09-24 02:40:33,309 - INFO - Bearish FVG detected for BTCUSDT
+2025-09-24 02:40:33,310 - INFO - Bearish FVG detected for XLMUSDT
+2025-09-24 02:40:33,310 - INFO - Bearish FVG detected for ADAUSDT
+2025-09-24 02:40:33,311 - INFO - Bearish FVG detected for ALGOUSDT
+2025-09-24 02:40:33,311 - INFO - Bearish FVG detected for ZILUSDT
+2025-09-24 02:40:33,312 - INFO - Bearish FVG detected for COMPUSDT
+2025-09-24 02:40:33,312 - INFO - Bearish FVG detected for TRBUSDT
+2025-09-24 02:40:33,313 - INFO - Bearish FVG detected for RUNEUSDT
+2025-09-24 02:40:33,313 - INFO - Bearish FVG detected for EGLDUSDT
+2025-09-24 02:40:33,314 - INFO - Bearish FVG detected for SOLUSDT
+2025-09-24 02:40:33,314 - INFO - Bearish FVG detected for AVAXUSDT
+2025-09-24 02:40:33,315 - INFO - Bearish FVG detected for NEARUSDT
+2025-09-24 02:40:33,315 - INFO - Bearish FVG detected for FILUSDT
+2025-09-24 02:40:33,316 - INFO - Bearish FVG detected for ANKRUSDT
+2025-09-24 02:40:33,318 - WARNING - Insufficient candles for BTCSTUSDT: 0
+2025-09-24 02:40:33,319 - INFO - Bearish FVG detected for HBARUSDT
+2025-09-24 02:40:33,319 - INFO - Bearish FVG detected for 1000SHIBUSDT
+2025-09-24 02:40:33,320 - INFO - Bearish FVG detected for BAKEUSDT
+2025-09-24 02:40:33,320 - INFO - Bearish FVG detected for MASKUSDT
+2025-09-24 02:40:33,321 - INFO - Bearish FVG detected for GALAUSDT
+2025-09-24 02:40:33,321 - INFO - Bearish FVG detected for CTSIUSDT
+2025-09-24 02:40:33,322 - INFO - Bearish FVG detected for APEUSDT
+2025-09-24 02:40:33,323 - INFO - Bearish FVG detected for OPUSDT
+2025-09-24 02:40:33,324 - INFO - Bearish FVG detected for INJUSDT
+2025-09-24 02:40:33,324 - INFO - Bullish FVG detected for STGUSDT
+2025-09-24 02:40:33,325 - INFO - Bearish FVG detected for HOOKUSDT
+2025-09-24 02:40:33,326 - INFO - Bearish FVG detected for MAGICUSDT
+2025-09-24 02:40:33,326 - INFO - Bearish FVG detected for MINAUSDT
+2025-09-24 02:40:33,327 - INFO - Bullish FVG detected for PERPUSDT
+2025-09-24 02:40:33,328 - INFO - Bearish FVG detected for TRUUSDT
+2025-09-24 02:40:33,328 - INFO - Bullish FVG detected for USDCUSDT
+2025-09-24 02:40:33,329 - INFO - Bearish FVG detected for RDNTUSDT
+2025-09-24 02:40:33,329 - INFO - Bearish FVG detected for MAVUSDT
+2025-09-24 02:40:33,330 - INFO - Bearish FVG detected for WLDUSDT
+2025-09-24 02:40:33,330 - INFO - Bearish FVG detected for PENDLEUSDT
+2025-09-24 02:40:33,331 - INFO - Bearish FVG detected for ARKMUSDT
+2025-09-24 02:40:33,331 - INFO - Bearish FVG detected for SEIUSDT
+2025-09-24 02:40:33,332 - INFO - Bearish FVG detected for WAXPUSDT
+2025-09-24 02:40:33,332 - INFO - Bearish FVG detected for TOKENUSDT
+2025-09-24 02:40:33,333 - INFO - Bearish FVG detected for KASUSDT
+2025-09-24 02:40:33,334 - INFO - Bearish FVG detected for USTCUSDT
+2025-09-24 02:40:33,335 - INFO - Bearish FVG detected for 1000SATSUSDT
+2025-09-24 02:40:33,335 - INFO - Bearish FVG detected for ACEUSDT
+2025-09-24 02:40:33,336 - INFO - Bearish FVG detected for MOVRUSDT
+2025-09-24 02:40:33,336 - INFO - Bearish FVG detected for WIFUSDT
+2025-09-24 02:40:33,337 - INFO - Bearish FVG detected for ONDOUSDT
+2025-09-24 02:40:33,337 - INFO - Bearish FVG detected for RONINUSDT
+2025-09-24 02:40:33,338 - INFO - Bearish FVG detected for STRKUSDT
+2025-09-24 02:40:33,339 - INFO - Bearish FVG detected for METISUSDT
+2025-09-24 02:40:33,340 - INFO - Bearish FVG detected for VANRYUSDT
+2025-09-24 02:40:33,340 - INFO - Bearish FVG detected for ENAUSDT
+2025-09-24 02:40:33,341 - INFO - Bearish FVG detected for WUSDT
+2025-09-24 02:40:33,342 - INFO - Bearish FVG detected for TNSRUSDT
+2025-09-24 02:40:33,343 - INFO - Bearish FVG detected for TAOUSDT
+2025-09-24 02:40:33,343 - INFO - Bearish FVG detected for IOUSDT
+2025-09-24 02:40:33,344 - INFO - Bullish FVG detected for ZROUSDT
+2025-09-24 02:40:33,345 - INFO - Bearish FVG detected for RENDERUSDT
+2025-09-24 02:40:33,345 - INFO - Bearish FVG detected for POPCATUSDT
+2025-09-24 02:40:33,346 - INFO - Bearish FVG detected for NEIROETHUSDT
+2025-09-24 02:40:33,347 - INFO - Bearish FVG detected for POLUSDT
+2025-09-24 02:40:33,347 - INFO - Bearish FVG detected for DRIFTUSDT
+2025-09-24 02:40:33,348 - INFO - Bearish FVG detected for AKTUSDT
+2025-09-24 02:40:33,348 - INFO - Bearish FVG detected for SLERFUSDT
+2025-09-24 02:40:33,349 - INFO - Bearish FVG detected for MORPHOUSDT
+2025-09-24 02:40:33,349 - INFO - Bearish FVG detected for KAIAUSDT
+2025-09-24 02:40:33,351 - INFO - Bearish FVG detected for RAYSOLUSDT
+2025-09-24 02:40:33,352 - INFO - Bearish FVG detected for KOMAUSDT
+2025-09-24 02:40:33,352 - INFO - Bearish FVG detected for SPXUSDT
+2025-09-24 02:40:33,353 - INFO - Bearish FVG detected for FARTCOINUSDT
+2025-09-24 02:40:33,354 - INFO - Bearish FVG detected for ZEREBROUSDT
+2025-09-24 02:40:33,354 - INFO - Bearish FVG detected for TRUMPUSDT
+2025-09-24 02:40:33,355 - INFO - Bearish FVG detected for VVVUSDT
+2025-09-24 02:40:33,355 - INFO - Bullish FVG detected for BERAUSDT
+2025-09-24 02:40:33,356 - INFO - Bearish FVG detected for IPUSDT
+2025-09-24 02:40:33,357 - INFO - Bearish FVG detected for SHELLUSDT
+2025-09-24 02:40:33,358 - INFO - Bearish FVG detected for MUBARAKUSDT
+2025-09-24 02:40:33,359 - INFO - Bearish FVG detected for BROCCOLI714USDT
+2025-09-24 02:40:33,360 - INFO - Bearish FVG detected for MLNUSDT
+2025-09-24 02:40:33,360 - INFO - Bearish FVG detected for ATHUSDT
+2025-09-24 02:40:33,361 - INFO - Bearish FVG detected for PROMPTUSDT
+2025-09-24 02:40:33,361 - INFO - Bearish FVG detected for BANKUSDT
+2025-09-24 02:40:33,362 - INFO - Bearish FVG detected for EPTUSDT
+2025-09-24 02:40:33,362 - INFO - Bearish FVG detected for DEEPUSDT
+2025-09-24 02:40:33,363 - INFO - Bearish FVG detected for DOLOUSDT
+2025-09-24 02:40:33,364 - INFO - Bearish FVG detected for B2USDT
+2025-09-24 02:40:33,364 - INFO - Bearish FVG detected for SKYAIUSDT
+2025-09-24 02:40:33,365 - INFO - Bearish FVG detected for AUSDT
+2025-09-24 02:40:33,366 - INFO - Bearish FVG detected for HYPEUSDT
+2025-09-24 02:40:33,366 - INFO - Bearish FVG detected for HOMEUSDT
+2025-09-24 02:40:33,368 - INFO - Bearish FVG detected for RESOLVUSDT
+2025-09-24 02:40:33,368 - INFO - Bearish FVG detected for MYXUSDT
+2025-09-24 02:40:33,369 - INFO - Bearish FVG detected for FUSDT
+2025-09-24 02:40:33,370 - INFO - Bearish FVG detected for HUSDT
+2025-09-24 02:40:33,370 - INFO - Bearish FVG detected for ICNTUSDT
+2025-09-24 02:40:33,371 - INFO - Bearish FVG detected for MUSDT
+2025-09-24 02:40:33,371 - INFO - Bearish FVG detected for TANSSIUSDT
+2025-09-24 02:40:33,372 - INFO - Bearish FVG detected for AINUSDT
+2025-09-24 02:40:33,372 - INFO - Bearish FVG detected for TAUSDT
+2025-09-24 02:40:33,373 - INFO - Bearish FVG detected for CVXUSDT
+2025-09-24 02:40:33,375 - INFO - Bearish FVG detected for ZORAUSDT
+2025-09-24 02:40:33,376 - INFO - Bullish FVG detected for ESPORTSUSDT
+2025-09-24 02:40:33,376 - INFO - Bearish FVG detected for CARVUSDT
+2025-09-24 02:40:33,377 - INFO - Bearish FVG detected for USELESSUSDT
+2025-09-24 02:40:33,377 - INFO - Bearish FVG detected for BTRUSDT
+2025-09-24 02:40:33,378 - INFO - Bearish FVG detected for PTBUSDT
+2025-09-24 02:40:33,379 - INFO - Bullish FVG detected for FLOCKUSDT
+2025-09-24 02:40:33,379 - INFO - Bullish FVG detected for ZKCUSDT
+2025-09-24 02:40:33,380 - INFO - Bullish FVG detected for BARDUSDT
+2025-09-24 02:40:34,227 - INFO - Scheduled job executed successfully
+2025-09-24 02:40:35,041 - INFO - Job "scheduled_job (trigger: interval[0:15:00], next run at: 2025-09-24 02:51:42 IST)" executed successfully
+2025-09-24 02:51:42,331 - INFO - Running job "ping_self (trigger: interval[0:15:00], next run at: 2025-09-24 03:06:42 IST)" (scheduled at 2025-09-24 02:51:42.323127+05:30)
+2025-09-24 02:51:42,332 - INFO - Running job "scheduled_job (trigger: interval[0:15:00], next run at: 2025-09-24 03:06:42 IST)" (scheduled at 2025-09-24 02:51:42.325206+05:30)
+2025-09-24 02:51:42,337 - INFO - Starting Binance FVG Screener...
+2025-09-24 02:51:44,034 - INFO - Fetched 544 USDT perpetual futures symbols
+2025-09-24 02:51:44,039 - INFO - Total symbols: 544
+2025-09-24 02:51:44,558 - INFO - Job "ping_self (trigger: interval[0:15:00], next run at: 2025-09-24 03:06:42 IST)" executed successfully
+2025-09-24 02:52:14,358 - ERROR - Error fetching klines for BTCSTUSDT: could not convert string to float: 'o'
+2025-09-24 02:55:37,600 - INFO - Bearish FVG detected for BTCUSDT
+2025-09-24 02:55:37,612 - INFO - Bearish FVG detected for XLMUSDT
+2025-09-24 02:55:37,612 - INFO - Bearish FVG detected for ADAUSDT
+2025-09-24 02:55:37,612 - INFO - Bearish FVG detected for ALGOUSDT
+2025-09-24 02:55:37,612 - INFO - Bearish FVG detected for ZILUSDT
+2025-09-24 02:55:37,613 - INFO - Bearish FVG detected for COMPUSDT
+2025-09-24 02:55:37,613 - INFO - Bearish FVG detected for TRBUSDT
+2025-09-24 02:55:37,613 - INFO - Bearish FVG detected for RUNEUSDT
+2025-09-24 02:55:37,613 - INFO - Bearish FVG detected for EGLDUSDT
+2025-09-24 02:55:37,614 - INFO - Bearish FVG detected for SOLUSDT
+2025-09-24 02:55:37,614 - INFO - Bearish FVG detected for AVAXUSDT
+2025-09-24 02:55:37,614 - INFO - Bearish FVG detected for NEARUSDT
+2025-09-24 02:55:37,615 - INFO - Bearish FVG detected for FILUSDT
+2025-09-24 02:55:37,615 - INFO - Bearish FVG detected for ANKRUSDT
+2025-09-24 02:55:37,615 - WARNING - Insufficient candles for BTCSTUSDT: 0
+2025-09-24 02:55:37,615 - INFO - Bearish FVG detected for HBARUSDT
+2025-09-24 02:55:37,616 - INFO - Bearish FVG detected for 1000SHIBUSDT
+2025-09-24 02:55:37,616 - INFO - Bearish FVG detected for BAKEUSDT
+2025-09-24 02:55:37,616 - INFO - Bearish FVG detected for MASKUSDT
+2025-09-24 02:55:37,616 - INFO - Bearish FVG detected for GALAUSDT
+2025-09-24 02:55:37,616 - INFO - Bearish FVG detected for CTSIUSDT
+2025-09-24 02:55:37,617 - INFO - Bearish FVG detected for APEUSDT
+2025-09-24 02:55:37,617 - INFO - Bearish FVG detected for OPUSDT
+2025-09-24 02:55:37,617 - INFO - Bearish FVG detected for INJUSDT
+2025-09-24 02:55:37,618 - INFO - Bullish FVG detected for STGUSDT
+2025-09-24 02:55:37,618 - INFO - Bearish FVG detected for HOOKUSDT
+2025-09-24 02:55:37,618 - INFO - Bearish FVG detected for MAGICUSDT
+2025-09-24 02:55:37,618 - INFO - Bearish FVG detected for MINAUSDT
+2025-09-24 02:55:37,619 - INFO - Bullish FVG detected for PERPUSDT
+2025-09-24 02:55:37,619 - INFO - Bearish FVG detected for TRUUSDT
+2025-09-24 02:55:37,619 - INFO - Bullish FVG detected for USDCUSDT
+2025-09-24 02:55:37,619 - INFO - Bearish FVG detected for RDNTUSDT
+2025-09-24 02:55:37,620 - INFO - Bearish FVG detected for MAVUSDT
+2025-09-24 02:55:37,620 - INFO - Bearish FVG detected for WLDUSDT
+2025-09-24 02:55:37,620 - INFO - Bearish FVG detected for PENDLEUSDT
+2025-09-24 02:55:37,620 - INFO - Bearish FVG detected for ARKMUSDT
+2025-09-24 02:55:37,620 - INFO - Bearish FVG detected for SEIUSDT
+2025-09-24 02:55:37,621 - INFO - Bearish FVG detected for WAXPUSDT
+2025-09-24 02:55:37,621 - INFO - Bearish FVG detected for TOKENUSDT
+2025-09-24 02:55:37,621 - INFO - Bearish FVG detected for KASUSDT
+2025-09-24 02:55:37,622 - INFO - Bearish FVG detected for USTCUSDT
+2025-09-24 02:55:37,622 - INFO - Bearish FVG detected for 1000SATSUSDT
+2025-09-24 02:55:37,623 - INFO - Bearish FVG detected for ACEUSDT
+2025-09-24 02:55:37,625 - INFO - Bearish FVG detected for MOVRUSDT
+2025-09-24 02:55:37,626 - INFO - Bearish FVG detected for WIFUSDT
+2025-09-24 02:55:37,626 - INFO - Bearish FVG detected for ONDOUSDT
+2025-09-24 02:55:37,627 - INFO - Bearish FVG detected for RONINUSDT
+2025-09-24 02:55:37,627 - INFO - Bearish FVG detected for STRKUSDT
+2025-09-24 02:55:37,627 - INFO - Bearish FVG detected for METISUSDT
+2025-09-24 02:55:37,628 - INFO - Bearish FVG detected for VANRYUSDT
+2025-09-24 02:55:37,628 - INFO - Bearish FVG detected for ENAUSDT
+2025-09-24 02:55:37,629 - INFO - Bearish FVG detected for WUSDT
+2025-09-24 02:55:37,629 - INFO - Bearish FVG detected for TNSRUSDT
+2025-09-24 02:55:37,629 - INFO - Bearish FVG detected for TAOUSDT
+2025-09-24 02:55:37,629 - INFO - Bearish FVG detected for IOUSDT
+2025-09-24 02:55:37,630 - INFO - Bullish FVG detected for ZROUSDT
+2025-09-24 02:55:37,630 - INFO - Bearish FVG detected for RENDERUSDT
+2025-09-24 02:55:37,630 - INFO - Bearish FVG detected for POPCATUSDT
+2025-09-24 02:55:37,630 - INFO - Bearish FVG detected for NEIROETHUSDT
+2025-09-24 02:55:37,631 - INFO - Bearish FVG detected for POLUSDT
+2025-09-24 02:55:37,631 - INFO - Bearish FVG detected for DRIFTUSDT
+2025-09-24 02:55:37,631 - INFO - Bearish FVG detected for AKTUSDT
+2025-09-24 02:55:37,631 - INFO - Bearish FVG detected for SLERFUSDT
+2025-09-24 02:55:37,632 - INFO - Bearish FVG detected for MORPHOUSDT
+2025-09-24 02:55:37,632 - INFO - Bearish FVG detected for KAIAUSDT
+2025-09-24 02:55:37,632 - INFO - Bearish FVG detected for RAYSOLUSDT
+2025-09-24 02:55:37,633 - INFO - Bearish FVG detected for KOMAUSDT
+2025-09-24 02:55:37,633 - INFO - Bearish FVG detected for SPXUSDT
+2025-09-24 02:55:37,633 - INFO - Bearish FVG detected for FARTCOINUSDT
+2025-09-24 02:55:37,633 - INFO - Bearish FVG detected for ZEREBROUSDT
+2025-09-24 02:55:37,634 - INFO - Bearish FVG detected for TRUMPUSDT
+2025-09-24 02:55:37,634 - INFO - Bearish FVG detected for VVVUSDT
+2025-09-24 02:55:37,634 - INFO - Bullish FVG detected for BERAUSDT
+2025-09-24 02:55:37,634 - INFO - Bearish FVG detected for IPUSDT
+2025-09-24 02:55:37,635 - INFO - Bearish FVG detected for SHELLUSDT
+2025-09-24 02:55:37,635 - INFO - Bearish FVG detected for MUBARAKUSDT
+2025-09-24 02:55:37,635 - INFO - Bearish FVG detected for BROCCOLI714USDT
+2025-09-24 02:55:37,636 - INFO - Bearish FVG detected for MLNUSDT
+2025-09-24 02:55:37,636 - INFO - Bearish FVG detected for ATHUSDT
+2025-09-24 02:55:37,636 - INFO - Bearish FVG detected for PROMPTUSDT
+2025-09-24 02:55:37,636 - INFO - Bearish FVG detected for BANKUSDT
+2025-09-24 02:55:37,636 - INFO - Bearish FVG detected for EPTUSDT
+2025-09-24 02:55:37,637 - INFO - Bearish FVG detected for DEEPUSDT
+2025-09-24 02:55:37,637 - INFO - Bearish FVG detected for DOLOUSDT
+2025-09-24 02:55:37,637 - INFO - Bearish FVG detected for B2USDT
+2025-09-24 02:55:37,638 - INFO - Bearish FVG detected for SKYAIUSDT
+2025-09-24 02:55:37,638 - INFO - Bearish FVG detected for AUSDT
+2025-09-24 02:55:37,638 - INFO - Bearish FVG detected for HYPEUSDT
+2025-09-24 02:55:37,638 - INFO - Bearish FVG detected for HOMEUSDT
+2025-09-24 02:55:37,639 - INFO - Bearish FVG detected for MYXUSDT
+2025-09-24 02:55:37,639 - INFO - Bearish FVG detected for FUSDT
+2025-09-24 02:55:37,639 - INFO - Bearish FVG detected for ICNTUSDT
+2025-09-24 02:55:37,640 - INFO - Bearish FVG detected for MUSDT
+2025-09-24 02:55:37,640 - INFO - Bearish FVG detected for TANSSIUSDT
+2025-09-24 02:55:37,640 - INFO - Bearish FVG detected for AINUSDT
+2025-09-24 02:55:37,641 - INFO - Bearish FVG detected for TAUSDT
+2025-09-24 02:55:37,641 - INFO - Bearish FVG detected for CVXUSDT
+2025-09-24 02:55:37,641 - INFO - Bullish FVG detected for ESPORTSUSDT
+2025-09-24 02:55:37,642 - INFO - Bearish FVG detected for CARVUSDT
+2025-09-24 02:55:37,642 - INFO - Bearish FVG detected for USELESSUSDT
+2025-09-24 02:55:37,642 - INFO - Bearish FVG detected for BTRUSDT
+2025-09-24 02:55:37,642 - INFO - Bearish FVG detected for PTBUSDT
+2025-09-24 02:55:37,643 - INFO - Bullish FVG detected for FLOCKUSDT
+2025-09-24 02:55:37,643 - INFO - Bullish FVG detected for ZKCUSDT
+2025-09-24 02:55:37,643 - INFO - Bullish FVG detected for BARDUSDT
+2025-09-24 02:55:38,517 - INFO - Scheduled job executed successfully
+2025-09-24 02:55:39,331 - INFO - Job "scheduled_job (trigger: interval[0:15:00], next run at: 2025-09-24 03:06:42 IST)" executed successfully
+2025-09-24 03:06:42,337 - INFO - Running job "ping_self (trigger: interval[0:15:00], next run at: 2025-09-24 03:21:42 IST)" (scheduled at 2025-09-24 03:06:42.323127+05:30)
+2025-09-24 03:06:42,338 - INFO - Running job "scheduled_job (trigger: interval[0:15:00], next run at: 2025-09-24 03:21:42 IST)" (scheduled at 2025-09-24 03:06:42.325206+05:30)
+2025-09-24 03:06:42,340 - INFO - Starting Binance FVG Screener...
+2025-09-24 03:06:43,565 - INFO - Fetched 544 USDT perpetual futures symbols
+2025-09-24 03:06:43,566 - INFO - Total symbols: 544
+2025-09-24 03:06:44,107 - INFO - Job "ping_self (trigger: interval[0:15:00], next run at: 2025-09-24 03:21:42 IST)" executed successfully
+2025-09-24 03:07:12,728 - ERROR - Error fetching klines for BTCSTUSDT: could not convert string to float: 'o'
+2025-09-24 03:10:19,857 - INFO - Bearish FVG detected for BTCUSDT
+2025-09-24 03:10:19,857 - INFO - Bearish FVG detected for XLMUSDT
+2025-09-24 03:10:19,858 - INFO - Bearish FVG detected for ADAUSDT
+2025-09-24 03:10:19,858 - INFO - Bearish FVG detected for RUNEUSDT
+2025-09-24 03:10:19,859 - INFO - Bearish FVG detected for EGLDUSDT
+2025-09-24 03:10:19,859 - INFO - Bearish FVG detected for SOLUSDT
+2025-09-24 03:10:19,859 - INFO - Bearish FVG detected for AVAXUSDT
+2025-09-24 03:10:19,860 - INFO - Bearish FVG detected for NEARUSDT
+2025-09-24 03:10:19,860 - WARNING - Insufficient candles for BTCSTUSDT: 0
+2025-09-24 03:10:19,860 - INFO - Bearish FVG detected for HBARUSDT
+2025-09-24 03:10:19,860 - INFO - Bearish FVG detected for BAKEUSDT
+2025-09-24 03:10:19,861 - INFO - Bearish FVG detected for CTSIUSDT
+2025-09-24 03:10:19,861 - INFO - Bearish FVG detected for OPUSDT
+2025-09-24 03:10:19,861 - INFO - Bullish FVG detected for STGUSDT
+2025-09-24 03:10:19,862 - INFO - Bearish FVG detected for HOOKUSDT
+2025-09-24 03:10:19,862 - INFO - Bearish FVG detected for MAGICUSDT
+2025-09-24 03:10:19,862 - INFO - Bearish FVG detected for MINAUSDT
+2025-09-24 03:10:19,862 - INFO - Bullish FVG detected for PERPUSDT
+2025-09-24 03:10:19,863 - INFO - Bearish FVG detected for TRUUSDT
+2025-09-24 03:10:19,863 - INFO - Bullish FVG detected for USDCUSDT
+2025-09-24 03:10:19,863 - INFO - Bearish FVG detected for MAVUSDT
+2025-09-24 03:10:19,863 - INFO - Bearish FVG detected for PENDLEUSDT
+2025-09-24 03:10:19,863 - INFO - Bearish FVG detected for ARKMUSDT
+2025-09-24 03:10:19,864 - INFO - Bearish FVG detected for KASUSDT
+2025-09-24 03:10:19,864 - INFO - Bearish FVG detected for USTCUSDT
+2025-09-24 03:10:19,864 - INFO - Bearish FVG detected for ACEUSDT
+2025-09-24 03:10:19,864 - INFO - Bearish FVG detected for ONDOUSDT
+2025-09-24 03:10:19,865 - INFO - Bearish FVG detected for RONINUSDT
+2025-09-24 03:10:19,865 - INFO - Bearish FVG detected for METISUSDT
+2025-09-24 03:10:19,865 - INFO - Bearish FVG detected for VANRYUSDT
+2025-09-24 03:10:19,865 - INFO - Bearish FVG detected for WUSDT
+2025-09-24 03:10:19,865 - INFO - Bearish FVG detected for IOUSDT
+2025-09-24 03:10:19,865 - INFO - Bullish FVG detected for ZROUSDT
+2025-09-24 03:10:19,865 - INFO - Bearish FVG detected for NEIROETHUSDT
+2025-09-24 03:10:19,866 - INFO - Bearish FVG detected for DRIFTUSDT
+2025-09-24 03:10:19,866 - INFO - Bearish FVG detected for AKTUSDT
+2025-09-24 03:10:19,866 - INFO - Bearish FVG detected for SLERFUSDT
+2025-09-24 03:10:19,866 - INFO - Bearish FVG detected for MORPHOUSDT
+2025-09-24 03:10:19,866 - INFO - Bearish FVG detected for KOMAUSDT
+2025-09-24 03:10:19,866 - INFO - Bearish FVG detected for SPXUSDT
+2025-09-24 03:10:19,866 - INFO - Bearish FVG detected for ZEREBROUSDT
+2025-09-24 03:10:19,867 - INFO - Bearish FVG detected for VVVUSDT
+2025-09-24 03:10:19,867 - INFO - Bullish FVG detected for BERAUSDT
+2025-09-24 03:10:19,867 - INFO - Bearish FVG detected for IPUSDT
+2025-09-24 03:10:19,867 - INFO - Bearish FVG detected for MUBARAKUSDT
+2025-09-24 03:10:19,867 - INFO - Bearish FVG detected for BROCCOLI714USDT
+2025-09-24 03:10:19,867 - INFO - Bearish FVG detected for ATHUSDT
+2025-09-24 03:10:19,867 - INFO - Bearish FVG detected for PROMPTUSDT
+2025-09-24 03:10:19,868 - INFO - Bearish FVG detected for BANKUSDT
+2025-09-24 03:10:19,868 - INFO - Bearish FVG detected for EPTUSDT
+2025-09-24 03:10:19,868 - INFO - Bearish FVG detected for DEEPUSDT
+2025-09-24 03:10:19,868 - INFO - Bearish FVG detected for DOLOUSDT
+2025-09-24 03:10:19,868 - INFO - Bearish FVG detected for B2USDT
+2025-09-24 03:10:19,868 - INFO - Bearish FVG detected for SKYAIUSDT
+2025-09-24 03:10:19,868 - INFO - Bearish FVG detected for AUSDT
+2025-09-24 03:10:19,869 - INFO - Bearish FVG detected for HYPEUSDT
+2025-09-24 03:10:19,869 - INFO - Bearish FVG detected for HOMEUSDT
+2025-09-24 03:10:19,869 - INFO - Bearish FVG detected for MYXUSDT
+2025-09-24 03:10:19,869 - INFO - Bearish FVG detected for FUSDT
+2025-09-24 03:10:19,869 - INFO - Bearish FVG detected for ICNTUSDT
+2025-09-24 03:10:19,869 - INFO - Bearish FVG detected for MUSDT
+2025-09-24 03:10:19,869 - INFO - Bearish FVG detected for TANSSIUSDT
+2025-09-24 03:10:19,869 - INFO - Bearish FVG detected for AINUSDT
+2025-09-24 03:10:19,870 - INFO - Bearish FVG detected for TAUSDT
+2025-09-24 03:10:19,870 - INFO - Bearish FVG detected for CVXUSDT
+2025-09-24 03:10:19,870 - INFO - Bullish FVG detected for ESPORTSUSDT
+2025-09-24 03:10:19,870 - INFO - Bearish FVG detected for USELESSUSDT
+2025-09-24 03:10:19,870 - INFO - Bearish FVG detected for BTRUSDT
+2025-09-24 03:10:19,870 - INFO - Bearish FVG detected for PTBUSDT
+2025-09-24 03:10:19,870 - INFO - Bullish FVG detected for FLOCKUSDT
+2025-09-24 03:10:19,870 - INFO - Bullish FVG detected for ZKCUSDT
+2025-09-24 03:10:19,871 - INFO - Bullish FVG detected for BARDUSDT
+2025-09-24 03:10:20,801 - INFO - Scheduled job executed successfully
+2025-09-24 03:10:21,608 - INFO - Job "scheduled_job (trigger: interval[0:15:00], next run at: 2025-09-24 03:21:42 IST)" executed successfully
+2025-09-24 03:21:42,335 - INFO - Running job "scheduled_job (trigger: interval[0:15:00], next run at: 2025-09-24 03:36:42 IST)" (scheduled at 2025-09-24 03:21:42.325206+05:30)
+2025-09-24 03:21:42,336 - INFO - Running job "ping_self (trigger: interval[0:15:00], next run at: 2025-09-24 03:36:42 IST)" (scheduled at 2025-09-24 03:21:42.323127+05:30)
+2025-09-24 03:21:42,336 - INFO - Starting Binance FVG Screener...
+2025-09-24 03:21:43,433 - INFO - Fetched 544 USDT perpetual futures symbols
+2025-09-24 03:21:43,435 - INFO - Total symbols: 544
+2025-09-24 03:21:44,206 - INFO - Job "ping_self (trigger: interval[0:15:00], next run at: 2025-09-24 03:36:42 IST)" executed successfully
+2025-09-24 03:22:13,615 - ERROR - Error fetching klines for BTCSTUSDT: could not convert string to float: 'o'
+2025-09-24 03:25:39,844 - INFO - Bearish FVG detected for BTCUSDT
+2025-09-24 03:25:39,844 - INFO - Bearish FVG detected for XLMUSDT
+2025-09-24 03:25:39,845 - INFO - Bearish FVG detected for RUNEUSDT
+2025-09-24 03:25:39,845 - INFO - Bearish FVG detected for EGLDUSDT
+2025-09-24 03:25:39,845 - INFO - Bearish FVG detected for SOLUSDT
+2025-09-24 03:25:39,845 - INFO - Bearish FVG detected for AVAXUSDT
+2025-09-24 03:25:39,846 - WARNING - Insufficient candles for BTCSTUSDT: 0
+2025-09-24 03:25:39,846 - INFO - Bearish FVG detected for BAKEUSDT
+2025-09-24 03:25:39,846 - INFO - Bearish FVG detected for CTSIUSDT
+2025-09-24 03:25:39,846 - INFO - Bearish FVG detected for OPUSDT
+2025-09-24 03:25:39,846 - INFO - Bullish FVG detected for STGUSDT
+2025-09-24 03:25:39,847 - INFO - Bearish FVG detected for HOOKUSDT
+2025-09-24 03:25:39,847 - INFO - Bullish FVG detected for PERPUSDT
+2025-09-24 03:25:39,847 - INFO - Bearish FVG detected for TRUUSDT
+2025-09-24 03:25:39,847 - INFO - Bullish FVG detected for USDCUSDT
+2025-09-24 03:25:39,848 - INFO - Bearish FVG detected for MAVUSDT
+2025-09-24 03:25:39,848 - INFO - Bearish FVG detected for PENDLEUSDT
+2025-09-24 03:25:39,848 - INFO - Bearish FVG detected for KASUSDT
+2025-09-24 03:25:39,848 - INFO - Bearish FVG detected for USTCUSDT
+2025-09-24 03:25:39,849 - INFO - Bearish FVG detected for ACEUSDT
+2025-09-24 03:25:39,849 - INFO - Bearish FVG detected for ONDOUSDT
+2025-09-24 03:25:39,849 - INFO - Bearish FVG detected for RONINUSDT
+2025-09-24 03:25:39,849 - INFO - Bearish FVG detected for VANRYUSDT
+2025-09-24 03:25:39,849 - INFO - Bearish FVG detected for WUSDT
+2025-09-24 03:25:39,850 - INFO - Bullish FVG detected for ZROUSDT
+2025-09-24 03:25:39,850 - INFO - Bearish FVG detected for NEIROETHUSDT
+2025-09-24 03:25:39,851 - INFO - Bearish FVG detected for DRIFTUSDT
+2025-09-24 03:25:39,851 - INFO - Bearish FVG detected for AKTUSDT
+2025-09-24 03:25:39,853 - INFO - Bearish FVG detected for SLERFUSDT
+2025-09-24 03:25:39,853 - INFO - Bearish FVG detected for MORPHOUSDT
+2025-09-24 03:25:39,854 - INFO - Bearish FVG detected for KOMAUSDT
+2025-09-24 03:25:39,854 - INFO - Bearish FVG detected for SPXUSDT
+2025-09-24 03:25:39,854 - INFO - Bearish FVG detected for ZEREBROUSDT
+2025-09-24 03:25:39,855 - INFO - Bearish FVG detected for VVVUSDT
+2025-09-24 03:25:39,855 - INFO - Bullish FVG detected for BERAUSDT
+2025-09-24 03:25:39,855 - INFO - Bearish FVG detected for BROCCOLI714USDT
+2025-09-24 03:25:39,856 - INFO - Bearish FVG detected for ATHUSDT
+2025-09-24 03:25:39,856 - INFO - Bearish FVG detected for PROMPTUSDT
+2025-09-24 03:25:39,856 - INFO - Bearish FVG detected for BANKUSDT
+2025-09-24 03:25:39,856 - INFO - Bearish FVG detected for EPTUSDT
+2025-09-24 03:25:39,857 - INFO - Bearish FVG detected for DEEPUSDT
+2025-09-24 03:25:39,857 - INFO - Bearish FVG detected for DOLOUSDT
+2025-09-24 03:25:39,857 - INFO - Bearish FVG detected for B2USDT
+2025-09-24 03:25:39,857 - INFO - Bearish FVG detected for SKYAIUSDT
+2025-09-24 03:25:39,857 - INFO - Bearish FVG detected for AUSDT
+2025-09-24 03:25:39,858 - INFO - Bearish FVG detected for HYPEUSDT
+2025-09-24 03:25:39,858 - INFO - Bearish FVG detected for MYXUSDT
+2025-09-24 03:25:39,858 - INFO - Bearish FVG detected for FUSDT
+2025-09-24 03:25:39,858 - INFO - Bearish FVG detected for ICNTUSDT
+2025-09-24 03:25:39,858 - INFO - Bearish FVG detected for MUSDT
+2025-09-24 03:25:39,859 - INFO - Bearish FVG detected for TANSSIUSDT
+2025-09-24 03:25:39,859 - INFO - Bearish FVG detected for AINUSDT
+2025-09-24 03:25:39,859 - INFO - Bearish FVG detected for TAUSDT
+2025-09-24 03:25:39,859 - INFO - Bearish FVG detected for CVXUSDT
+2025-09-24 03:25:39,859 - INFO - Bullish FVG detected for ESPORTSUSDT
+2025-09-24 03:25:39,859 - INFO - Bearish FVG detected for USELESSUSDT
+2025-09-24 03:25:39,860 - INFO - Bearish FVG detected for BTRUSDT
+2025-09-24 03:25:39,860 - INFO - Bearish FVG detected for PTBUSDT
+2025-09-24 03:25:39,860 - INFO - Bullish FVG detected for FLOCKUSDT
+2025-09-24 03:25:39,860 - INFO - Bullish FVG detected for ZKCUSDT
+2025-09-24 03:25:39,860 - INFO - Bullish FVG detected for BARDUSDT
+2025-09-24 03:25:40,759 - INFO - Scheduled job executed successfully
+2025-09-24 03:25:41,573 - INFO - Job "scheduled_job (trigger: interval[0:15:00], next run at: 2025-09-24 03:36:42 IST)" executed successfully
+2025-09-24 03:36:42,347 - INFO - Running job "ping_self (trigger: interval[0:15:00], next run at: 2025-09-24 03:51:42 IST)" (scheduled at 2025-09-24 03:36:42.323127+05:30)
+2025-09-24 03:36:42,348 - INFO - Running job "scheduled_job (trigger: interval[0:15:00], next run at: 2025-09-24 03:51:42 IST)" (scheduled at 2025-09-24 03:36:42.325206+05:30)
+2025-09-24 03:36:42,349 - INFO - Starting Binance FVG Screener...
+2025-09-24 03:36:43,407 - INFO - Fetched 544 USDT perpetual futures symbols
+2025-09-24 03:36:43,410 - INFO - Total symbols: 544
+2025-09-24 03:36:52,432 - ERROR - Ping failed: HTTPSConnectionPool(host='binance-trade-screener.onrender.com', port=443): Read timed out. (read timeout=10)
+2025-09-24 03:36:53,178 - INFO - Job "ping_self (trigger: interval[0:15:00], next run at: 2025-09-24 03:51:42 IST)" executed successfully
+2025-09-24 03:37:13,399 - ERROR - Error fetching klines for BTCSTUSDT: could not convert string to float: 'o'
+2025-09-24 03:40:28,465 - INFO - Bearish FVG detected for BTCUSDT
+2025-09-24 03:40:28,466 - INFO - Bearish FVG detected for XLMUSDT
+2025-09-24 03:40:28,466 - INFO - Bearish FVG detected for RUNEUSDT
+2025-09-24 03:40:28,466 - INFO - Bearish FVG detected for EGLDUSDT
+2025-09-24 03:40:28,466 - INFO - Bearish FVG detected for SOLUSDT
+2025-09-24 03:40:28,467 - INFO - Bearish FVG detected for AVAXUSDT
+2025-09-24 03:40:28,467 - WARNING - Insufficient candles for BTCSTUSDT: 0
+2025-09-24 03:40:28,467 - INFO - Bearish FVG detected for BAKEUSDT
+2025-09-24 03:40:28,467 - INFO - Bearish FVG detected for CTSIUSDT
+2025-09-24 03:40:28,467 - INFO - Bearish FVG detected for OPUSDT
+2025-09-24 03:40:28,468 - INFO - Bullish FVG detected for STGUSDT
+2025-09-24 03:40:28,468 - INFO - Bearish FVG detected for HOOKUSDT
+2025-09-24 03:40:28,468 - INFO - Bullish FVG detected for PERPUSDT
+2025-09-24 03:40:28,468 - INFO - Bearish FVG detected for TRUUSDT
+2025-09-24 03:40:28,468 - INFO - Bullish FVG detected for USDCUSDT
+2025-09-24 03:40:28,469 - INFO - Bearish FVG detected for MAVUSDT
+2025-09-24 03:40:28,469 - INFO - Bearish FVG detected for PENDLEUSDT
+2025-09-24 03:40:28,469 - INFO - Bearish FVG detected for KASUSDT
+2025-09-24 03:40:28,469 - INFO - Bearish FVG detected for USTCUSDT
+2025-09-24 03:40:28,470 - INFO - Bearish FVG detected for ONDOUSDT
+2025-09-24 03:40:28,471 - INFO - Bearish FVG detected for RONINUSDT
+2025-09-24 03:40:28,471 - INFO - Bearish FVG detected for VANRYUSDT
+2025-09-24 03:40:28,471 - INFO - Bearish FVG detected for WUSDT
+2025-09-24 03:40:28,471 - INFO - Bullish FVG detected for ZROUSDT
+2025-09-24 03:40:28,472 - INFO - Bearish FVG detected for NEIROETHUSDT
+2025-09-24 03:40:28,472 - INFO - Bearish FVG detected for DRIFTUSDT
+2025-09-24 03:40:28,472 - INFO - Bearish FVG detected for AKTUSDT
+2025-09-24 03:40:28,472 - INFO - Bearish FVG detected for SLERFUSDT
+2025-09-24 03:40:28,472 - INFO - Bearish FVG detected for MORPHOUSDT
+2025-09-24 03:40:28,473 - INFO - Bearish FVG detected for KOMAUSDT
+2025-09-24 03:40:28,473 - INFO - Bearish FVG detected for SPXUSDT
+2025-09-24 03:40:28,473 - INFO - Bearish FVG detected for ZEREBROUSDT
+2025-09-24 03:40:28,473 - INFO - Bearish FVG detected for VVVUSDT
+2025-09-24 03:40:28,473 - INFO - Bullish FVG detected for BERAUSDT
+2025-09-24 03:40:28,474 - INFO - Bearish FVG detected for BROCCOLI714USDT
+2025-09-24 03:40:28,474 - INFO - Bearish FVG detected for ATHUSDT
+2025-09-24 03:40:28,474 - INFO - Bearish FVG detected for PROMPTUSDT
+2025-09-24 03:40:28,474 - INFO - Bearish FVG detected for BANKUSDT
+2025-09-24 03:40:28,474 - INFO - Bearish FVG detected for EPTUSDT
+2025-09-24 03:40:28,474 - INFO - Bearish FVG detected for DEEPUSDT
+2025-09-24 03:40:28,475 - INFO - Bearish FVG detected for DOLOUSDT
+2025-09-24 03:40:28,475 - INFO - Bearish FVG detected for B2USDT
+2025-09-24 03:40:28,475 - INFO - Bearish FVG detected for SKYAIUSDT
+2025-09-24 03:40:28,475 - INFO - Bearish FVG detected for AUSDT
+2025-09-24 03:40:28,475 - INFO - Bearish FVG detected for HYPEUSDT
+2025-09-24 03:40:28,475 - INFO - Bearish FVG detected for MYXUSDT
+2025-09-24 03:40:28,476 - INFO - Bearish FVG detected for FUSDT
+2025-09-24 03:40:28,476 - INFO - Bearish FVG detected for ICNTUSDT
+2025-09-24 03:40:28,476 - INFO - Bearish FVG detected for MUSDT
+2025-09-24 03:40:28,476 - INFO - Bearish FVG detected for TANSSIUSDT
+2025-09-24 03:40:28,476 - INFO - Bearish FVG detected for AINUSDT
+2025-09-24 03:40:28,476 - INFO - Bearish FVG detected for TAUSDT
+2025-09-24 03:40:28,476 - INFO - Bearish FVG detected for CVXUSDT
+2025-09-24 03:40:28,477 - INFO - Bullish FVG detected for ESPORTSUSDT
+2025-09-24 03:40:28,477 - INFO - Bearish FVG detected for USELESSUSDT
+2025-09-24 03:40:28,477 - INFO - Bearish FVG detected for BTRUSDT
+2025-09-24 03:40:28,477 - INFO - Bearish FVG detected for PTBUSDT
+2025-09-24 03:40:28,477 - INFO - Bullish FVG detected for FLOCKUSDT
+2025-09-24 03:40:28,477 - INFO - Bullish FVG detected for ZKCUSDT
+2025-09-24 03:40:28,477 - INFO - Bullish FVG detected for BARDUSDT
+2025-09-24 03:40:29,288 - INFO - Scheduled job executed successfully
+2025-09-24 03:40:30,097 - INFO - Job "scheduled_job (trigger: interval[0:15:00], next run at: 2025-09-24 03:51:42 IST)" executed successfully
+2025-09-24 03:51:42,346 - INFO - Running job "ping_self (trigger: interval[0:15:00], next run at: 2025-09-24 04:06:42 IST)" (scheduled at 2025-09-24 03:51:42.323127+05:30)
+2025-09-24 03:51:42,346 - INFO - Running job "scheduled_job (trigger: interval[0:15:00], next run at: 2025-09-24 04:06:42 IST)" (scheduled at 2025-09-24 03:51:42.325206+05:30)
+2025-09-24 03:51:42,349 - INFO - Starting Binance FVG Screener...
+2025-09-24 03:51:43,900 - INFO - Fetched 544 USDT perpetual futures symbols
+2025-09-24 03:51:43,902 - INFO - Total symbols: 544
+2025-09-24 03:51:44,250 - INFO - Job "ping_self (trigger: interval[0:15:00], next run at: 2025-09-24 04:06:42 IST)" executed successfully
+2025-09-24 03:52:40,741 - ERROR - Error fetching klines for BTCSTUSDT: could not convert string to float: 'o'
+2025-09-24 03:56:05,718 - INFO - Bearish FVG detected for BTCUSDT
+2025-09-24 03:56:05,719 - INFO - Bearish FVG detected for XLMUSDT
+2025-09-24 03:56:05,719 - INFO - Bearish FVG detected for RUNEUSDT
+2025-09-24 03:56:05,719 - INFO - Bearish FVG detected for EGLDUSDT
+2025-09-24 03:56:05,719 - INFO - Bearish FVG detected for SOLUSDT
+2025-09-24 03:56:05,720 - INFO - Bearish FVG detected for AVAXUSDT
+2025-09-24 03:56:05,720 - WARNING - Insufficient candles for BTCSTUSDT: 0
+2025-09-24 03:56:05,720 - INFO - Bearish FVG detected for BAKEUSDT
+2025-09-24 03:56:05,720 - INFO - Bearish FVG detected for CTSIUSDT
+2025-09-24 03:56:05,721 - INFO - Bearish FVG detected for OPUSDT
+2025-09-24 03:56:05,721 - INFO - Bullish FVG detected for STGUSDT
+2025-09-24 03:56:05,721 - INFO - Bearish FVG detected for HOOKUSDT
+2025-09-24 03:56:05,721 - INFO - Bullish FVG detected for PERPUSDT
+2025-09-24 03:56:05,721 - INFO - Bearish FVG detected for TRUUSDT
+2025-09-24 03:56:05,722 - INFO - Bullish FVG detected for USDCUSDT
+2025-09-24 03:56:05,722 - INFO - Bearish FVG detected for MAVUSDT
+2025-09-24 03:56:05,722 - INFO - Bearish FVG detected for PENDLEUSDT
+2025-09-24 03:56:05,722 - INFO - Bearish FVG detected for KASUSDT
+2025-09-24 03:56:05,722 - INFO - Bearish FVG detected for USTCUSDT
+2025-09-24 03:56:05,723 - INFO - Bearish FVG detected for ONDOUSDT
+2025-09-24 03:56:05,723 - INFO - Bearish FVG detected for RONINUSDT
+2025-09-24 03:56:05,723 - INFO - Bearish FVG detected for VANRYUSDT
+2025-09-24 03:56:05,723 - INFO - Bearish FVG detected for WUSDT
+2025-09-24 03:56:05,723 - INFO - Bullish FVG detected for ZROUSDT
+2025-09-24 03:56:05,724 - INFO - Bearish FVG detected for NEIROETHUSDT
+2025-09-24 03:56:05,724 - INFO - Bearish FVG detected for DRIFTUSDT
+2025-09-24 03:56:05,724 - INFO - Bearish FVG detected for AKTUSDT
+2025-09-24 03:56:05,724 - INFO - Bearish FVG detected for SLERFUSDT
+2025-09-24 03:56:05,724 - INFO - Bearish FVG detected for MORPHOUSDT
+2025-09-24 03:56:05,725 - INFO - Bearish FVG detected for KOMAUSDT
+2025-09-24 03:56:05,725 - INFO - Bearish FVG detected for SPXUSDT
+2025-09-24 03:56:05,725 - INFO - Bearish FVG detected for ZEREBROUSDT
+2025-09-24 03:56:05,725 - INFO - Bearish FVG detected for VVVUSDT
+2025-09-24 03:56:05,725 - INFO - Bearish FVG detected for BROCCOLI714USDT
+2025-09-24 03:56:05,726 - INFO - Bearish FVG detected for ATHUSDT
+2025-09-24 03:56:05,726 - INFO - Bearish FVG detected for PROMPTUSDT
+2025-09-24 03:56:05,726 - INFO - Bearish FVG detected for BANKUSDT
+2025-09-24 03:56:05,726 - INFO - Bearish FVG detected for EPTUSDT
+2025-09-24 03:56:05,726 - INFO - Bearish FVG detected for DEEPUSDT
+2025-09-24 03:56:05,726 - INFO - Bearish FVG detected for DOLOUSDT
+2025-09-24 03:56:05,727 - INFO - Bearish FVG detected for B2USDT
+2025-09-24 03:56:05,727 - INFO - Bearish FVG detected for SKYAIUSDT
+2025-09-24 03:56:05,727 - INFO - Bearish FVG detected for AUSDT
+2025-09-24 03:56:05,727 - INFO - Bearish FVG detected for HYPEUSDT
+2025-09-24 03:56:05,727 - INFO - Bearish FVG detected for MYXUSDT
+2025-09-24 03:56:05,727 - INFO - Bearish FVG detected for FUSDT
+2025-09-24 03:56:05,728 - INFO - Bearish FVG detected for ICNTUSDT
+2025-09-24 03:56:05,728 - INFO - Bearish FVG detected for MUSDT
+2025-09-24 03:56:05,728 - INFO - Bearish FVG detected for TANSSIUSDT
+2025-09-24 03:56:05,728 - INFO - Bearish FVG detected for AINUSDT
+2025-09-24 03:56:05,728 - INFO - Bearish FVG detected for TAUSDT
+2025-09-24 03:56:05,728 - INFO - Bearish FVG detected for CVXUSDT
+2025-09-24 03:56:05,729 - INFO - Bullish FVG detected for ESPORTSUSDT
+2025-09-24 03:56:05,729 - INFO - Bearish FVG detected for USELESSUSDT
+2025-09-24 03:56:05,729 - INFO - Bearish FVG detected for BTRUSDT
+2025-09-24 03:56:05,729 - INFO - Bearish FVG detected for PTBUSDT
+2025-09-24 03:56:05,729 - INFO - Bullish FVG detected for FLOCKUSDT
+2025-09-24 03:56:05,729 - INFO - Bullish FVG detected for ZKCUSDT
+2025-09-24 03:56:05,730 - INFO - Bullish FVG detected for BARDUSDT
+2025-09-24 03:56:06,548 - INFO - Scheduled job executed successfully
+2025-09-24 03:56:07,365 - INFO - Job "scheduled_job (trigger: interval[0:15:00], next run at: 2025-09-24 04:06:42 IST)" executed successfully
+2025-09-24 04:06:42,342 - INFO - Running job "ping_self (trigger: interval[0:15:00], next run at: 2025-09-24 04:21:42 IST)" (scheduled at 2025-09-24 04:06:42.323127+05:30)
+2025-09-24 04:06:42,342 - INFO - Running job "scheduled_job (trigger: interval[0:15:00], next run at: 2025-09-24 04:21:42 IST)" (scheduled at 2025-09-24 04:06:42.325206+05:30)
+2025-09-24 04:06:42,345 - INFO - Starting Binance FVG Screener...
+2025-09-24 04:06:43,926 - INFO - Fetched 544 USDT perpetual futures symbols
+2025-09-24 04:06:43,927 - INFO - Total symbols: 544
+2025-09-24 04:06:44,215 - INFO - Job "ping_self (trigger: interval[0:15:00], next run at: 2025-09-24 04:21:42 IST)" executed successfully
+2025-09-24 04:07:18,635 - ERROR - Error fetching klines for BTCSTUSDT: could not convert string to float: 'o'
+2025-09-24 04:10:20,169 - INFO - Bearish FVG detected for BTCUSDT
+2025-09-24 04:10:20,169 - INFO - Bearish FVG detected for XLMUSDT
+2025-09-24 04:10:20,170 - INFO - Bearish FVG detected for RUNEUSDT
+2025-09-24 04:10:20,171 - INFO - Bearish FVG detected for EGLDUSDT
+2025-09-24 04:10:20,171 - INFO - Bearish FVG detected for SOLUSDT
+2025-09-24 04:10:20,171 - INFO - Bearish FVG detected for AVAXUSDT
+2025-09-24 04:10:20,171 - WARNING - Insufficient candles for BTCSTUSDT: 0
+2025-09-24 04:10:20,172 - INFO - Bearish FVG detected for BAKEUSDT
+2025-09-24 04:10:20,172 - INFO - Bearish FVG detected for CTSIUSDT
+2025-09-24 04:10:20,172 - INFO - Bearish FVG detected for OPUSDT
+2025-09-24 04:10:20,172 - INFO - Bullish FVG detected for STGUSDT
+2025-09-24 04:10:20,172 - INFO - Bearish FVG detected for HOOKUSDT
+2025-09-24 04:10:20,173 - INFO - Bullish FVG detected for PERPUSDT
+2025-09-24 04:10:20,173 - INFO - Bearish FVG detected for TRUUSDT
+2025-09-24 04:10:20,173 - INFO - Bullish FVG detected for USDCUSDT
+2025-09-24 04:10:20,173 - INFO - Bearish FVG detected for MAVUSDT
+2025-09-24 04:10:20,174 - INFO - Bearish FVG detected for PENDLEUSDT
+2025-09-24 04:10:20,174 - INFO - Bearish FVG detected for KASUSDT
+2025-09-24 04:10:20,174 - INFO - Bearish FVG detected for USTCUSDT
+2025-09-24 04:10:20,174 - INFO - Bearish FVG detected for ONDOUSDT
+2025-09-24 04:10:20,174 - INFO - Bearish FVG detected for RONINUSDT
+2025-09-24 04:10:20,175 - INFO - Bearish FVG detected for VANRYUSDT
+2025-09-24 04:10:20,175 - INFO - Bearish FVG detected for WUSDT
+2025-09-24 04:10:20,175 - INFO - Bullish FVG detected for ZROUSDT
+2025-09-24 04:10:20,175 - INFO - Bearish FVG detected for NEIROETHUSDT
+2025-09-24 04:10:20,175 - INFO - Bearish FVG detected for DRIFTUSDT
+2025-09-24 04:10:20,176 - INFO - Bearish FVG detected for AKTUSDT
+2025-09-24 04:10:20,176 - INFO - Bearish FVG detected for SLERFUSDT
+2025-09-24 04:10:20,176 - INFO - Bearish FVG detected for MORPHOUSDT
+2025-09-24 04:10:20,176 - INFO - Bearish FVG detected for KOMAUSDT
+2025-09-24 04:10:20,176 - INFO - Bearish FVG detected for ZEREBROUSDT
+2025-09-24 04:10:20,177 - INFO - Bearish FVG detected for VVVUSDT
+2025-09-24 04:10:20,177 - INFO - Bearish FVG detected for BROCCOLI714USDT
+2025-09-24 04:10:20,177 - INFO - Bearish FVG detected for ATHUSDT
+2025-09-24 04:10:20,177 - INFO - Bearish FVG detected for PROMPTUSDT
+2025-09-24 04:10:20,177 - INFO - Bearish FVG detected for BANKUSDT
+2025-09-24 04:10:20,177 - INFO - Bearish FVG detected for EPTUSDT
+2025-09-24 04:10:20,178 - INFO - Bearish FVG detected for DEEPUSDT
+2025-09-24 04:10:20,178 - INFO - Bearish FVG detected for DOLOUSDT
+2025-09-24 04:10:20,178 - INFO - Bearish FVG detected for B2USDT
+2025-09-24 04:10:20,178 - INFO - Bearish FVG detected for SKYAIUSDT
+2025-09-24 04:10:20,178 - INFO - Bearish FVG detected for AUSDT
+2025-09-24 04:10:20,178 - INFO - Bearish FVG detected for HYPEUSDT
+2025-09-24 04:10:20,179 - INFO - Bearish FVG detected for MYXUSDT
+2025-09-24 04:10:20,179 - INFO - Bearish FVG detected for FUSDT
+2025-09-24 04:10:20,179 - INFO - Bearish FVG detected for ICNTUSDT
+2025-09-24 04:10:20,179 - INFO - Bearish FVG detected for MUSDT
+2025-09-24 04:10:20,179 - INFO - Bearish FVG detected for TANSSIUSDT
+2025-09-24 04:10:20,179 - INFO - Bearish FVG detected for AINUSDT
+2025-09-24 04:10:20,179 - INFO - Bearish FVG detected for TAUSDT
+2025-09-24 04:10:20,180 - INFO - Bearish FVG detected for CVXUSDT
+2025-09-24 04:10:20,180 - INFO - Bullish FVG detected for ESPORTSUSDT
+2025-09-24 04:10:20,180 - INFO - Bearish FVG detected for USELESSUSDT
+2025-09-24 04:10:20,180 - INFO - Bearish FVG detected for BTRUSDT
+2025-09-24 04:10:20,180 - INFO - Bearish FVG detected for PTBUSDT
+2025-09-24 04:10:20,180 - INFO - Bullish FVG detected for FLOCKUSDT
+2025-09-24 04:10:20,181 - INFO - Bullish FVG detected for ZKCUSDT
+2025-09-24 04:10:20,181 - INFO - Bullish FVG detected for BARDUSDT
+2025-09-24 04:10:21,084 - INFO - Scheduled job executed successfully
+2025-09-24 04:10:21,897 - INFO - Job "scheduled_job (trigger: interval[0:15:00], next run at: 2025-09-24 04:21:42 IST)" executed successfully
+2025-09-24 04:21:42,340 - INFO - Running job "ping_self (trigger: interval[0:15:00], next run at: 2025-09-24 04:36:42 IST)" (scheduled at 2025-09-24 04:21:42.323127+05:30)
+2025-09-24 04:21:42,344 - INFO - Running job "scheduled_job (trigger: interval[0:15:00], next run at: 2025-09-24 04:36:42 IST)" (scheduled at 2025-09-24 04:21:42.325206+05:30)
+2025-09-24 04:21:42,354 - INFO - Starting Binance FVG Screener...
+2025-09-24 04:21:43,634 - INFO - Fetched 544 USDT perpetual futures symbols
+2025-09-24 04:21:43,635 - INFO - Total symbols: 544
+2025-09-24 04:21:44,343 - INFO - Job "ping_self (trigger: interval[0:15:00], next run at: 2025-09-24 04:36:42 IST)" executed successfully
+2025-09-24 04:22:14,640 - ERROR - Error fetching klines for BTCSTUSDT: could not convert string to float: 'o'
+2025-09-24 04:26:24,398 - INFO - Bearish FVG detected for BTCUSDT
+2025-09-24 04:26:24,399 - INFO - Bearish FVG detected for XLMUSDT
+2025-09-24 04:26:24,399 - INFO - Bearish FVG detected for RUNEUSDT
+2025-09-24 04:26:24,399 - INFO - Bearish FVG detected for EGLDUSDT
+2025-09-24 04:26:24,399 - INFO - Bearish FVG detected for SOLUSDT
+2025-09-24 04:26:24,400 - INFO - Bearish FVG detected for AVAXUSDT
+2025-09-24 04:26:24,400 - WARNING - Insufficient candles for BTCSTUSDT: 0
+2025-09-24 04:26:24,400 - INFO - Bearish FVG detected for BAKEUSDT
+2025-09-24 04:26:24,400 - INFO - Bearish FVG detected for CTSIUSDT
+2025-09-24 04:26:24,401 - INFO - Bearish FVG detected for OPUSDT
+2025-09-24 04:26:24,401 - INFO - Bullish FVG detected for STGUSDT
+2025-09-24 04:26:24,401 - INFO - Bearish FVG detected for HOOKUSDT
+2025-09-24 04:26:24,402 - INFO - Bullish FVG detected for PERPUSDT
+2025-09-24 04:26:24,402 - INFO - Bearish FVG detected for TRUUSDT
+2025-09-24 04:26:24,402 - INFO - Bullish FVG detected for USDCUSDT
+2025-09-24 04:26:24,402 - INFO - Bearish FVG detected for MAVUSDT
+2025-09-24 04:26:24,403 - INFO - Bearish FVG detected for PENDLEUSDT
+2025-09-24 04:26:24,403 - INFO - Bearish FVG detected for KASUSDT
+2025-09-24 04:26:24,403 - INFO - Bearish FVG detected for USTCUSDT
+2025-09-24 04:26:24,404 - INFO - Bearish FVG detected for ONDOUSDT
+2025-09-24 04:26:24,404 - INFO - Bearish FVG detected for RONINUSDT
+2025-09-24 04:26:24,404 - INFO - Bearish FVG detected for VANRYUSDT
+2025-09-24 04:26:24,405 - INFO - Bearish FVG detected for WUSDT
+2025-09-24 04:26:24,405 - INFO - Bullish FVG detected for ZROUSDT
+2025-09-24 04:26:24,405 - INFO - Bearish FVG detected for NEIROETHUSDT
+2025-09-24 04:26:24,405 - INFO - Bearish FVG detected for DRIFTUSDT
+2025-09-24 04:26:24,406 - INFO - Bearish FVG detected for AKTUSDT
+2025-09-24 04:26:24,406 - INFO - Bearish FVG detected for SLERFUSDT
+2025-09-24 04:26:24,406 - INFO - Bearish FVG detected for MORPHOUSDT
+2025-09-24 04:26:24,407 - INFO - Bearish FVG detected for KOMAUSDT
+2025-09-24 04:26:24,407 - INFO - Bearish FVG detected for ZEREBROUSDT
+2025-09-24 04:26:24,407 - INFO - Bearish FVG detected for VVVUSDT
+2025-09-24 04:26:24,408 - INFO - Bearish FVG detected for BROCCOLI714USDT
+2025-09-24 04:26:24,408 - INFO - Bearish FVG detected for ATHUSDT
+2025-09-24 04:26:24,408 - INFO - Bearish FVG detected for PROMPTUSDT
+2025-09-24 04:26:24,408 - INFO - Bearish FVG detected for BANKUSDT
+2025-09-24 04:26:24,409 - INFO - Bearish FVG detected for EPTUSDT
+2025-09-24 04:26:24,409 - INFO - Bearish FVG detected for DEEPUSDT
+2025-09-24 04:26:24,410 - INFO - Bearish FVG detected for DOLOUSDT
+2025-09-24 04:26:24,411 - INFO - Bearish FVG detected for B2USDT
+2025-09-24 04:26:24,412 - INFO - Bearish FVG detected for SKYAIUSDT
+2025-09-24 04:26:24,412 - INFO - Bearish FVG detected for AUSDT
+2025-09-24 04:26:24,413 - INFO - Bearish FVG detected for HYPEUSDT
+2025-09-24 04:26:24,413 - INFO - Bearish FVG detected for MYXUSDT
+2025-09-24 04:26:24,413 - INFO - Bearish FVG detected for FUSDT
+2025-09-24 04:26:24,413 - INFO - Bearish FVG detected for ICNTUSDT
+2025-09-24 04:26:24,414 - INFO - Bearish FVG detected for MUSDT
+2025-09-24 04:26:24,414 - INFO - Bearish FVG detected for TANSSIUSDT
+2025-09-24 04:26:24,414 - INFO - Bearish FVG detected for AINUSDT
+2025-09-24 04:26:24,415 - INFO - Bearish FVG detected for TAUSDT
+2025-09-24 04:26:24,415 - INFO - Bearish FVG detected for CVXUSDT
+2025-09-24 04:26:24,415 - INFO - Bullish FVG detected for ESPORTSUSDT
+2025-09-24 04:26:24,415 - INFO - Bearish FVG detected for USELESSUSDT
+2025-09-24 04:26:24,416 - INFO - Bearish FVG detected for BTRUSDT
+2025-09-24 04:26:24,416 - INFO - Bearish FVG detected for PTBUSDT
+2025-09-24 04:26:24,416 - INFO - Bullish FVG detected for FLOCKUSDT
+2025-09-24 04:26:24,417 - INFO - Bullish FVG detected for ZKCUSDT
+2025-09-24 04:26:24,417 - INFO - Bullish FVG detected for BARDUSDT
+2025-09-24 04:26:25,172 - INFO - Scheduled job executed successfully
+2025-09-24 04:26:25,937 - INFO - Job "scheduled_job (trigger: interval[0:15:00], next run at: 2025-09-24 04:36:42 IST)" executed successfully
+2025-10-07 05:52:10,107 - INFO - Running initial screener on startup...
+2025-10-07 05:52:10,108 - INFO - Starting Binance FVG Screener...
+2025-10-07 05:52:11,271 - INFO - Telegram message sent:  Starting Binance FVG Screener - 2025-10-07 05:52:10 India Standard Time
+2025-10-07 05:52:11,579 - INFO - Fetched 508 USDT perpetual futures symbols
+2025-10-07 05:52:11,580 - INFO - Total symbols: 508
+2025-10-07 05:56:13,017 - INFO - Bearish FVG detected for XRPUSDT
+2025-10-07 05:56:13,017 - INFO - Bearish FVG detected for LTCUSDT
+2025-10-07 05:56:13,018 - INFO - Bearish FVG detected for XTZUSDT
+2025-10-07 05:56:13,018 - INFO - Bearish FVG detected for ONTUSDT
+2025-10-07 05:56:13,018 - INFO - Bearish FVG detected for IOTAUSDT
+2025-10-07 05:56:13,018 - INFO - Bearish FVG detected for NEOUSDT
+2025-10-07 05:56:13,018 - INFO - Bearish FVG detected for QTUMUSDT
+2025-10-07 05:56:13,019 - INFO - Bearish FVG detected for IOSTUSDT
+2025-10-07 05:56:13,019 - INFO - Bearish FVG detected for SXPUSDT
+2025-10-07 05:56:13,019 - INFO - Bearish FVG detected for RLCUSDT
+2025-10-07 05:56:13,019 - INFO - Bearish FVG detected for CRVUSDT
+2025-10-07 05:56:13,020 - INFO - Bearish FVG detected for SOLUSDT
+2025-10-07 05:56:13,020 - INFO - Bearish FVG detected for ZENUSDT
+2025-10-07 05:56:13,020 - INFO - Bearish FVG detected for SKLUSDT
+2025-10-07 05:56:13,020 - INFO - Bearish FVG detected for ANKRUSDT
+2025-10-07 05:56:13,020 - INFO - Bearish FVG detected for MTLUSDT
+2025-10-07 05:56:13,021 - INFO - Bearish FVG detected for ROSEUSDT
+2025-10-07 05:56:13,021 - INFO - Bearish FVG detected for DUSKUSDT
+2025-10-07 05:56:13,021 - INFO - Bearish FVG detected for INJUSDT
+2025-10-07 05:56:13,021 - INFO - Bearish FVG detected for LUNA2USDT
+2025-10-07 05:56:13,022 - INFO - Bearish FVG detected for APTUSDT
+2025-10-07 05:56:13,022 - INFO - Bearish FVG detected for HIGHUSDT
+2025-10-07 05:56:13,022 - INFO - Bearish FVG detected for USDCUSDT
+2025-10-07 05:56:13,022 - INFO - Bearish FVG detected for XVSUSDT
+2025-10-07 05:56:13,022 - INFO - Bearish FVG detected for EDUUSDT
+2025-10-07 05:56:13,023 - INFO - Bearish FVG detected for SUIUSDT
+2025-10-07 05:56:13,023 - INFO - Bearish FVG detected for MAVUSDT
+2025-10-07 05:56:13,023 - INFO - Bearish FVG detected for BSVUSDT
+2025-10-07 05:56:13,023 - INFO - Bearish FVG detected for POLYXUSDT
+2025-10-07 05:56:13,024 - INFO - Bullish FVG detected for ZETAUSDT
+2025-10-07 05:56:13,024 - INFO - Bearish FVG detected for DYMUSDT
+2025-10-07 05:56:13,024 - INFO - Bullish FVG detected for OMUSDT
+2025-10-07 05:56:13,024 - INFO - Bearish FVG detected for ETHFIUSDT
+2025-10-07 05:56:13,024 - INFO - Bearish FVG detected for TNSRUSDT
+2025-10-07 05:56:13,026 - INFO - Bearish FVG detected for BBUSDT
+2025-10-07 05:56:13,026 - INFO - Bearish FVG detected for SYNUSDT
+2025-10-07 05:56:13,026 - INFO - Bearish FVG detected for SYSUSDT
+2025-10-07 05:56:13,026 - INFO - Bearish FVG detected for RPLUSDT
+2025-10-07 05:56:13,027 - INFO - Bearish FVG detected for REIUSDT
+2025-10-07 05:56:13,027 - INFO - Bearish FVG detected for EIGENUSDT
+2025-10-07 05:56:13,027 - INFO - Bullish FVG detected for SANTOSUSDT
+2025-10-07 05:56:13,027 - INFO - Bearish FVG detected for CETUSUSDT
+2025-10-07 05:56:13,027 - INFO - Bearish FVG detected for DRIFTUSDT
+2025-10-07 05:56:13,028 - INFO - Bearish FVG detected for PNUTUSDT
+2025-10-07 05:56:13,028 - INFO - Bearish FVG detected for MORPHOUSDT
+2025-10-07 05:56:13,028 - INFO - Bearish FVG detected for KAIAUSDT
+2025-10-07 05:56:13,029 - INFO - Bearish FVG detected for ACXUSDT
+2025-10-07 05:56:13,029 - INFO - Bearish FVG detected for PHAUSDT
+2025-10-07 05:56:13,029 - INFO - Bearish FVG detected for KAITOUSDT
+2025-10-07 05:56:13,029 - INFO - Bearish FVG detected for MUBARAKUSDT
+2025-10-07 05:56:13,029 - INFO - Bearish FVG detected for DEEPUSDT
+2025-10-07 05:56:13,030 - INFO - Bearish FVG detected for DOLOUSDT
+2025-10-07 05:56:13,030 - INFO - Bullish FVG detected for HAEDALUSDT
+2025-10-07 05:56:13,030 - INFO - Bearish FVG detected for AUSDT
+2025-10-07 05:56:13,030 - INFO - Bearish FVG detected for HYPEUSDT
+2025-10-07 05:56:13,031 - INFO - Bearish FVG detected for PORT3USDT
+2025-10-07 05:56:13,031 - INFO - Bearish FVG detected for SQDUSDT
+2025-10-07 05:56:13,031 - INFO - Bearish FVG detected for PUMPUSDT
+2025-10-07 05:56:13,031 - INFO - Bullish FVG detected for CUSDT
+2025-10-07 05:56:13,032 - INFO - Bearish FVG detected for CVXUSDT
+2025-10-07 05:56:13,032 - INFO - Bullish FVG detected for ZORAUSDT
+2025-10-07 05:56:13,032 - INFO - Bullish FVG detected for TAGUSDT
+2025-10-07 05:56:13,033 - INFO - Bullish FVG detected for SAPIENUSDT
+2025-10-07 05:56:13,033 - INFO - Bullish FVG detected for OPENUSDT
+2025-10-07 05:56:13,033 - INFO - Bullish FVG detected for XPINUSDT
+2025-10-07 05:56:13,033 - INFO - Screener results:
+📊 Binance FVG Screener (4H) - 2025-10-07 05:56:13 India Standard Time
+
+✅ Bullish: ZETAUSDT, OMUSDT, SANTOSUSDT, HAEDALUSDT, CUSDT, ZORAUSDT, TAGUSDT, SAPIENUSDT, OPENUSDT, XPINUSDT
+❌ Bearish: XRPUSDT, LTCUSDT, XTZUSDT, ONTUSDT, IOTAUSDT, NEOUSDT, QTUMUSDT, IOSTUSDT, SXPUSDT, RLCUSDT, CRVUSDT, SOLUSDT, ZENUSDT, SKLUSDT, ANKRUSDT, MTLUSDT, ROSEUSDT, DUSKUSDT, INJUSDT, LUNA2USDT, APTUSDT, HIGHUSDT, USDCUSDT, XVSUSDT, EDUUSDT, SUIUSDT, MAVUSDT, BSVUSDT, POLYXUSDT, DYMUSDT, ETHFIUSDT, TNSRUSDT, BBUSDT, SYNUSDT, SYSUSDT, RPLUSDT, REIUSDT, EIGENUSDT, CETUSUSDT, DRIFTUSDT, PNUTUSDT, MORPHOUSDT, KAIAUSDT, ACXUSDT, PHAUSDT, KAITOUSDT, MUBARAKUSDT, DEEPUSDT, DOLOUSDT, AUSDT, HYPEUSDT, PORT3USDT, SQDUSDT, PUMPUSDT, CVXUSDT
+2025-10-07 05:56:14,267 - INFO - Telegram message sent:  Binance FVG Screener (4H) - 2025-10-07 05:56:13 India Standard Time
+
+ Bullish: ZETAUSDT, OMUSDT, SANTOSUSDT, HAEDALUSDT, CUSDT, ZORAUSDT, TAGUSDT, SAPIENUSDT, OPENUSDT, XPINUSDT
+ Bearish: XRPUSDT, LTCUSDT, XTZUSDT, ONTUSDT, IOTAUSDT, NEOUSDT, QTUMUSDT, IOSTUSDT, SXPUSDT, RLCUSDT, CRVUSDT, SOLUSDT, ZENUSDT, SKLUSDT, ANKRUSDT, MTLUSDT, ROSEUSDT, DUSKUSDT, INJUSDT, LUNA2USDT, APTUSDT, HIGHUSDT, USDCUSDT, XVSUSDT, EDUUSDT, SUIUSDT, MAVUSDT, BSVUSDT, POLYXUSDT, DYMUSDT, ETHFIUSDT, TNSRUSDT, BBUSDT, SYNUSDT, SYSUSDT, RPLUSDT, REIUSDT, EIGENUSDT, CETUSUSDT, DRIFTUSDT, PNUTUSDT, MORPHOUSDT, KAIAUSDT, ACXUSDT, PHAUSDT, KAITOUSDT, MUBARAKUSDT, DEEPUSDT, DOLOUSDT, AUSDT, HYPEUSDT, PORT3USDT, SQDUSDT, PUMPUSDT, CVXUSDT
+2025-10-07 05:56:14,268 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-10-07 05:56:14,268 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-10-07 05:56:14,269 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-10-07 05:56:14,269 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-10-07 05:56:14,281 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-10-07 05:56:14,281 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-10-07 05:56:14,283 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-10-07 05:56:14,284 - INFO - Added job "scheduled_job" to job store "default"
+2025-10-07 05:56:14,284 - INFO - Added job "scheduled_job" to job store "default"
+2025-10-07 05:56:14,285 - INFO - Added job "scheduled_job" to job store "default"
+2025-10-07 05:56:14,285 - INFO - Added job "scheduled_job" to job store "default"
+2025-10-07 05:56:14,285 - INFO - Added job "scheduled_job" to job store "default"
+2025-10-07 05:56:14,286 - INFO - Added job "scheduled_job" to job store "default"
+2025-10-07 05:56:14,286 - INFO - Added job "ping_self" to job store "default"
+2025-10-07 05:56:14,286 - INFO - Scheduler started
+2025-10-07 05:56:14,287 - INFO - Scheduler started with cron jobs at 01:32, 05:32, 09:32, 13:32, 17:32, 21:32 IST
+2025-10-07 05:56:15,495 - INFO - Telegram message sent:  Scheduler started - 2025-10-07 05:56:14 India Standard Time
+2025-10-07 05:56:15,505 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.38:5000
+2025-10-07 05:56:15,505 - INFO - [33mPress CTRL+C to quit[0m
+2025-10-22 14:00:06,420 - INFO - Starting Binance FVG Screener...
+2025-10-22 14:00:07,316 - INFO - Telegram message sent:  Starting Binance FVG Screener - 2025-10-22 14:00:06 India Standard Time
+2025-10-22 14:00:07,827 - INFO - Fetched 523 USDT perpetual futures symbols
+2025-10-22 14:00:07,828 - INFO - Total symbols: 523
+2025-10-22 14:04:41,486 - INFO - Bullish FVG detected for ZECUSDT
+2025-10-22 14:04:41,490 - INFO - Bullish FVG detected for XVGUSDT
+2025-10-22 14:04:41,491 - INFO - Bullish FVG detected for TWTUSDT
+2025-10-22 14:04:41,491 - INFO - Bullish FVG detected for AUCTIONUSDT
+2025-10-22 14:04:41,492 - INFO - Bearish FVG detected for AXLUSDT
+2025-10-22 14:04:41,494 - INFO - Bullish FVG detected for DEGOUSDT
+2025-10-22 14:04:41,494 - INFO - Bearish FVG detected for ALCHUSDT
+2025-10-22 14:04:41,495 - INFO - Bullish FVG detected for SOLVUSDT
+2025-10-22 14:04:41,495 - INFO - Bullish FVG detected for BERAUSDT
+2025-10-22 14:04:41,496 - INFO - Bullish FVG detected for HEIUSDT
+2025-10-22 14:04:41,496 - INFO - Bullish FVG detected for FORMUSDT
+2025-10-22 14:04:41,496 - INFO - Bullish FVG detected for NILUSDT
+2025-10-22 14:04:41,498 - INFO - Bearish FVG detected for JELLYJELLYUSDT
+2025-10-22 14:04:41,498 - INFO - Bearish FVG detected for STOUSDT
+2025-10-22 14:04:41,498 - INFO - Bearish FVG detected for BANKUSDT
+2025-10-22 14:04:41,499 - INFO - Bearish FVG detected for AIOTUSDT
+2025-10-22 14:04:41,499 - INFO - Bullish FVG detected for ICNTUSDT
+2025-10-22 14:04:41,500 - INFO - Bullish FVG detected for VELVETUSDT
+2025-10-22 14:04:41,501 - INFO - Bullish FVG detected for YALAUSDT
+2025-10-22 14:04:41,501 - INFO - Bullish FVG detected for ARIAUSDT
+2025-10-22 14:04:41,502 - INFO - Bearish FVG detected for PTBUSDT
+2025-10-22 14:04:41,502 - INFO - Bullish FVG detected for XPINUSDT
+2025-10-22 14:04:41,503 - INFO - Bearish FVG detected for FFUSDT
+2025-10-22 14:04:41,503 - INFO - Bearish FVG detected for NOMUSDT
+2025-10-22 14:04:41,503 - INFO - Bearish FVG detected for 2ZUSDT
+2025-10-22 14:04:41,504 - INFO - Bearish FVG detected for ZBTUSDT
+2025-10-22 14:04:41,504 - INFO - Bullish FVG detected for LABUSDT
+2025-10-22 14:04:41,505 - INFO - Screener results:
+📊 Binance FVG Screener (4H) - 2025-10-22 14:04:41 India Standard Time
+
+✅ Bullish: ZECUSDT, XVGUSDT, TWTUSDT, AUCTIONUSDT, DEGOUSDT, SOLVUSDT, BERAUSDT, HEIUSDT, FORMUSDT, NILUSDT, ICNTUSDT, VELVETUSDT, YALAUSDT, ARIAUSDT, XPINUSDT, LABUSDT
+❌ Bearish: AXLUSDT, ALCHUSDT, JELLYJELLYUSDT, STOUSDT, BANKUSDT, AIOTUSDT, PTBUSDT, FFUSDT, NOMUSDT, 2ZUSDT, ZBTUSDT
+2025-10-22 14:04:42,302 - INFO - Telegram message sent:  Binance FVG Screener (4H) - 2025-10-22 14:04:41 India Standard Time
+
+ Bullish: ZECUSDT, XVGUSDT, TWTUSDT, AUCTIONUSDT, DEGOUSDT, SOLVUSDT, BERAUSDT, HEIUSDT, FORMUSDT, NILUSDT, ICNTUSDT, VELVETUSDT, YALAUSDT, ARIAUSDT, XPINUSDT, LABUSDT
+ Bearish: AXLUSDT, ALCHUSDT, JELLYJELLYUSDT, STOUSDT, BANKUSDT, AIOTUSDT, PTBUSDT, FFUSDT, NOMUSDT, 2ZUSDT, ZBTUSDT
+2025-10-22 14:04:42,304 - INFO - Running initial screener on startup...
+2025-10-22 14:04:42,304 - INFO - Starting Binance FVG Screener...
+2025-10-22 14:04:49,558 - INFO - Telegram message sent:  Starting Binance FVG Screener - 2025-10-22 14:04:42 India Standard Time
+2025-10-22 14:04:50,117 - INFO - Fetched 523 USDT perpetual futures symbols
+2025-10-22 14:04:50,121 - INFO - Total symbols: 523
+2025-10-22 14:08:05,343 - INFO - Bullish FVG detected for ZECUSDT
+2025-10-22 14:08:05,355 - INFO - Bullish FVG detected for XVGUSDT
+2025-10-22 14:08:05,356 - INFO - Bullish FVG detected for TWTUSDT
+2025-10-22 14:08:05,357 - INFO - Bullish FVG detected for AUCTIONUSDT
+2025-10-22 14:08:05,358 - INFO - Bearish FVG detected for AXLUSDT
+2025-10-22 14:08:05,359 - INFO - Bullish FVG detected for DEGOUSDT
+2025-10-22 14:08:05,359 - INFO - Bearish FVG detected for ALCHUSDT
+2025-10-22 14:08:05,359 - INFO - Bullish FVG detected for SOLVUSDT
+2025-10-22 14:08:05,360 - INFO - Bullish FVG detected for BERAUSDT
+2025-10-22 14:08:05,360 - INFO - Bullish FVG detected for HEIUSDT
+2025-10-22 14:08:05,360 - INFO - Bullish FVG detected for FORMUSDT
+2025-10-22 14:08:05,360 - INFO - Bullish FVG detected for NILUSDT
+2025-10-22 14:08:05,361 - INFO - Bearish FVG detected for JELLYJELLYUSDT
+2025-10-22 14:08:05,361 - INFO - Bearish FVG detected for STOUSDT
+2025-10-22 14:08:05,361 - INFO - Bearish FVG detected for BANKUSDT
+2025-10-22 14:08:05,362 - INFO - Bearish FVG detected for AIOTUSDT
+2025-10-22 14:08:05,363 - INFO - Bullish FVG detected for ICNTUSDT
+2025-10-22 14:08:05,363 - INFO - Bullish FVG detected for VELVETUSDT
+2025-10-22 14:08:05,364 - INFO - Bullish FVG detected for YALAUSDT
+2025-10-22 14:08:05,364 - INFO - Bullish FVG detected for ARIAUSDT
+2025-10-22 14:08:05,364 - INFO - Bearish FVG detected for PTBUSDT
+2025-10-22 14:08:05,367 - INFO - Bullish FVG detected for XPINUSDT
+2025-10-22 14:08:05,368 - INFO - Bearish FVG detected for FFUSDT
+2025-10-22 14:08:05,370 - INFO - Bearish FVG detected for NOMUSDT
+2025-10-22 14:08:05,370 - INFO - Bearish FVG detected for 2ZUSDT
+2025-10-22 14:08:05,370 - INFO - Bearish FVG detected for ZBTUSDT
+2025-10-22 14:08:05,371 - INFO - Bullish FVG detected for LABUSDT
+2025-10-22 14:08:05,372 - INFO - Screener results:
+📊 Binance FVG Screener (4H) - 2025-10-22 14:08:05 India Standard Time
+
+✅ Bullish: ZECUSDT, XVGUSDT, TWTUSDT, AUCTIONUSDT, DEGOUSDT, SOLVUSDT, BERAUSDT, HEIUSDT, FORMUSDT, NILUSDT, ICNTUSDT, VELVETUSDT, YALAUSDT, ARIAUSDT, XPINUSDT, LABUSDT
+❌ Bearish: AXLUSDT, ALCHUSDT, JELLYJELLYUSDT, STOUSDT, BANKUSDT, AIOTUSDT, PTBUSDT, FFUSDT, NOMUSDT, 2ZUSDT, ZBTUSDT
+2025-10-22 14:08:06,206 - INFO - Telegram message sent:  Binance FVG Screener (4H) - 2025-10-22 14:08:05 India Standard Time
+
+ Bullish: ZECUSDT, XVGUSDT, TWTUSDT, AUCTIONUSDT, DEGOUSDT, SOLVUSDT, BERAUSDT, HEIUSDT, FORMUSDT, NILUSDT, ICNTUSDT, VELVETUSDT, YALAUSDT, ARIAUSDT, XPINUSDT, LABUSDT
+ Bearish: AXLUSDT, ALCHUSDT, JELLYJELLYUSDT, STOUSDT, BANKUSDT, AIOTUSDT, PTBUSDT, FFUSDT, NOMUSDT, 2ZUSDT, ZBTUSDT
+2025-10-22 14:08:06,236 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-10-22 14:08:06,237 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-10-22 14:08:06,238 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-10-22 14:08:06,239 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-10-22 14:08:06,242 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-10-22 14:08:06,243 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-10-22 14:08:06,281 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-10-22 14:08:06,304 - INFO - Added job "scheduled_job" to job store "default"
+2025-10-22 14:08:06,305 - INFO - Added job "scheduled_job" to job store "default"
+2025-10-22 14:08:06,306 - INFO - Added job "scheduled_job" to job store "default"
+2025-10-22 14:08:06,306 - INFO - Added job "scheduled_job" to job store "default"
+2025-10-22 14:08:06,307 - INFO - Added job "scheduled_job" to job store "default"
+2025-10-22 14:08:06,307 - INFO - Added job "scheduled_job" to job store "default"
+2025-10-22 14:08:06,308 - INFO - Added job "ping_self" to job store "default"
+2025-10-22 14:08:06,308 - INFO - Scheduler started
+2025-10-22 14:08:06,314 - INFO - Scheduler started with cron jobs at 01:32, 05:32, 09:32, 13:32, 17:32, 21:32 IST
+2025-10-22 14:08:07,933 - INFO - Telegram message sent:  Scheduler started - 2025-10-22 14:08:06 India Standard Time
+2025-10-22 14:08:08,111 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.4:5000
+2025-10-22 14:08:08,112 - INFO - [33mPress CTRL+C to quit[0m
+2025-10-22 14:13:06,294 - INFO - Running job "ping_self (trigger: interval[0:05:00], next run at: 2025-10-22 14:18:06 IST)" (scheduled at 2025-10-22 14:13:06.280085+05:30)
+2025-10-22 14:13:26,425 - ERROR - Ping failed (attempt 1): HTTPSConnectionPool(host='binance-trade-screener.onrender.com', port=443): Read timed out. (read timeout=20)
+2025-10-22 14:13:51,457 - ERROR - Ping failed (attempt 2): HTTPSConnectionPool(host='binance-trade-screener.onrender.com', port=443): Read timed out. (read timeout=20)
+2025-10-22 14:14:16,483 - ERROR - Ping failed (attempt 3): HTTPSConnectionPool(host='binance-trade-screener.onrender.com', port=443): Read timed out. (read timeout=20)
+2025-10-22 14:14:22,552 - ERROR - ❌ Ping failed and fallback failed: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')) - 2025-10-22 14:14:22 India Standard Time
+2025-10-22 14:14:24,268 - INFO - Telegram message sent:  Ping failed and fallback failed: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')) - 2025-10-22 14:14:22 India Standard Time
+2025-10-22 14:14:24,269 - INFO - Job "ping_self (trigger: interval[0:05:00], next run at: 2025-10-22 14:18:06 IST)" executed successfully
+2025-10-22 14:18:06,281 - INFO - Running job "ping_self (trigger: interval[0:05:00], next run at: 2025-10-22 14:23:06 IST)" (scheduled at 2025-10-22 14:18:06.280085+05:30)
+2025-10-22 14:18:26,360 - ERROR - Ping failed (attempt 1): HTTPSConnectionPool(host='binance-trade-screener.onrender.com', port=443): Read timed out. (read timeout=20)
+2025-10-22 14:18:51,384 - ERROR - Ping failed (attempt 2): HTTPSConnectionPool(host='binance-trade-screener.onrender.com', port=443): Read timed out. (read timeout=20)
+2025-10-22 14:19:16,412 - ERROR - Ping failed (attempt 3): HTTPSConnectionPool(host='binance-trade-screener.onrender.com', port=443): Read timed out. (read timeout=20)
+2025-10-22 14:19:22,324 - ERROR - ❌ Ping failed and fallback failed: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')) - 2025-10-22 14:19:22 India Standard Time
+2025-10-22 14:19:24,843 - INFO - Telegram message sent:  Ping failed and fallback failed: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')) - 2025-10-22 14:19:22 India Standard Time
+2025-10-22 14:19:24,844 - INFO - Job "ping_self (trigger: interval[0:05:00], next run at: 2025-10-22 14:23:06 IST)" executed successfully
+2025-10-22 14:23:06,281 - INFO - Running job "ping_self (trigger: interval[0:05:00], next run at: 2025-10-22 14:28:06 IST)" (scheduled at 2025-10-22 14:23:06.280085+05:30)
+2025-10-22 14:23:06,435 - INFO - 📡 Self-ping status: 200 - 2025-10-22 14:23:06 India Standard Time
+2025-10-22 14:23:09,938 - INFO - Telegram message sent:  Self-ping status: 200 - 2025-10-22 14:23:06 India Standard Time
+2025-10-22 14:23:09,939 - INFO - Job "ping_self (trigger: interval[0:05:00], next run at: 2025-10-22 14:28:06 IST)" executed successfully
+2025-10-22 14:28:06,281 - INFO - Running job "ping_self (trigger: interval[0:05:00], next run at: 2025-10-22 14:33:06 IST)" (scheduled at 2025-10-22 14:28:06.280085+05:30)
+2025-10-22 14:28:06,502 - INFO - 📡 Self-ping status: 200 - 2025-10-22 14:28:06 India Standard Time
+2025-10-22 14:28:10,030 - INFO - Telegram message sent:  Self-ping status: 200 - 2025-10-22 14:28:06 India Standard Time
+2025-10-22 14:28:10,032 - INFO - Job "ping_self (trigger: interval[0:05:00], next run at: 2025-10-22 14:33:06 IST)" executed successfully
+2025-10-22 14:33:06,281 - INFO - Running job "ping_self (trigger: interval[0:05:00], next run at: 2025-10-22 14:38:06 IST)" (scheduled at 2025-10-22 14:33:06.280085+05:30)
+2025-10-22 14:33:06,493 - INFO - 📡 Self-ping status: 200 - 2025-10-22 14:33:06 India Standard Time
+2025-10-22 14:33:08,222 - INFO - Telegram message sent:  Self-ping status: 200 - 2025-10-22 14:33:06 India Standard Time
+2025-10-22 14:33:08,223 - INFO - Job "ping_self (trigger: interval[0:05:00], next run at: 2025-10-22 14:38:06 IST)" executed successfully
+2025-10-22 14:38:06,288 - INFO - Running job "ping_self (trigger: interval[0:05:00], next run at: 2025-10-22 14:43:06 IST)" (scheduled at 2025-10-22 14:38:06.280085+05:30)
+2025-10-22 14:38:06,446 - INFO - 📡 Self-ping status: 200 - 2025-10-22 14:38:06 India Standard Time
+2025-10-22 14:38:07,877 - INFO - Telegram message sent:  Self-ping status: 200 - 2025-10-22 14:38:06 India Standard Time
+2025-10-22 14:38:07,878 - INFO - Job "ping_self (trigger: interval[0:05:00], next run at: 2025-10-22 14:43:06 IST)" executed successfully
+2025-10-22 14:43:06,282 - INFO - Running job "ping_self (trigger: interval[0:05:00], next run at: 2025-10-22 14:48:06 IST)" (scheduled at 2025-10-22 14:43:06.280085+05:30)
+2025-10-22 14:43:06,481 - INFO - 📡 Self-ping status: 200 - 2025-10-22 14:43:06 India Standard Time
+2025-10-22 14:43:08,309 - INFO - Telegram message sent:  Self-ping status: 200 - 2025-10-22 14:43:06 India Standard Time
+2025-10-22 14:43:08,310 - INFO - Job "ping_self (trigger: interval[0:05:00], next run at: 2025-10-22 14:48:06 IST)" executed successfully
+2025-10-22 14:48:06,294 - INFO - Running job "ping_self (trigger: interval[0:05:00], next run at: 2025-10-22 14:53:06 IST)" (scheduled at 2025-10-22 14:48:06.280085+05:30)
+2025-10-22 14:48:06,585 - INFO - 📡 Self-ping status: 200 - 2025-10-22 14:48:06 India Standard Time
+2025-10-22 14:48:07,741 - INFO - Telegram message sent:  Self-ping status: 200 - 2025-10-22 14:48:06 India Standard Time
+2025-10-22 14:48:07,742 - INFO - Job "ping_self (trigger: interval[0:05:00], next run at: 2025-10-22 14:53:06 IST)" executed successfully
+2025-10-22 14:53:06,286 - INFO - Running job "ping_self (trigger: interval[0:05:00], next run at: 2025-10-22 14:58:06 IST)" (scheduled at 2025-10-22 14:53:06.280085+05:30)
+2025-10-22 14:53:06,787 - INFO - 📡 Self-ping status: 200 - 2025-10-22 14:53:06 India Standard Time
+2025-10-22 14:53:11,369 - INFO - Telegram message sent:  Self-ping status: 200 - 2025-10-22 14:53:06 India Standard Time
+2025-10-22 14:53:11,369 - INFO - Job "ping_self (trigger: interval[0:05:00], next run at: 2025-10-22 14:58:06 IST)" executed successfully
+2025-10-22 14:58:06,292 - INFO - Running job "ping_self (trigger: interval[0:05:00], next run at: 2025-10-22 15:03:06 IST)" (scheduled at 2025-10-22 14:58:06.280085+05:30)
+2025-10-22 14:58:06,518 - INFO - 📡 Self-ping status: 200 - 2025-10-22 14:58:06 India Standard Time
+2025-10-22 14:58:07,918 - INFO - Telegram message sent:  Self-ping status: 200 - 2025-10-22 14:58:06 India Standard Time
+2025-10-22 14:58:07,920 - INFO - Job "ping_self (trigger: interval[0:05:00], next run at: 2025-10-22 15:03:06 IST)" executed successfully
+2025-10-22 15:03:06,289 - INFO - Running job "ping_self (trigger: interval[0:05:00], next run at: 2025-10-22 15:08:06 IST)" (scheduled at 2025-10-22 15:03:06.280085+05:30)
+2025-10-22 15:03:06,415 - INFO - 📡 Self-ping status: 200 - 2025-10-22 15:03:06 India Standard Time
+2025-10-22 15:03:07,234 - INFO - Telegram message sent:  Self-ping status: 200 - 2025-10-22 15:03:06 India Standard Time
+2025-10-22 15:03:07,234 - INFO - Job "ping_self (trigger: interval[0:05:00], next run at: 2025-10-22 15:08:06 IST)" executed successfully
+2025-10-22 15:08:06,473 - INFO - Running job "ping_self (trigger: interval[0:05:00], next run at: 2025-10-22 15:13:06 IST)" (scheduled at 2025-10-22 15:08:06.280085+05:30)
+2025-10-22 15:08:06,636 - INFO - 📡 Self-ping status: 200 - 2025-10-22 15:08:06 India Standard Time
+2025-10-22 15:08:07,320 - INFO - Telegram message sent:  Self-ping status: 200 - 2025-10-22 15:08:06 India Standard Time
+2025-10-22 15:08:07,321 - INFO - Job "ping_self (trigger: interval[0:05:00], next run at: 2025-10-22 15:13:06 IST)" executed successfully
+2025-10-22 15:13:06,294 - INFO - Running job "ping_self (trigger: interval[0:05:00], next run at: 2025-10-22 15:18:06 IST)" (scheduled at 2025-10-22 15:13:06.280085+05:30)
+2025-10-22 15:13:06,448 - INFO - 📡 Self-ping status: 200 - 2025-10-22 15:13:06 India Standard Time
+2025-10-22 15:13:07,319 - INFO - Telegram message sent:  Self-ping status: 200 - 2025-10-22 15:13:06 India Standard Time
+2025-10-22 15:13:07,320 - INFO - Job "ping_self (trigger: interval[0:05:00], next run at: 2025-10-22 15:18:06 IST)" executed successfully
+2025-10-22 15:18:06,303 - INFO - Running job "ping_self (trigger: interval[0:05:00], next run at: 2025-10-22 15:23:06 IST)" (scheduled at 2025-10-22 15:18:06.280085+05:30)
+2025-10-22 15:18:06,455 - INFO - 📡 Self-ping status: 200 - 2025-10-22 15:18:06 India Standard Time
+2025-10-22 15:18:07,145 - INFO - Telegram message sent:  Self-ping status: 200 - 2025-10-22 15:18:06 India Standard Time
+2025-10-22 15:18:07,147 - INFO - Job "ping_self (trigger: interval[0:05:00], next run at: 2025-10-22 15:23:06 IST)" executed successfully

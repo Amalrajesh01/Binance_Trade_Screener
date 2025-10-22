@@ -1,0 +1,80 @@
+{
+  "timestamp_ist": "2025-10-22 15:02 IST",
+  "interval": "4h",
+  "auto_threshold": true,
+  "ai_min_conf": 0.6,
+  "bullish_signals": [
+    {
+      "symbol": "NILUSDT",
+      "price": 0.3304,
+      "gap_low": 0.31,
+      "gap_high": 0.3167,
+      "entry": 0.31335,
+      "sl": 0.30659630122439585,
+      "tp1": 0.32348054816340627,
+      "tp2": 0.33023424693901043,
+      "rr": 2.5,
+      "confidence": 0.99,
+      "rsi": 74.1,
+      "ema_trend": "Above EMA200"
+    },
+    {
+      "symbol": "ARIAUSDT",
+      "price": 0.1798,
+      "gap_low": 0.15394,
+      "gap_high": 0.16,
+      "entry": 0.15697,
+      "sl": 0.15217558510280366,
+      "tp1": 0.1641616223457945,
+      "tp2": 0.16895603724299085,
+      "rr": 2.5,
+      "confidence": 0.97,
+      "rsi": 68.8,
+      "ema_trend": "Above EMA200"
+    },
+    {
+      "symbol": "AUCTIONUSDT",
+      "price": 8.312,
+      "gap_low": 7.869,
+      "gap_high": 8.221,
+      "entry": 8.045,
+      "sl": 7.728299337446725,
+      "tp1": 8.520050993829912,
+      "tp2": 8.83675165638319,
+      "rr": 2.5,
+      "confidence": 0.94,
+      "rsi": 54.5,
+      "ema_trend": "Above EMA200"
+    },
+    {
+      "symbol": "VELVETUSDT",
+      "price": 0.20612,
+      "gap_low": 0.2016,
+      "gap_high": 0.20291,
+      "entry": 0.20225500000000002,
+      "sl": 0.19898975762468585,
+      "tp1": 0.20715286356297127,
+      "tp2": 0.21041810593828544,
+      "rr": 2.5,
+      "confidence": 0.93,
+      "rsi": 52.1,
+      "ema_trend": "Above EMA200"
+    }
+  ],
+  "bearish_signals": [
+    {
+      "symbol": "PTBUSDT",
+      "price": 0.03404,
+      "gap_top": 0.03459,
+      "gap_bottom": 0.03453,
+      "entry": 0.03456,
+      "sl": 0.03533988181983936,
+      "tp1": 0.03339017727024096,
+      "tp2": 0.0326102954504016,
+      "rr": 2.5,
+      "confidence": 0.84,
+      "rsi": 43.5,
+      "ema_trend": "Below EMA200"
+    }
+  ]
+}
