@@ -501,6 +501,7 @@ def scheduled_job():
 # Main
 # ======================================
 if __name__ == "__main__":
+    run_screener()  # initial run on startup
     # Keep-alive ping every 15 minutes
     scheduler.add_job(ping_self, "interval", minutes=15)
 
